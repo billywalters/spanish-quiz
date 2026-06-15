@@ -692,6 +692,7 @@ function answersMatch(a,b){return normalize(a)===normalize(b)}
 function selectLanguage(lang){
   document.getElementById('lang-screen').style.display = 'none';
   document.getElementById('mode-screen').style.display = 'flex';
+  history.pushState({layer:'mode'}, '', '');
 }
 
 function selectMode(mode){
@@ -702,6 +703,7 @@ function selectMode(mode){
   document.getElementById('app-root').style.display = 'flex';
   updateModeUI();
   init();
+  history.pushState({layer:'app', screen:'home'}, '', '');
 }
 
 function switchMode(){
@@ -757,12 +759,13 @@ function saveHistory(r){
 // ══════════════════════════════════════════════════════════
 //  NAVIGATION
 // ══════════════════════════════════════════════════════════
-function showScreen(id){
+function showScreen(id, skipHistory){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('screen-'+id).classList.add('active');
   const nb = document.querySelector(`.nav-btn[data-screen="${id}"]`);
   if(nb) nb.classList.add('active');
+  if(!skipHistory) history.pushState({screen:id, layer:'app'}, '', '');
 }
 
 // ══════════════════════════════════════════════════════════
@@ -1213,9 +1216,27 @@ function init(){
 // ══════════════════════════════════════════════════════════
 window.addEventListener('DOMContentLoaded',()=>{
   // Don't auto-select last mode — always show picker so user consciously chooses
-  // (comment the line above and uncomment below to auto-restore last session)
-  // const last = localStorage.getItem('lastMode');
-  // if(last && MODE_CONFIG[last]) { selectMode(last); return; }
+  history.replaceState({layer:'lang'}, '', '');
+});
+
+window.addEventListener('popstate', e=>{
+  const st = e.state;
+  if(!st) return;
+  if(st.layer==='lang'){
+    // Back to language picker
+    document.getElementById('app-root').style.display='none';
+    document.getElementById('mode-screen').style.display='none';
+    document.getElementById('lang-screen').style.display='flex';
+    currentMode=null; DB=null;
+  } else if(st.layer==='mode'){
+    // Back to mode picker from inside the app
+    document.getElementById('app-root').style.display='none';
+    document.getElementById('mode-screen').style.display='flex';
+    document.getElementById('lang-screen').style.display='none';
+    currentMode=null; DB=null;
+  } else if(st.layer==='app' && st.screen){
+    showScreen(st.screen, true);
+  }
 });
 </script>
 </body>
