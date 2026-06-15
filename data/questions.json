@@ -6,7 +6,7 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "Chapter 1 — Nouns, Articles, and Adjectives",
+      "title": "Chapter 1 \u2014 Nouns, Articles, and Adjectives",
       "description": "Singular/plural nouns, definite and indefinite articles, adjective agreement",
       "source": "Chapter 1 - Nouns, Articles, and Adjectives.xlsx",
       "questions": [
@@ -5117,7 +5117,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el dia\"",
           "answer": "los dias",
-          "explanation": "\"el dia\" → \"los dias\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el dia\" \u2192 \"los dias\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_410",
@@ -5126,7 +5126,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"la bolsa\"",
           "answer": "los bolsas",
-          "explanation": "\"la bolsa\" → \"los bolsas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la bolsa\" \u2192 \"los bolsas\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_411",
@@ -5135,7 +5135,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el hermano\"",
           "answer": "los hermanos",
-          "explanation": "\"el hermano\" → \"los hermanos\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el hermano\" \u2192 \"los hermanos\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_412",
@@ -5144,7 +5144,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el libro\"",
           "answer": "los libros",
-          "explanation": "\"el libro\" → \"los libros\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el libro\" \u2192 \"los libros\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_413",
@@ -5153,7 +5153,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"la nina\"",
           "answer": "las ninas",
-          "explanation": "\"la nina\" → \"las ninas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la nina\" \u2192 \"las ninas\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_414",
@@ -5162,7 +5162,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el muchacho\"",
           "answer": "los muchachos",
-          "explanation": "\"el muchacho\" → \"los muchachos\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el muchacho\" \u2192 \"los muchachos\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_415",
@@ -5171,7 +5171,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"la persona\"",
           "answer": "las personas",
-          "explanation": "\"la persona\" → \"las personas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la persona\" \u2192 \"las personas\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_416",
@@ -5180,7 +5180,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el perro\"",
           "answer": "los perros",
-          "explanation": "\"el perro\" → \"los perros\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el perro\" \u2192 \"los perros\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_417",
@@ -5189,7 +5189,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"la tienda\"",
           "answer": "las tiendas",
-          "explanation": "\"la tienda\" → \"las tiendas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la tienda\" \u2192 \"las tiendas\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_418",
@@ -5198,7 +5198,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el problema\"",
           "answer": "los problemas",
-          "explanation": "\"el problema\" → \"los problemas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el problema\" \u2192 \"los problemas\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_419",
@@ -5207,7 +5207,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"la ventana\"",
           "answer": "las ventanas",
-          "explanation": "\"la ventana\" → \"las ventanas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la ventana\" \u2192 \"las ventanas\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_420",
@@ -5216,7 +5216,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el animal\"",
           "answer": "los animales",
-          "explanation": "\"el animal\" → \"los animales\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el animal\" \u2192 \"los animales\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_421",
@@ -5225,7 +5225,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el doctor\"",
           "answer": "los doctores",
-          "explanation": "\"el doctor\" → \"los doctores\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el doctor\" \u2192 \"los doctores\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_422",
@@ -5234,7 +5234,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el hospital\"",
           "answer": "los hospitales",
-          "explanation": "\"el hospital\" → \"los hospitales\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el hospital\" \u2192 \"los hospitales\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_423",
@@ -5243,7 +5243,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el hotel\"",
           "answer": "los hoteles",
-          "explanation": "\"el hotel\" → \"los hoteles\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el hotel\" \u2192 \"los hoteles\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_424",
@@ -5252,7 +5252,7 @@
           "category": "plurals",
           "question": "Write the plural form of: \"el tren\"",
           "answer": "los trenes",
-          "explanation": "\"el tren\" → \"los trenes\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el tren\" \u2192 \"los trenes\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_425",
@@ -5820,7 +5820,7 @@
           "question": "Write the plural form of the phrase: \"la lampara azul\"",
           "answer": "las lamparas azules",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la lampara azul\" → \"las lamparas azules\" (plural with matching article and adjective)"
+          "explanation": "\"la lampara azul\" \u2192 \"las lamparas azules\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_489",
@@ -5830,7 +5830,7 @@
           "question": "Write the plural form of the phrase: \"el amigo fantastico\"",
           "answer": "los amigos fantasticos",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el amigo fantastico\" → \"los amigos fantasticos\" (plural with matching article and adjective)"
+          "explanation": "\"el amigo fantastico\" \u2192 \"los amigos fantasticos\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_490",
@@ -5840,7 +5840,7 @@
           "question": "Write the plural form of the phrase: \"el perro gris\"",
           "answer": "los perros grises",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el perro gris\" → \"los perros grises\" (plural with matching article and adjective)"
+          "explanation": "\"el perro gris\" \u2192 \"los perros grises\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_491",
@@ -5850,7 +5850,7 @@
           "question": "Write the plural form of the phrase: \"la cerveza negra\"",
           "answer": "las cervezas negras",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la cerveza negra\" → \"las cervezas negras\" (plural with matching article and adjective)"
+          "explanation": "\"la cerveza negra\" \u2192 \"las cervezas negras\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_492",
@@ -5860,7 +5860,7 @@
           "question": "Write the plural form of the phrase: \"el vino rosado\"",
           "answer": "los vinos rosados",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el vino rosado\" → \"los vinos rosados\" (plural with matching article and adjective)"
+          "explanation": "\"el vino rosado\" \u2192 \"los vinos rosados\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_493",
@@ -5870,7 +5870,7 @@
           "question": "Write the plural form of the phrase: \"la persona fuerte\"",
           "answer": "las personas fuertes",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la persona fuerte\" → \"las personas fuertes\" (plural with matching article and adjective)"
+          "explanation": "\"la persona fuerte\" \u2192 \"las personas fuertes\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_494",
@@ -5880,7 +5880,7 @@
           "question": "Write the plural form of the phrase: \"el dia maravilloso\"",
           "answer": "los dias maravillosos",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el dia maravilloso\" → \"los dias maravillosos\" (plural with matching article and adjective)"
+          "explanation": "\"el dia maravilloso\" \u2192 \"los dias maravillosos\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_495",
@@ -5890,7 +5890,7 @@
           "question": "Write the plural form of the phrase: \"la luz verde\"",
           "answer": "las luzes verdes",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la luz verde\" → \"las luzes verdes\" (plural with matching article and adjective)"
+          "explanation": "\"la luz verde\" \u2192 \"las luzes verdes\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_496",
@@ -5900,7 +5900,7 @@
           "question": "Write the plural form of the phrase: \"la ciudad pequena\"",
           "answer": "las ciudades pequenas",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la ciudad pequena\" → \"las ciudades pequenas\" (plural with matching article and adjective)"
+          "explanation": "\"la ciudad pequena\" \u2192 \"las ciudades pequenas\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_497",
@@ -5910,7 +5910,7 @@
           "question": "Write the plural form of the phrase: \"el muchacho joven\"",
           "answer": "los muchachos jovenes",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el muchacho joven\" → \"los muchachos jovenes\" (plural with matching article and adjective)"
+          "explanation": "\"el muchacho joven\" \u2192 \"los muchachos jovenes\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_498",
@@ -6152,7 +6152,115 @@
           "hint": "In Spanish, the adjective usually follows the noun.",
           "explanation": "\"the green bank\" = \"el bano verde\""
         }
-      ]
+      ],
+      "study": {
+        "overview": "Chapter 1 introduces the two foundational concepts of Spanish grammar: every noun has a gender (masculine or feminine), and adjectives must match that gender and number. You will learn the four definite articles (el, la, los, las), the four indefinite articles (un, una, unos, unas), how to make nouns plural, and how adjectives change their endings to agree with the nouns they describe. Mastering these rules unlocks the ability to build any basic Spanish noun phrase.",
+        "keyTopics": [
+          {
+            "title": "Noun Gender",
+            "icon": "\ud83d\udd35\ud83d\udd34",
+            "summary": "Every Spanish noun is either masculine or feminine \u2014 there is no neutral. The article reveals the gender.",
+            "points": [
+              "Most nouns ending in -o are masculine: el libro (book), el carro (car), el gato (cat)",
+              "Most nouns ending in -a are feminine: la casa (house), la mesa (table), la blusa (blouse)",
+              "Nouns ending in -ci\u00f3n, -si\u00f3n, -dad, -tad, or -tud are always feminine: la canci\u00f3n, la ciudad, la verdad",
+              "Nouns ending in -ista can be either gender: el/la artista, el/la dentista",
+              "Watch out for exceptions: el d\u00eda, el mapa, el problema, el clima are masculine despite ending in -a",
+              "And: la foto, la mano, la radio are feminine despite ending in -o"
+            ]
+          },
+          {
+            "title": "Definite Articles (The)",
+            "icon": "\ud83d\udccc",
+            "summary": "Spanish has four words for the \u2014 they must match the gender and number of the noun.",
+            "points": [
+              "el \u2014 masculine singular: el libro (the book)",
+              "la \u2014 feminine singular: la mesa (the table)",
+              "los \u2014 masculine plural: los libros (the books)",
+              "las \u2014 feminine plural: las mesas (the tables)"
+            ]
+          },
+          {
+            "title": "Indefinite Articles (A / Some)",
+            "icon": "\ud83d\udd16",
+            "summary": "Spanish has four words for a/an (singular) and some (plural).",
+            "points": [
+              "un \u2014 masculine singular: un libro (a book)",
+              "una \u2014 feminine singular: una mesa (a table)",
+              "unos \u2014 masculine plural: unos libros (some books)",
+              "unas \u2014 feminine plural: unas mesas (some tables)"
+            ]
+          },
+          {
+            "title": "Plural Nouns",
+            "icon": "\ud83d\udcda",
+            "summary": "Forming plurals follows two simple rules based on the final letter of the noun.",
+            "points": [
+              "Nouns ending in a vowel \u2192 add -s: el libro \u2192 los libros, la casa \u2192 las casas",
+              "Nouns ending in a consonant \u2192 add -es: el hotel \u2192 los hoteles, la canci\u00f3n \u2192 las canciones",
+              "The article changes too: el \u2192 los, la \u2192 las"
+            ]
+          },
+          {
+            "title": "Adjective Placement & Agreement",
+            "icon": "\u270f\ufe0f",
+            "summary": "In Spanish, adjectives almost always follow the noun and must match its gender and number.",
+            "points": [
+              "Adjectives follow the noun: el libro blanco (the white book), NOT el blanco libro",
+              "Adjectives ending in -o change to -a for feminine: blanco \u2192 blanca, rojo \u2192 roja",
+              "Plural adjectives add -s (vowel) or -es (consonant): blancos, blancas, azules, grises",
+              "Adjectives NOT ending in -o have the same form for both genders: el libro azul / la mesa azul",
+              "Example: el muchacho simp\u00e1tico, la muchacha simp\u00e1tica, los muchachos simp\u00e1ticos"
+            ]
+          }
+        ],
+        "quickReview": [
+          {
+            "rule": "Masculine nouns use el / un",
+            "examples": [
+              "el amigo \u2014 the (male) friend",
+              "el libro \u2014 the book",
+              "un carro \u2014 a car",
+              "un problema \u2014 a problem"
+            ]
+          },
+          {
+            "rule": "Feminine nouns use la / una",
+            "examples": [
+              "la amiga \u2014 the (female) friend",
+              "la casa \u2014 the house",
+              "una mesa \u2014 a table",
+              "una canci\u00f3n \u2014 a song"
+            ]
+          },
+          {
+            "rule": "Plural: add -s after vowels, -es after consonants",
+            "examples": [
+              "el libro \u2192 los libros",
+              "la casa \u2192 las casas",
+              "el hotel \u2192 los hoteles",
+              "la ciudad \u2192 las ciudades"
+            ]
+          },
+          {
+            "rule": "Adjective agreement: match the noun's gender and number",
+            "examples": [
+              "el libro blanco (m.sg.)",
+              "la casa blanca (f.sg.)",
+              "los libros blancos (m.pl.)",
+              "las casas blancas (f.pl.)"
+            ]
+          },
+          {
+            "rule": "Adjectives not ending in -o stay the same for both genders",
+            "examples": [
+              "el libro azul / la mesa azul",
+              "el perro gris / la mesa gris",
+              "el tema interesante / la idea interesante"
+            ]
+          }
+        ]
+      }
     }
   ]
 }
