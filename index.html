@@ -831,7 +831,13 @@ function renderChapterDetail(ch){
     return '<div class="ch-rule-card"><div class="ch-rule-label">'+r.rule+'</div><div class="ch-rule-examples">'+(r.examples||[]).map(function(e){return '<span class="ch-eg">'+e+'</span>';}).join('')+'</div></div>';
   }).join('');
   var chId=ch.id;
-  document.getElementById('ch-tab-quiz').innerHTML='<p style="margin-bottom:1.5rem;color:var(--g500)">Choose a tier to practice this chapter.</p><div class="ch-quiz-grid"><div class="ch-quiz-tile" onclick="startChapterQuiz(''+chId+'','beginner')"><div class="ch-quiz-icon">🟢</div><div class="ch-quiz-label">Beginner</div><div class="ch-quiz-desc">Multiple choice</div></div><div class="ch-quiz-tile" onclick="startChapterQuiz(''+chId+'','intermediate')"><div class="ch-quiz-icon">🔵</div><div class="ch-quiz-label">Intermediate</div><div class="ch-quiz-desc">Type your answer</div></div><div class="ch-quiz-tile" onclick="startChapterQuiz(''+chId+'','advanced')"><div class="ch-quiz-icon">🔴</div><div class="ch-quiz-label">Advanced</div><div class="ch-quiz-desc">Full sentences</div></div><div class="ch-quiz-tile" onclick="startChapterQuiz(''+chId+'','')"><div class="ch-quiz-icon">⚡</div><div class="ch-quiz-label">All Levels</div><div class="ch-quiz-desc">Mixed practice</div></div></div>';
+  var q="'";
+  document.getElementById('ch-tab-quiz').innerHTML='<p style="margin-bottom:1.5rem;color:var(--g500)">Choose a tier to practice this chapter.</p><div class="ch-quiz-grid">'
+    +'<div class="ch-quiz-tile" onclick="startChapterQuiz('+q+chId+q+','+q+'beginner'+q+')"><div class="ch-quiz-icon">🟢</div><div class="ch-quiz-label">Beginner</div><div class="ch-quiz-desc">Multiple choice</div></div>'
+    +'<div class="ch-quiz-tile" onclick="startChapterQuiz('+q+chId+q+','+q+'intermediate'+q+')"><div class="ch-quiz-icon">🔵</div><div class="ch-quiz-label">Intermediate</div><div class="ch-quiz-desc">Type your answer</div></div>'
+    +'<div class="ch-quiz-tile" onclick="startChapterQuiz('+q+chId+q+','+q+'advanced'+q+')"><div class="ch-quiz-icon">🔴</div><div class="ch-quiz-label">Advanced</div><div class="ch-quiz-desc">Full sentences</div></div>'
+    +'<div class="ch-quiz-tile" onclick="startChapterQuiz('+q+chId+q+','+q+q+')"><div class="ch-quiz-icon">⚡</div><div class="ch-quiz-label">All Levels</div><div class="ch-quiz-desc">Mixed practice</div></div>'
+    +'</div>';
   switchChapterTab('overview');
 }
 function switchChapterTab(tab){
