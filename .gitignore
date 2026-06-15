@@ -1,0 +1,13 @@
+# Local tooling — not needed on GitHub
+generate_ch1_questions.py
+app.js
+questions.json
+data/questions_minified.json
+*.xlsx
+
+# Claude dev config
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
