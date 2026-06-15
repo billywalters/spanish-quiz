@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Spanish Study Guide",
+    "description": "Practice questions for Spanish language learning"
+  },
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "file": "data/ch1.json",
+      "version": "2.0",
+      "title": "Chapter 1 — Nouns, Articles, and Adjectives",
+      "description": "Singular/plural nouns, definite and indefinite articles, adjective agreement",
+      "status": "active",
+      "questionCount": 560
+    },
+    {
+      "id": "ch2",
+      "number": 2,
+      "file": "data/ch2.json",
+      "version": "1.0",
+      "title": "Chapter 2 — Verbs in the Present Tense",
+      "description": "Present tense conjugations, ser vs. estar, regular and irregular verbs",
+      "status": "coming_soon",
+      "questionCount": 0
+    }
+  ]
+}
