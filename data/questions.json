@@ -121,10 +121,10 @@
           "topic": "people",
           "question": "What does \"el amigo\" mean in English?",
           "options": [
-            "the chair",
-            "the (female) artist",
+            "the female student",
+            "the (male) artist",
             "the friend",
-            "the book"
+            "the (female) dentist"
           ],
           "answer": "the friend",
           "explanation": "\"el amigo\" = the friend"
@@ -137,10 +137,10 @@
           "topic": "people",
           "question": "What does \"la amiga\" mean in English?",
           "options": [
-            "the beer",
-            "the problem",
-            "the friend",
-            "the (female) dentist"
+            "the (female) dentist",
+            "the brother",
+            "the male president",
+            "the friend"
           ],
           "answer": "the friend",
           "explanation": "\"la amiga\" = the friend"
@@ -153,10 +153,10 @@
           "topic": "people",
           "question": "What does \"el artista\" mean in English?",
           "options": [
-            "the house",
-            "the wine",
-            "the table",
-            "the (male) artist"
+            "the (female) artist",
+            "the friend",
+            "the (male) artist",
+            "the friend"
           ],
           "answer": "the (male) artist",
           "explanation": "\"el artista\" = the (male) artist"
@@ -169,10 +169,10 @@
           "topic": "places",
           "question": "What does \"el banco\" mean in English?",
           "options": [
+            "the hotel",
+            "the store",
             "the bank",
-            "the poem",
-            "the invitation",
-            "the (female) cabdriver"
+            "the city"
           ],
           "answer": "the bank",
           "explanation": "\"el banco\" = the bank"
@@ -185,10 +185,10 @@
           "topic": "general",
           "question": "What does \"la blusa\" mean in English?",
           "options": [
-            "the male president",
             "the blouse",
-            "the friend",
-            "the (female) pianist"
+            "the bag",
+            "the drama",
+            "the hand"
           ],
           "answer": "the blouse",
           "explanation": "\"la blusa\" = the blouse"
@@ -201,10 +201,10 @@
           "topic": "people",
           "question": "What does \"la artista\" mean in English?",
           "options": [
-            "the man",
-            "the brother",
-            "the table",
-            "the (female) artist"
+            "the sister",
+            "the (female) artist",
+            "the (female) dentist",
+            "the little boy"
           ],
           "answer": "the (female) artist",
           "explanation": "\"la artista\" = the (female) artist"
@@ -215,15 +215,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "places",
-          "question": "What does \"el bano\" mean in English?",
+          "question": "What does \"el baño\" mean in English?",
           "options": [
-            "the flower",
-            "the hospital",
             "the bathroom",
-            "the female student"
+            "the bank",
+            "the house",
+            "the store"
           ],
           "answer": "the bathroom",
-          "explanation": "\"el bano\" = the bathroom"
+          "explanation": "\"el baño\" = the bathroom"
         },
         {
           "id": "ch1b_008",
@@ -233,8 +233,8 @@
           "topic": "general",
           "question": "What does \"la bolsa\" mean in English?",
           "options": [
-            "the tomato",
-            "the planet",
+            "the problem",
+            "the system",
             "the book",
             "the bag"
           ],
@@ -249,10 +249,10 @@
           "topic": "transportation",
           "question": "What does \"el carro\" mean in English?",
           "options": [
-            "the hotel",
+            "the train",
             "the car",
-            "the woman",
-            "the skin"
+            "the skin",
+            "the luck"
           ],
           "answer": "the car",
           "explanation": "\"el carro\" = the car"
@@ -265,10 +265,10 @@
           "topic": "home",
           "question": "What does \"la cama\" mean in English?",
           "options": [
-            "the (female) artist",
-            "the wine",
-            "the female singer",
-            "the bed"
+            "the lamp",
+            "the bed",
+            "the televisión",
+            "the telephone"
           ],
           "answer": "the bed",
           "explanation": "\"la cama\" = the bed"
@@ -281,10 +281,10 @@
           "topic": "people",
           "question": "What does \"el dentista\" mean in English?",
           "options": [
-            "the climate",
-            "the tomato",
             "the (male) dentist",
-            "the animal"
+            "the boy",
+            "the woman",
+            "the (female) artist"
           ],
           "answer": "the (male) dentist",
           "explanation": "\"el dentista\" = the (male) dentist"
@@ -297,10 +297,10 @@
           "topic": "animals",
           "question": "What does \"el gato\" mean in English?",
           "options": [
-            "the hospital",
-            "the male singer",
-            "the telephone",
-            "the cat"
+            "the song",
+            "the animal",
+            "the cat",
+            "the dog"
           ],
           "answer": "the cat",
           "explanation": "\"el gato\" = the cat"
@@ -313,10 +313,10 @@
           "topic": "places",
           "question": "What does \"la casa\" mean in English?",
           "options": [
+            "the hotel",
             "the house",
-            "the little girl",
-            "the planet",
-            "the (female) pianist"
+            "the hospital",
+            "the bathroom"
           ],
           "answer": "the house",
           "explanation": "\"la casa\" = the house"
@@ -329,10 +329,10 @@
           "topic": "people",
           "question": "What does \"la dentista\" mean in English?",
           "options": [
-            "the luck",
-            "the (female) cabdriver",
+            "the brother",
             "the (female) dentist",
-            "the program"
+            "the (female) cabdriver",
+            "the little girl"
           ],
           "answer": "the (female) dentist",
           "explanation": "\"la dentista\" = the (female) dentist"
@@ -345,10 +345,10 @@
           "topic": "people",
           "question": "What does \"el hermano\" mean in English?",
           "options": [
-            "the blouse",
-            "the train",
-            "the brother",
-            "the doctor"
+            "the female student",
+            "the little boy",
+            "the friendship",
+            "the brother"
           ],
           "answer": "the brother",
           "explanation": "\"el hermano\" = the brother"
@@ -361,10 +361,10 @@
           "topic": "food_drink",
           "question": "What does \"la cerveza\" mean in English?",
           "options": [
-            "the beer",
-            "the doctor",
-            "the photograph",
-            "the table"
+            "the coffee",
+            "the wine",
+            "the meal",
+            "the beer"
           ],
           "answer": "the beer",
           "explanation": "\"la cerveza\" = the beer"
@@ -377,10 +377,10 @@
           "topic": "general",
           "question": "What does \"el libro\" mean in English?",
           "options": [
+            "the program",
+            "the lesson",
             "the book",
-            "the (male) pianist",
-            "the plant",
-            "the boy"
+            "the attitude"
           ],
           "answer": "the book",
           "explanation": "\"el libro\" = the book"
@@ -393,10 +393,10 @@
           "topic": "food_drink",
           "question": "What does \"la comida\" mean in English?",
           "options": [
-            "the hand",
-            "the train",
             "the meal",
-            "the male president"
+            "the beer",
+            "the coffee",
+            "the wine"
           ],
           "answer": "the meal",
           "explanation": "\"la comida\" = the meal"
@@ -409,10 +409,10 @@
           "topic": "people",
           "question": "What does \"el pianista\" mean in English?",
           "options": [
-            "the friendship",
-            "the truth",
-            "the cat",
-            "the (male) pianist"
+            "the (male) cabdriver",
+            "the boy",
+            "the (male) pianist",
+            "the (male) dentist"
           ],
           "answer": "the (male) pianist",
           "explanation": "\"el pianista\" = the (male) pianist"
@@ -425,10 +425,10 @@
           "topic": "people",
           "question": "What does \"el muchacho\" mean in English?",
           "options": [
-            "the male president",
-            "the (female) pianist",
-            "the skin",
-            "the boy"
+            "the boy",
+            "the (male) dentist",
+            "the (female) artist",
+            "the woman"
           ],
           "answer": "the boy",
           "explanation": "\"el muchacho\" = the boy"
@@ -441,10 +441,10 @@
           "topic": "people",
           "question": "What does \"la hermana\" mean in English?",
           "options": [
-            "the class",
             "the sister",
-            "the attitude",
-            "the television"
+            "the male student",
+            "the (male) artist",
+            "the (female) cabdriver"
           ],
           "answer": "the sister",
           "explanation": "\"la hermana\" = the sister"
@@ -458,9 +458,9 @@
           "question": "What does \"la pianista\" mean in English?",
           "options": [
             "the male singer",
-            "the brother",
-            "the (female) pianist",
-            "the planet"
+            "the female singer",
+            "the boy",
+            "the (female) pianist"
           ],
           "answer": "the (female) pianist",
           "explanation": "\"la pianista\" = the (female) pianist"
@@ -471,15 +471,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "people",
-          "question": "What does \"el nino\" mean in English?",
+          "question": "What does \"el niño\" mean in English?",
           "options": [
-            "the climate",
-            "the lesson",
-            "the sister",
-            "the little boy"
+            "the little boy",
+            "the female student",
+            "the male president",
+            "the female singer"
           ],
           "answer": "the little boy",
-          "explanation": "\"el nino\" = the little boy"
+          "explanation": "\"el niño\" = the little boy"
         },
         {
           "id": "ch1b_024",
@@ -489,10 +489,10 @@
           "topic": "places",
           "question": "What does \"la iglesia\" mean in English?",
           "options": [
-            "the language",
+            "the house",
             "the church",
-            "the (female) dentist",
-            "the little boy"
+            "the store",
+            "the bathroom"
           ],
           "answer": "the church",
           "explanation": "\"la iglesia\" = the church"
@@ -505,9 +505,9 @@
           "topic": "animals",
           "question": "What does \"el perro\" mean in English?",
           "options": [
-            "the sister",
-            "the boy",
-            "the male manager",
+            "the map",
+            "the animal",
+            "the cat",
             "the dog"
           ],
           "answer": "the dog",
@@ -519,15 +519,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "home",
-          "question": "What does \"la lampara\" mean in English?",
+          "question": "What does \"la lámpara\" mean in English?",
           "options": [
-            "the brother",
+            "the table",
             "the lamp",
-            "the drama",
-            "the (male) artist"
+            "the telephone",
+            "the chair"
           ],
           "answer": "the lamp",
-          "explanation": "\"la lampara\" = the lamp"
+          "explanation": "\"la lámpara\" = the lamp"
         },
         {
           "id": "ch1b_027",
@@ -537,9 +537,9 @@
           "topic": "people",
           "question": "What does \"el taxista\" mean in English?",
           "options": [
-            "the girl",
-            "the bag",
-            "the photograph",
+            "the (female) pianist",
+            "the male student",
+            "the person",
             "the (male) cabdriver"
           ],
           "answer": "the (male) cabdriver",
@@ -551,15 +551,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "home",
-          "question": "What does \"el telefono\" mean in English?",
+          "question": "What does \"el teléfono\" mean in English?",
           "options": [
+            "the bed",
             "the telephone",
-            "the book",
-            "the planet",
-            "the car"
+            "the lamp",
+            "the window"
           ],
           "answer": "the telephone",
-          "explanation": "\"el telefono\" = the telephone"
+          "explanation": "\"el teléfono\" = the telephone"
         },
         {
           "id": "ch1b_029",
@@ -569,10 +569,10 @@
           "topic": "home",
           "question": "What does \"la mesa\" mean in English?",
           "options": [
-            "the problem",
-            "the (female) pianist",
-            "the table",
-            "the plant"
+            "the lamp",
+            "the chair",
+            "the televisión",
+            "the table"
           ],
           "answer": "the table",
           "explanation": "\"la mesa\" = the table"
@@ -586,9 +586,9 @@
           "question": "What does \"la taxista\" mean in English?",
           "options": [
             "the (female) cabdriver",
-            "the store",
-            "the train",
-            "the male manager"
+            "the female student",
+            "the person",
+            "the (male) dentist"
           ],
           "answer": "the (female) cabdriver",
           "explanation": "\"la taxista\" = the (female) cabdriver"
@@ -601,10 +601,10 @@
           "topic": "food_drink",
           "question": "What does \"el vino\" mean in English?",
           "options": [
-            "the little girl",
-            "the table",
+            "the wine",
             "the beer",
-            "the wine"
+            "the coffee",
+            "the meal"
           ],
           "answer": "the wine",
           "explanation": "\"el vino\" = the wine"
@@ -617,10 +617,10 @@
           "topic": "people",
           "question": "What does \"la muchacha\" mean in English?",
           "options": [
-            "the (female) cabdriver",
-            "the problem",
+            "the (female) artist",
+            "the male singer",
             "the girl",
-            "the radio"
+            "the little girl"
           ],
           "answer": "the girl",
           "explanation": "\"la muchacha\" = the girl"
@@ -631,15 +631,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "people",
-          "question": "What does \"la nina\" mean in English?",
+          "question": "What does \"la niña\" mean in English?",
           "options": [
-            "the bag",
-            "the skin",
-            "the (female) cabdriver",
-            "the little girl"
+            "the doctor",
+            "the little girl",
+            "the friend",
+            "the (female) pianist"
           ],
           "answer": "the little girl",
-          "explanation": "\"la nina\" = the little girl"
+          "explanation": "\"la niña\" = the little girl"
         },
         {
           "id": "ch1b_034",
@@ -649,10 +649,10 @@
           "topic": "people",
           "question": "What does \"la persona\" mean in English?",
           "options": [
-            "the person",
-            "the bed",
-            "the wine",
-            "the friendship"
+            "the friend",
+            "the (male) artist",
+            "the male manager",
+            "the person"
           ],
           "answer": "the person",
           "explanation": "\"la persona\" = the person"
@@ -665,10 +665,10 @@
           "topic": "nature",
           "question": "What does \"la planta\" mean in English?",
           "options": [
-            "the poem",
-            "the telephone",
             "the plant",
-            "the book"
+            "the planet",
+            "the skin",
+            "the climate"
           ],
           "answer": "the plant",
           "explanation": "\"la planta\" = the plant"
@@ -681,10 +681,10 @@
           "topic": "people",
           "question": "What does \"el cantante\" mean in English?",
           "options": [
-            "the house",
-            "the conversation",
-            "the dog",
-            "the male singer"
+            "the female singer",
+            "the brother",
+            "the male singer",
+            "the (male) dentist"
           ],
           "answer": "the male singer",
           "explanation": "\"el cantante\" = the male singer"
@@ -697,10 +697,10 @@
           "topic": "animals",
           "question": "What does \"el animal\" mean in English?",
           "options": [
-            "the hospital",
-            "the animal",
-            "the male president",
-            "the conversation"
+            "the (female) dentist",
+            "the dog",
+            "the cat",
+            "the animal"
           ],
           "answer": "the animal",
           "explanation": "\"el animal\" = the animal"
@@ -713,10 +713,10 @@
           "topic": "home",
           "question": "What does \"la silla\" mean in English?",
           "options": [
-            "the house",
-            "the train",
+            "the televisión",
             "the chair",
-            "the bag"
+            "the table",
+            "the radio"
           ],
           "answer": "the chair",
           "explanation": "\"la silla\" = the chair"
@@ -729,10 +729,10 @@
           "topic": "people",
           "question": "What does \"la cantante\" mean in English?",
           "options": [
-            "the planet",
-            "the female singer",
-            "the illusion",
-            "the dog"
+            "the (female) artist",
+            "the man",
+            "the female student",
+            "the female singer"
           ],
           "answer": "the female singer",
           "explanation": "\"la cantante\" = the female singer"
@@ -743,15 +743,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "food_drink",
-          "question": "What does \"el cafe\" mean in English?",
+          "question": "What does \"el café\" mean in English?",
           "options": [
-            "the television",
-            "the girl",
-            "the male singer",
-            "the coffee"
+            "the coffee",
+            "the meal",
+            "the wine",
+            "the beer"
           ],
           "answer": "the coffee",
-          "explanation": "\"el cafe\" = the coffee"
+          "explanation": "\"el café\" = the coffee"
         },
         {
           "id": "ch1b_041",
@@ -762,9 +762,9 @@
           "question": "What does \"la tienda\" mean in English?",
           "options": [
             "the bathroom",
-            "the poem",
-            "the friend",
-            "the store"
+            "the store",
+            "the house",
+            "the church"
           ],
           "answer": "the store",
           "explanation": "\"la tienda\" = the store"
@@ -777,10 +777,10 @@
           "topic": "people",
           "question": "What does \"el doctor\" mean in English?",
           "options": [
-            "the drama",
-            "the doctor",
-            "the city",
-            "the conversation"
+            "the woman",
+            "the (male) artist",
+            "the girl",
+            "the doctor"
           ],
           "answer": "the doctor",
           "explanation": "\"el doctor\" = the doctor"
@@ -794,9 +794,9 @@
           "question": "What does \"la ventana\" mean in English?",
           "options": [
             "the window",
-            "the tomato",
-            "the (female) pianist",
-            "the friend"
+            "the radio",
+            "the light",
+            "the lamp"
           ],
           "answer": "the window",
           "explanation": "\"la ventana\" = the window"
@@ -809,10 +809,10 @@
           "topic": "people",
           "question": "What does \"el estudiante\" mean in English?",
           "options": [
-            "the animal",
-            "the male president",
+            "the little girl",
+            "the brother",
             "the male student",
-            "the program"
+            "the woman"
           ],
           "answer": "the male student",
           "explanation": "\"el estudiante\" = the male student"
@@ -825,10 +825,10 @@
           "topic": "people",
           "question": "What does \"el hombre\" mean in English?",
           "options": [
-            "the bag",
-            "the chair",
-            "the telephone",
-            "the man"
+            "the man",
+            "the friend",
+            "the (male) cabdriver",
+            "the boy"
           ],
           "answer": "the man",
           "explanation": "\"el hombre\" = the man"
@@ -841,10 +841,10 @@
           "topic": "people",
           "question": "What does \"la estudiante\" mean in English?",
           "options": [
-            "the bag",
+            "the male manager",
+            "the female manager",
             "the female student",
-            "the bathroom",
-            "the hand"
+            "the female president"
           ],
           "answer": "the female student",
           "explanation": "\"la estudiante\" = the female student"
@@ -857,10 +857,10 @@
           "topic": "places",
           "question": "What does \"el hospital\" mean in English?",
           "options": [
-            "the (male) dentist",
-            "the friendship",
-            "the hospital",
-            "the bag"
+            "the bank",
+            "the store",
+            "the bathroom",
+            "the hospital"
           ],
           "answer": "the hospital",
           "explanation": "\"el hospital\" = the hospital"
@@ -873,10 +873,10 @@
           "topic": "places",
           "question": "What does \"el hotel\" mean in English?",
           "options": [
-            "the beer",
+            "the bank",
             "the hotel",
-            "the train",
-            "the wine"
+            "the class",
+            "the store"
           ],
           "answer": "the hotel",
           "explanation": "\"el hotel\" = the hotel"
@@ -889,10 +889,10 @@
           "topic": "people",
           "question": "What does \"el gerente\" mean in English?",
           "options": [
-            "the invitation",
+            "the (male) artist",
+            "the person",
             "the male manager",
-            "the woman",
-            "the (male) dentist"
+            "the friend"
           ],
           "answer": "the male manager",
           "explanation": "\"el gerente\" = the male manager"
@@ -905,10 +905,10 @@
           "topic": "general",
           "question": "What does \"el tomate\" mean in English?",
           "options": [
-            "the wine",
-            "the store",
+            "the song",
             "the tomato",
-            "the person"
+            "the attitude",
+            "the illusion"
           ],
           "answer": "the tomato",
           "explanation": "\"el tomate\" = the tomato"
@@ -919,15 +919,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "What does \"la cancion\" mean in English?",
+          "question": "What does \"la canción\" mean in English?",
           "options": [
-            "the store",
-            "the bed",
-            "the climate",
-            "the song"
+            "the poem",
+            "the song",
+            "the luck",
+            "the book"
           ],
           "answer": "the song",
-          "explanation": "\"la cancion\" = the song"
+          "explanation": "\"la canción\" = the song"
         },
         {
           "id": "ch1b_052",
@@ -937,10 +937,10 @@
           "topic": "people",
           "question": "What does \"la gerente\" mean in English?",
           "options": [
-            "the telephone",
-            "the bed",
             "the female manager",
-            "the planet"
+            "the female student",
+            "the (female) pianist",
+            "the man"
           ],
           "answer": "the female manager",
           "explanation": "\"la gerente\" = the female manager"
@@ -953,10 +953,10 @@
           "topic": "transportation",
           "question": "What does \"el tren\" mean in English?",
           "options": [
-            "the hotel",
             "the car",
+            "the televisión",
             "the train",
-            "the girl"
+            "the coffee"
           ],
           "answer": "the train",
           "explanation": "\"el tren\" = the train"
@@ -967,15 +967,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "What does \"la conversacion\" mean in English?",
+          "question": "What does \"la conversación\" mean in English?",
           "options": [
-            "the light",
-            "the poem",
-            "the female singer",
+            "the problem",
+            "the tomato",
+            "the hand",
             "the conversation"
           ],
           "answer": "the conversation",
-          "explanation": "\"la conversacion\" = the conversation"
+          "explanation": "\"la conversación\" = the conversation"
         },
         {
           "id": "ch1b_055",
@@ -983,15 +983,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "What does \"la invitacion\" mean in English?",
+          "question": "What does \"la invitación\" mean in English?",
           "options": [
-            "the (female) dentist",
-            "the meal",
-            "the person",
-            "the invitation"
+            "the photograph",
+            "the song",
+            "the invitation",
+            "the drama"
           ],
           "answer": "the invitation",
-          "explanation": "\"la invitacion\" = the invitation"
+          "explanation": "\"la invitación\" = the invitation"
         },
         {
           "id": "ch1b_056",
@@ -1002,9 +1002,9 @@
           "question": "What does \"el presidente\" mean in English?",
           "options": [
             "the male president",
-            "the flower",
-            "the animal",
-            "the plant"
+            "the little boy",
+            "the sister",
+            "the (female) dentist"
           ],
           "answer": "the male president",
           "explanation": "\"el presidente\" = the male president"
@@ -1015,15 +1015,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "What does \"la leccion\" mean in English?",
+          "question": "What does \"la lección\" mean in English?",
           "options": [
             "the luck",
             "the lesson",
-            "the (male) cabdriver",
-            "the person"
+            "the blouse",
+            "the photograph"
           ],
           "answer": "the lesson",
-          "explanation": "\"la leccion\" = the lesson"
+          "explanation": "\"la lección\" = the lesson"
         },
         {
           "id": "ch1b_058",
@@ -1033,10 +1033,10 @@
           "topic": "people",
           "question": "What does \"la presidente\" mean in English?",
           "options": [
-            "the cat",
-            "the invitation",
-            "the female president",
-            "the luck"
+            "the (male) dentist",
+            "the (female) artist",
+            "the boy",
+            "the female president"
           ],
           "answer": "the female president",
           "explanation": "\"la presidente\" = the female president"
@@ -1047,15 +1047,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "What does \"la ilusion\" mean in English?",
+          "question": "What does \"la ilusión\" mean in English?",
           "options": [
-            "the luck",
-            "the window",
+            "the invitation",
+            "the drama",
             "the illusion",
-            "the book"
+            "the truth"
           ],
           "answer": "the illusion",
-          "explanation": "\"la ilusion\" = the illusion"
+          "explanation": "\"la ilusión\" = the illusion"
         },
         {
           "id": "ch1b_060",
@@ -1065,9 +1065,9 @@
           "topic": "nature",
           "question": "What does \"el clima\" mean in English?",
           "options": [
-            "the problem",
-            "the invitation",
-            "the program",
+            "the flower",
+            "the skin",
+            "the day",
             "the climate"
           ],
           "answer": "the climate",
@@ -1079,15 +1079,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "home",
-          "question": "What does \"la television\" mean in English?",
+          "question": "What does \"la televisión\" mean in English?",
           "options": [
-            "the boy",
-            "the television",
-            "the blouse",
-            "the poem"
+            "the radio",
+            "the chair",
+            "the televisión",
+            "the bed"
           ],
-          "answer": "the television",
-          "explanation": "\"la television\" = the television"
+          "answer": "the televisión",
+          "explanation": "\"la televisión\" = the televisión"
         },
         {
           "id": "ch1b_062",
@@ -1095,15 +1095,15 @@
           "type": "multiple_choice",
           "category": "noun_vocabulary",
           "topic": "nature",
-          "question": "What does \"el dia\" mean in English?",
+          "question": "What does \"el día\" mean in English?",
           "options": [
-            "the (female) artist",
+            "the climate",
             "the day",
-            "the male president",
-            "the book"
+            "the flower",
+            "the planet"
           ],
           "answer": "the day",
-          "explanation": "\"el dia\" = the day"
+          "explanation": "\"el día\" = the day"
         },
         {
           "id": "ch1b_063",
@@ -1113,10 +1113,10 @@
           "topic": "places",
           "question": "What does \"la ciudad\" mean in English?",
           "options": [
-            "the girl",
-            "the (male) cabdriver",
-            "the female student",
-            "the city"
+            "the hospital",
+            "the city",
+            "the bank",
+            "the bathroom"
           ],
           "answer": "the city",
           "explanation": "\"la ciudad\" = the city"
@@ -1129,10 +1129,10 @@
           "topic": "general",
           "question": "What does \"el drama\" mean in English?",
           "options": [
-            "the boy",
-            "the wine",
+            "the hand",
             "the drama",
-            "the woman"
+            "the system",
+            "the map"
           ],
           "answer": "the drama",
           "explanation": "\"el drama\" = the drama"
@@ -1145,10 +1145,10 @@
           "topic": "general",
           "question": "What does \"la verdad\" mean in English?",
           "options": [
-            "the bank",
-            "the truth",
-            "the little boy",
-            "the window"
+            "the drama",
+            "the map",
+            "the bag",
+            "the truth"
           ],
           "answer": "the truth",
           "explanation": "\"la verdad\" = the truth"
@@ -1161,10 +1161,10 @@
           "topic": "general",
           "question": "What does \"el idioma\" mean in English?",
           "options": [
-            "the sister",
-            "the plant",
+            "the lesson",
             "the language",
-            "the (female) dentist"
+            "the tomato",
+            "the map"
           ],
           "answer": "the language",
           "explanation": "\"el idioma\" = the language"
@@ -1177,10 +1177,10 @@
           "topic": "people",
           "question": "What does \"la amistad\" mean in English?",
           "options": [
-            "the illusion",
+            "the woman",
             "the friendship",
-            "the table",
-            "the lamp"
+            "the (female) dentist",
+            "the (male) pianist"
           ],
           "answer": "the friendship",
           "explanation": "\"la amistad\" = the friendship"
@@ -1193,10 +1193,10 @@
           "topic": "general",
           "question": "What does \"el mapa\" mean in English?",
           "options": [
+            "the truth",
             "the map",
-            "the bank",
-            "the table",
-            "the dog"
+            "the poem",
+            "the conversation"
           ],
           "answer": "the map",
           "explanation": "\"el mapa\" = the map"
@@ -1209,10 +1209,10 @@
           "topic": "general",
           "question": "What does \"la actitud\" mean in English?",
           "options": [
+            "the tomato",
+            "the map",
             "the attitude",
-            "the car",
-            "the male singer",
-            "the man"
+            "the bag"
           ],
           "answer": "the attitude",
           "explanation": "\"la actitud\" = the attitude"
@@ -1225,10 +1225,10 @@
           "topic": "nature",
           "question": "What does \"el planeta\" mean in English?",
           "options": [
+            "the climate",
+            "the day",
             "the planet",
-            "the person",
-            "the brother",
-            "the bank"
+            "the flower"
           ],
           "answer": "the planet",
           "explanation": "\"el planeta\" = the planet"
@@ -1241,10 +1241,10 @@
           "topic": "general",
           "question": "What does \"el poema\" mean in English?",
           "options": [
+            "the truth",
+            "the invitation",
             "the poem",
-            "the (female) dentist",
-            "the blouse",
-            "the class"
+            "the map"
           ],
           "answer": "the poem",
           "explanation": "\"el poema\" = the poem"
@@ -1257,10 +1257,10 @@
           "topic": "general",
           "question": "What does \"el problema\" mean in English?",
           "options": [
-            "the flower",
             "the language",
-            "the male president",
-            "the problem"
+            "the map",
+            "the problem",
+            "the photograph"
           ],
           "answer": "the problem",
           "explanation": "\"el problema\" = the problem"
@@ -1273,9 +1273,9 @@
           "topic": "general",
           "question": "What does \"el programa\" mean in English?",
           "options": [
-            "the little girl",
-            "the male president",
-            "the (female) artist",
+            "the conversation",
+            "the illusion",
+            "the luck",
             "the program"
           ],
           "answer": "the program",
@@ -1289,10 +1289,10 @@
           "topic": "general",
           "question": "What does \"la foto\" mean in English?",
           "options": [
-            "the photograph",
-            "the hospital",
-            "the car",
-            "the male president"
+            "the truth",
+            "the attitude",
+            "the language",
+            "the photograph"
           ],
           "answer": "the photograph",
           "explanation": "\"la foto\" = the photograph"
@@ -1305,10 +1305,10 @@
           "topic": "general",
           "question": "What does \"el sistema\" mean in English?",
           "options": [
-            "the system",
-            "the beer",
-            "the truth",
-            "the female singer"
+            "the illusion",
+            "the attitude",
+            "the bag",
+            "the system"
           ],
           "answer": "the system",
           "explanation": "\"el sistema\" = the system"
@@ -1321,10 +1321,10 @@
           "topic": "general",
           "question": "What does \"la mano\" mean in English?",
           "options": [
-            "the female manager",
-            "the chair",
             "the hand",
-            "the doctor"
+            "the language",
+            "the book",
+            "the attitude"
           ],
           "answer": "the hand",
           "explanation": "\"la mano\" = the hand"
@@ -1337,10 +1337,10 @@
           "topic": "home",
           "question": "What does \"la radio\" mean in English?",
           "options": [
-            "the light",
             "the radio",
-            "the male manager",
-            "the little boy"
+            "the lamp",
+            "the telephone",
+            "the window"
           ],
           "answer": "the radio",
           "explanation": "\"la radio\" = the radio"
@@ -1353,10 +1353,10 @@
           "topic": "places",
           "question": "What does \"la clase\" mean in English?",
           "options": [
+            "the hospital",
             "the class",
-            "the female singer",
-            "the animal",
-            "the (male) cabdriver"
+            "the city",
+            "the church"
           ],
           "answer": "the class",
           "explanation": "\"la clase\" = the class"
@@ -1371,8 +1371,8 @@
           "options": [
             "the climate",
             "the flower",
-            "the lesson",
-            "the telephone"
+            "the planet",
+            "the day"
           ],
           "answer": "the flower",
           "explanation": "\"la flor\" = the flower"
@@ -1385,10 +1385,10 @@
           "topic": "home",
           "question": "What does \"la luz\" mean in English?",
           "options": [
-            "the (male) dentist",
-            "the language",
-            "the light",
-            "the animal"
+            "the radio",
+            "the table",
+            "the chair",
+            "the light"
           ],
           "answer": "the light",
           "explanation": "\"la luz\" = the light"
@@ -1401,10 +1401,10 @@
           "topic": "people",
           "question": "What does \"la mujer\" mean in English?",
           "options": [
-            "the lamp",
-            "the table",
             "the woman",
-            "the coffee"
+            "the male president",
+            "the brother",
+            "the (female) cabdriver"
           ],
           "answer": "the woman",
           "explanation": "\"la mujer\" = the woman"
@@ -1417,10 +1417,10 @@
           "topic": "nature",
           "question": "What does \"la piel\" mean in English?",
           "options": [
-            "the flower",
-            "the television",
-            "the girl",
-            "the skin"
+            "the planet",
+            "the skin",
+            "the climate",
+            "the day"
           ],
           "answer": "the skin",
           "explanation": "\"la piel\" = the skin"
@@ -1433,10 +1433,10 @@
           "topic": "general",
           "question": "What does \"la suerte\" mean in English?",
           "options": [
+            "the book",
+            "the program",
             "the luck",
-            "the photograph",
-            "the woman",
-            "the dog"
+            "the drama"
           ],
           "answer": "the luck",
           "explanation": "\"la suerte\" = the luck"
@@ -1449,9 +1449,9 @@
           "topic": "people",
           "question": "What does \"un amigo\" mean in English?",
           "options": [
-            "a city",
+            "a person (male or female)",
             "a cat",
-            "some female artists",
+            "a woman",
             "a male friend"
           ],
           "answer": "a male friend",
@@ -1465,10 +1465,10 @@
           "topic": "people",
           "question": "What does \"una amiga\" mean in English?",
           "options": [
-            "a cat",
-            "a mirror",
-            "a female friend",
-            "some books"
+            "a city",
+            "a woman",
+            "some cats",
+            "a female friend"
           ],
           "answer": "a female friend",
           "explanation": "\"una amiga\" = a female friend. Un/unos = masculine, una/unas = feminine."
@@ -1479,15 +1479,15 @@
           "type": "multiple_choice",
           "category": "articles",
           "topic": "places",
-          "question": "What does \"un bano\" mean in English?",
+          "question": "What does \"un baño\" mean in English?",
           "options": [
             "a bathroom",
-            "a car",
-            "a page",
-            "a city"
+            "a city",
+            "an armchair",
+            "a mirror"
           ],
           "answer": "a bathroom",
-          "explanation": "\"un bano\" = a bathroom. Un/unos = masculine, una/unas = feminine."
+          "explanation": "\"un baño\" = a bathroom. Un/unos = masculine, una/unas = feminine."
         },
         {
           "id": "ch1b_087",
@@ -1497,10 +1497,10 @@
           "topic": "general",
           "question": "What does \"una biblioteca\" mean in English?",
           "options": [
+            "some cats",
+            "a suitcase",
             "a library",
-            "some conversations",
-            "a page",
-            "some boats"
+            "some houses"
           ],
           "answer": "a library",
           "explanation": "\"una biblioteca\" = a library. Un/unos = masculine, una/unas = feminine."
@@ -1513,10 +1513,10 @@
           "topic": "transportation",
           "question": "What does \"un carro\" mean in English?",
           "options": [
-            "some languages",
             "a car",
-            "a mirror",
-            "an armchair"
+            "some houses",
+            "a garden",
+            "a bathroom"
           ],
           "answer": "a car",
           "explanation": "\"un carro\" = a car. Un/unos = masculine, una/unas = feminine."
@@ -1529,10 +1529,10 @@
           "topic": "places",
           "question": "What does \"una ciudad\" mean in English?",
           "options": [
-            "some flowers",
+            "some languages",
+            "a mirror",
             "a city",
-            "some female artists",
-            "a bookstore"
+            "a bathroom"
           ],
           "answer": "a city",
           "explanation": "\"una ciudad\" = a city. Un/unos = masculine, una/unas = feminine."
@@ -1545,10 +1545,10 @@
           "topic": "general",
           "question": "What does \"un espejo\" mean in English?",
           "options": [
-            "a bathroom",
-            "a bookstore",
-            "a mirror",
-            "a page"
+            "some boats",
+            "a museum",
+            "some female artists",
+            "a mirror"
           ],
           "answer": "a mirror",
           "explanation": "\"un espejo\" = a mirror. Un/unos = masculine, una/unas = feminine."
@@ -1561,10 +1561,10 @@
           "topic": "general",
           "question": "What does \"una idea\" mean in English?",
           "options": [
-            "a bathroom",
-            "a ticket",
+            "some flowers",
+            "some conversations",
             "an idea",
-            "a suitcase"
+            "a male pianist"
           ],
           "answer": "an idea",
           "explanation": "\"una idea\" = an idea. Un/unos = masculine, una/unas = feminine."
@@ -1577,10 +1577,10 @@
           "topic": "animals",
           "question": "What does \"un gato\" mean in English?",
           "options": [
-            "some houses",
-            "a car",
+            "some languages",
+            "a city",
             "a cat",
-            "a woman"
+            "some flowers"
           ],
           "answer": "a cat",
           "explanation": "\"un gato\" = a cat. Un/unos = masculine, una/unas = feminine."
@@ -1591,15 +1591,15 @@
           "type": "multiple_choice",
           "category": "articles",
           "topic": "home",
-          "question": "What does \"una libreria\" mean in English?",
+          "question": "What does \"una librería\" mean in English?",
           "options": [
-            "a suitcase",
-            "a bookstore",
-            "a male pianist",
-            "a ticket"
+            "a city",
+            "a page",
+            "an armchair",
+            "a bookstore"
           ],
           "answer": "a bookstore",
-          "explanation": "\"una libreria\" = a bookstore. Un/unos = masculine, una/unas = feminine."
+          "explanation": "\"una librería\" = a bookstore. Un/unos = masculine, una/unas = feminine."
         },
         {
           "id": "ch1b_094",
@@ -1607,15 +1607,15 @@
           "type": "multiple_choice",
           "category": "articles",
           "topic": "general",
-          "question": "What does \"un jardin\" mean in English?",
+          "question": "What does \"un jardín\" mean in English?",
           "options": [
-            "a mirror",
-            "a garden",
+            "some female artists",
             "some flowers",
-            "a male pianist"
+            "a page",
+            "a garden"
           ],
           "answer": "a garden",
-          "explanation": "\"un jardin\" = a garden. Un/unos = masculine, una/unas = feminine."
+          "explanation": "\"un jardín\" = a garden. Un/unos = masculine, una/unas = feminine."
         },
         {
           "id": "ch1b_095",
@@ -1625,10 +1625,10 @@
           "topic": "general",
           "question": "What does \"una maleta\" mean in English?",
           "options": [
-            "a pen",
-            "some conversations",
+            "a male pianist",
+            "a male friend",
             "a suitcase",
-            "a woman"
+            "a female friend"
           ],
           "answer": "a suitcase",
           "explanation": "\"una maleta\" = a suitcase. Un/unos = masculine, una/unas = feminine."
@@ -1641,10 +1641,10 @@
           "topic": "general",
           "question": "What does \"un museo\" mean in English?",
           "options": [
-            "a bookstore",
+            "a pen",
             "a museum",
-            "some conversations",
-            "a woman"
+            "a page",
+            "some cats"
           ],
           "answer": "a museum",
           "explanation": "\"un museo\" = a museum. Un/unos = masculine, una/unas = feminine."
@@ -1657,10 +1657,10 @@
           "topic": "people",
           "question": "What does \"una mujer\" mean in English?",
           "options": [
-            "an idea",
+            "a pen",
             "a woman",
-            "an armchair",
-            "a cat"
+            "a bookstore",
+            "some cats"
           ],
           "answer": "a woman",
           "explanation": "\"una mujer\" = a woman. Un/unos = masculine, una/unas = feminine."
@@ -1673,10 +1673,10 @@
           "topic": "general",
           "question": "What does \"un pianista\" mean in English?",
           "options": [
-            "a museum",
             "a male pianist",
-            "a garden",
-            "some cats"
+            "some flowers",
+            "a female friend",
+            "a mirror"
           ],
           "answer": "a male pianist",
           "explanation": "\"un pianista\" = a male pianist. Un/unos = masculine, una/unas = feminine."
@@ -1687,15 +1687,15 @@
           "type": "multiple_choice",
           "category": "articles",
           "topic": "general",
-          "question": "What does \"una pagina\" mean in English?",
+          "question": "What does \"una página\" mean in English?",
           "options": [
-            "a male pianist",
-            "a car",
-            "some flowers",
-            "a page"
+            "a page",
+            "some houses",
+            "some female artists",
+            "a mirror"
           ],
           "answer": "a page",
-          "explanation": "\"una pagina\" = a page. Un/unos = masculine, una/unas = feminine."
+          "explanation": "\"una página\" = a page. Un/unos = masculine, una/unas = feminine."
         },
         {
           "id": "ch1b_100",
@@ -1703,15 +1703,15 @@
           "type": "multiple_choice",
           "category": "articles",
           "topic": "home",
-          "question": "What does \"un sillon\" mean in English?",
+          "question": "What does \"un sillón\" mean in English?",
           "options": [
-            "some female artists",
+            "a male pianist",
             "an armchair",
-            "a woman",
-            "a bathroom"
+            "a bookstore",
+            "a page"
           ],
           "answer": "an armchair",
-          "explanation": "\"un sillon\" = an armchair. Un/unos = masculine, una/unas = feminine."
+          "explanation": "\"un sillón\" = an armchair. Un/unos = masculine, una/unas = feminine."
         },
         {
           "id": "ch1b_101",
@@ -1721,10 +1721,10 @@
           "topic": "general",
           "question": "What does \"una persona\" mean in English?",
           "options": [
-            "a museum",
-            "a female friend",
-            "a person (male or female)",
-            "a cat"
+            "a ticket",
+            "some boats",
+            "some books",
+            "a person (male or female)"
           ],
           "answer": "a person (male or female)",
           "explanation": "\"una persona\" = a person (male or female). Un/unos = masculine, una/unas = feminine."
@@ -1737,10 +1737,10 @@
           "topic": "general",
           "question": "What does \"un tiquete\" mean in English?",
           "options": [
-            "a ticket",
-            "a museum",
-            "a garden",
-            "some conversations"
+            "a male pianist",
+            "some conversations",
+            "some flowers",
+            "a ticket"
           ],
           "answer": "a ticket",
           "explanation": "\"un tiquete\" = a ticket. Un/unos = masculine, una/unas = feminine."
@@ -1754,8 +1754,8 @@
           "question": "What does \"una pluma\" mean in English?",
           "options": [
             "some flowers",
-            "a page",
-            "a bathroom",
+            "some houses",
+            "some cats",
             "a pen"
           ],
           "answer": "a pen",
@@ -1769,10 +1769,10 @@
           "topic": "general",
           "question": "What does \"unos barcos\" mean in English?",
           "options": [
-            "a suitcase",
-            "some female artists",
-            "an idea",
-            "some boats"
+            "some boats",
+            "some languages",
+            "some houses",
+            "some conversations"
           ],
           "answer": "some boats",
           "explanation": "\"unos barcos\" = some boats. Un/unos = masculine, una/unas = feminine."
@@ -1785,10 +1785,10 @@
           "topic": "general",
           "question": "What does \"unas artistas\" mean in English?",
           "options": [
-            "an idea",
-            "a male friend",
+            "a museum",
+            "a suitcase",
             "some female artists",
-            "some conversations"
+            "a mirror"
           ],
           "answer": "some female artists",
           "explanation": "\"unas artistas\" = some female artists. Un/unos = masculine, una/unas = feminine."
@@ -1801,10 +1801,10 @@
           "topic": "general",
           "question": "What does \"unos gatos\" mean in English?",
           "options": [
-            "an idea",
+            "a suitcase",
+            "some cats",
             "a page",
-            "a car",
-            "some cats"
+            "a mirror"
           ],
           "answer": "some cats",
           "explanation": "\"unos gatos\" = some cats. Un/unos = masculine, una/unas = feminine."
@@ -1817,10 +1817,10 @@
           "topic": "general",
           "question": "What does \"unas casas\" mean in English?",
           "options": [
-            "a male pianist",
-            "a cat",
             "some houses",
-            "some cats"
+            "a page",
+            "some conversations",
+            "a female friend"
           ],
           "answer": "some houses",
           "explanation": "\"unas casas\" = some houses. Un/unos = masculine, una/unas = feminine."
@@ -1833,10 +1833,10 @@
           "topic": "general",
           "question": "What does \"unos idiomas\" mean in English?",
           "options": [
-            "some conversations",
-            "a city",
-            "some languages",
-            "some flowers"
+            "a garden",
+            "a person (male or female)",
+            "some female artists",
+            "some languages"
           ],
           "answer": "some languages",
           "explanation": "\"unos idiomas\" = some languages. Un/unos = masculine, una/unas = feminine."
@@ -1849,10 +1849,10 @@
           "topic": "general",
           "question": "What does \"unas conversaciones\" mean in English?",
           "options": [
-            "a ticket",
             "some conversations",
-            "a bookstore",
-            "some female artists"
+            "an idea",
+            "a female friend",
+            "some books"
           ],
           "answer": "some conversations",
           "explanation": "\"unas conversaciones\" = some conversations. Un/unos = masculine, una/unas = feminine."
@@ -1865,10 +1865,10 @@
           "topic": "general",
           "question": "What does \"unos libros\" mean in English?",
           "options": [
-            "a ticket",
-            "some cats",
             "some books",
-            "a bathroom"
+            "a pen",
+            "some houses",
+            "some female artists"
           ],
           "answer": "some books",
           "explanation": "\"unos libros\" = some books. Un/unos = masculine, una/unas = feminine."
@@ -1881,9 +1881,9 @@
           "topic": "general",
           "question": "What does \"unas flores\" mean in English?",
           "options": [
-            "some female artists",
-            "some conversations",
-            "a pen",
+            "a suitcase",
+            "some books",
+            "a male pianist",
             "some flowers"
           ],
           "answer": "some flowers",
@@ -1897,10 +1897,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"amarillo\" mean?",
           "options": [
-            "weak",
-            "sad",
+            "red",
+            "blue",
             "yellow",
-            "fat"
+            "white"
           ],
           "answer": "yellow",
           "explanation": "\"amarillo\" = yellow"
@@ -1913,10 +1913,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"anaranjado\" mean?",
           "options": [
-            "strong",
-            "old",
-            "yellow",
-            "orange"
+            "black",
+            "green",
+            "orange",
+            "pink"
           ],
           "answer": "orange",
           "explanation": "\"anaranjado\" = orange"
@@ -1929,10 +1929,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"azul\" mean?",
           "options": [
-            "marvelous, wonderful",
-            "handsome, beautiful",
-            "blue",
-            "pink"
+            "brown",
+            "black",
+            "green",
+            "blue"
           ],
           "answer": "blue",
           "explanation": "\"azul\" = blue"
@@ -1945,10 +1945,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"blanco\" mean?",
           "options": [
+            "brown",
+            "pink",
             "white",
-            "fat",
-            "excellent",
-            "slender"
+            "gray"
           ],
           "answer": "white",
           "explanation": "\"blanco\" = white"
@@ -1961,10 +1961,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"gris\" mean?",
           "options": [
-            "purple",
+            "brown",
+            "blue",
             "gray",
-            "ugly",
-            "happy"
+            "green"
           ],
           "answer": "gray",
           "explanation": "\"gris\" = gray"
@@ -1975,15 +1975,15 @@
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "topic": "colors",
-          "question": "What does the Spanish adjective \"marron, pardo\" mean?",
+          "question": "What does the Spanish adjective \"marrón, pardo\" mean?",
           "options": [
-            "great, terrific",
+            "gray",
+            "blue",
             "brown",
-            "marvelous, wonderful",
-            "excellent"
+            "pink"
           ],
           "answer": "brown",
-          "explanation": "\"marron, pardo\" = brown"
+          "explanation": "\"marrón, pardo\" = brown"
         },
         {
           "id": "ch1b_118",
@@ -1993,10 +1993,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"morado\" mean?",
           "options": [
-            "ugly",
-            "strong",
+            "brown-skinned",
             "purple",
-            "agreeable, pleasant"
+            "gray",
+            "green"
           ],
           "answer": "purple",
           "explanation": "\"morado\" = purple"
@@ -2009,10 +2009,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"moreno\" mean?",
           "options": [
-            "happy",
             "brown-skinned",
-            "intelligent",
-            "interesting"
+            "pink",
+            "purple",
+            "yellow"
           ],
           "answer": "brown-skinned",
           "explanation": "\"moreno\" = brown-skinned"
@@ -2025,10 +2025,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"negro\" mean?",
           "options": [
-            "black",
-            "brown",
-            "fantastic",
-            "difficult"
+            "white",
+            "yellow",
+            "orange",
+            "black"
           ],
           "answer": "black",
           "explanation": "\"negro\" = black"
@@ -2042,9 +2042,9 @@
           "question": "What does the Spanish adjective \"rojo\" mean?",
           "options": [
             "red",
-            "strong",
-            "poor",
-            "happy"
+            "pink",
+            "yellow",
+            "blue"
           ],
           "answer": "red",
           "explanation": "\"rojo\" = red"
@@ -2057,10 +2057,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"rosado\" mean?",
           "options": [
-            "brown",
-            "fragile",
+            "blue",
+            "gray",
             "pink",
-            "orange"
+            "purple"
           ],
           "answer": "pink",
           "explanation": "\"rosado\" = pink"
@@ -2073,10 +2073,10 @@
           "topic": "colors",
           "question": "What does the Spanish adjective \"verde\" mean?",
           "options": [
+            "brown",
             "green",
-            "inexpensive",
-            "sincere",
-            "happy"
+            "pink",
+            "purple"
           ],
           "answer": "green",
           "explanation": "\"verde\" = green"
@@ -2090,9 +2090,9 @@
           "question": "What does the Spanish adjective \"agradable\" mean?",
           "options": [
             "agreeable, pleasant",
-            "weak",
-            "interesting",
-            "poor"
+            "difficult",
+            "sad",
+            "rich"
           ],
           "answer": "agreeable, pleasant",
           "explanation": "\"agradable\" = agreeable, pleasant"
@@ -2103,15 +2103,15 @@
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "topic": "general",
-          "question": "What does the Spanish adjective \"fantastico\" mean?",
+          "question": "What does the Spanish adjective \"fantástico\" mean?",
           "options": [
-            "happy",
-            "inexpensive",
             "fantastic",
-            "intelligent"
+            "intelligent",
+            "stingy",
+            "nice"
           ],
           "answer": "fantastic",
-          "explanation": "\"fantastico\" = fantastic"
+          "explanation": "\"fantástico\" = fantastic"
         },
         {
           "id": "ch1b_126",
@@ -2121,10 +2121,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"horrible\" mean?",
           "options": [
-            "fat",
-            "brown-skinned",
-            "horrible",
-            "ugly"
+            "sincere",
+            "inexpensive",
+            "big",
+            "horrible"
           ],
           "answer": "horrible",
           "explanation": "\"horrible\" = horrible"
@@ -2135,15 +2135,15 @@
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "topic": "general",
-          "question": "What does the Spanish adjective \"tacano\" mean?",
+          "question": "What does the Spanish adjective \"tacaño\" mean?",
           "options": [
-            "slender",
-            "big",
             "stingy",
-            "intelligent"
+            "rich",
+            "thin",
+            "happy"
           ],
           "answer": "stingy",
-          "explanation": "\"tacano\" = stingy"
+          "explanation": "\"tacaño\" = stingy"
         },
         {
           "id": "ch1b_128",
@@ -2153,10 +2153,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"alegre\" mean?",
           "options": [
-            "horrible",
+            "nice",
             "happy",
-            "thin",
-            "inexpensive"
+            "old",
+            "stingy"
           ],
           "answer": "happy",
           "explanation": "\"alegre\" = happy"
@@ -2169,9 +2169,9 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"feliz\" mean?",
           "options": [
-            "black",
-            "poor",
-            "typical",
+            "strong",
+            "nice",
+            "sincere",
             "happy"
           ],
           "answer": "happy",
@@ -2185,10 +2185,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"inteligente\" mean?",
           "options": [
-            "sincere",
-            "black",
+            "sad",
+            "strong",
             "intelligent",
-            "handsome, beautiful"
+            "agreeable, pleasant"
           ],
           "answer": "intelligent",
           "explanation": "\"inteligente\" = intelligent"
@@ -2199,15 +2199,15 @@
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "topic": "general",
-          "question": "What does the Spanish adjective \"tipico\" mean?",
+          "question": "What does the Spanish adjective \"típico\" mean?",
           "options": [
             "typical",
-            "intelligent",
-            "great, terrific",
-            "slender"
+            "inexpensive",
+            "nice",
+            "interesting"
           ],
           "answer": "typical",
-          "explanation": "\"tipico\" = typical"
+          "explanation": "\"típico\" = typical"
         },
         {
           "id": "ch1b_132",
@@ -2217,10 +2217,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"barato\" mean?",
           "options": [
-            "green",
-            "white",
+            "marvelous, wonderful",
             "inexpensive",
-            "happy"
+            "sincere",
+            "rich"
           ],
           "answer": "inexpensive",
           "explanation": "\"barato\" = inexpensive"
@@ -2233,10 +2233,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"feo\" mean?",
           "options": [
-            "young",
-            "strong",
-            "gray",
-            "ugly"
+            "great, terrific",
+            "ugly",
+            "interesting",
+            "nice"
           ],
           "answer": "ugly",
           "explanation": "\"feo\" = ugly"
@@ -2249,10 +2249,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"interesante\" mean?",
           "options": [
-            "typical",
-            "brown",
             "interesting",
-            "great, terrific"
+            "happy",
+            "rich",
+            "marvelous, wonderful"
           ],
           "answer": "interesting",
           "explanation": "\"interesante\" = interesting"
@@ -2265,10 +2265,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"triste\" mean?",
           "options": [
+            "slender",
+            "agreeable, pleasant",
             "sad",
-            "excellent",
-            "rich",
-            "horrible"
+            "strong"
           ],
           "answer": "sad",
           "explanation": "\"triste\" = sad"
@@ -2281,10 +2281,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"caro\" mean?",
           "options": [
-            "typical",
             "expensive",
-            "weak",
-            "big"
+            "fat",
+            "easy",
+            "difficult"
           ],
           "answer": "expensive",
           "explanation": "\"caro\" = expensive"
@@ -2297,10 +2297,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"flaco\" mean?",
           "options": [
-            "purple",
+            "weak",
             "thin",
-            "fantastic",
-            "excellent"
+            "great, terrific",
+            "expensive"
           ],
           "answer": "thin",
           "explanation": "\"flaco\" = thin"
@@ -2313,10 +2313,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"joven\" mean?",
           "options": [
-            "pink",
-            "stingy",
-            "green",
-            "young"
+            "little, small",
+            "young",
+            "easy",
+            "great, terrific"
           ],
           "answer": "young",
           "explanation": "\"joven\" = young"
@@ -2329,10 +2329,10 @@
           "topic": "general",
           "question": "What does the Spanish adjective \"viejo\" mean?",
           "options": [
-            "fragile",
+            "inexpensive",
+            "beautiful",
             "old",
-            "young",
-            "sincere"
+            "horrible"
           ],
           "answer": "old",
           "explanation": "\"viejo\" = old"
@@ -2343,15 +2343,15 @@
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "topic": "general",
-          "question": "What does the Spanish adjective \"debil\" mean?",
+          "question": "What does the Spanish adjective \"débil\" mean?",
           "options": [
-            "horrible",
-            "intelligent",
+            "nice",
             "weak",
-            "sincere"
+            "agreeable, pleasant",
+            "intelligent"
           ],
           "answer": "weak",
-          "explanation": "\"debil\" = weak"
+          "explanation": "\"débil\" = weak"
         },
         {
           "id": "ch1b_141",
@@ -2359,15 +2359,15 @@
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "topic": "general",
-          "question": "What does the Spanish adjective \"fragil\" mean?",
+          "question": "What does the Spanish adjective \"frágil\" mean?",
           "options": [
-            "handsome, beautiful",
             "fragile",
-            "big",
-            "happy"
+            "happy",
+            "weak",
+            "easy"
           ],
           "answer": "fragile",
-          "explanation": "\"fragil\" = fragile"
+          "explanation": "\"frágil\" = fragile"
         },
         {
           "id": "ch1b_142",
@@ -2377,10 +2377,10 @@
           "topic": "general",
           "question": "What does \"el libro blanco\" mean?",
           "options": [
-            "the nice girl",
-            "the gray train",
             "the white book",
-            "the white house"
+            "the horrible dog",
+            "the nice boy",
+            "the green bank"
           ],
           "answer": "the white book",
           "explanation": "\"el libro blanco\" = the white book"
@@ -2393,10 +2393,10 @@
           "topic": "general",
           "question": "What does \"el gato negro\" mean?",
           "options": [
-            "the black cat",
             "the red car",
-            "the blue boat",
-            "the black jacket"
+            "the handsome man",
+            "the black cat",
+            "the nice boy"
           ],
           "answer": "the black cat",
           "explanation": "\"el gato negro\" = the black cat"
@@ -2409,10 +2409,10 @@
           "topic": "general",
           "question": "What does \"el carro rojo\" mean?",
           "options": [
-            "the red car",
-            "the gray train",
-            "the nice girl",
-            "the handsome man"
+            "the handsome man",
+            "the blue boat",
+            "the green bank",
+            "the red car"
           ],
           "answer": "the red car",
           "explanation": "\"el carro rojo\" = the red car"
@@ -2423,15 +2423,15 @@
           "type": "multiple_choice",
           "category": "phrases",
           "topic": "general",
-          "question": "What does \"el muchacho simpatico\" mean?",
+          "question": "What does \"el muchacho simpático\" mean?",
           "options": [
-            "the beautiful woman",
-            "the nice girl",
             "the interesting topic",
-            "the nice boy"
+            "The Excellent Book",
+            "the nice boy",
+            "the white book"
           ],
           "answer": "the nice boy",
-          "explanation": "\"el muchacho simpatico\" = the nice boy"
+          "explanation": "\"el muchacho simpático\" = the nice boy"
         },
         {
           "id": "ch1b_146",
@@ -2441,10 +2441,10 @@
           "topic": "general",
           "question": "What does \"el hombre hermoso\" mean?",
           "options": [
-            "the green bank",
-            "The Excellent Book",
+            "the strongman",
+            "the red lamp",
             "the handsome man",
-            "the horrible dog"
+            "the difficult poem"
           ],
           "answer": "the handsome man",
           "explanation": "\"el hombre hermoso\" = the handsome man"
@@ -2457,10 +2457,10 @@
           "topic": "general",
           "question": "What does \"la casa blanca\" mean?",
           "options": [
-            "the nice girl",
-            "the white house",
-            "the blue boat",
-            "the white book"
+            "the red car",
+            "the black jacket",
+            "the strongman",
+            "the white house"
           ],
           "answer": "the white house",
           "explanation": "\"la casa blanca\" = the white house"
@@ -2474,9 +2474,9 @@
           "question": "What does \"la chaqueta negra\" mean?",
           "options": [
             "the interesting topic",
+            "the gray train",
             "the black jacket",
-            "the white house",
-            "the beautiful woman"
+            "the nice girl"
           ],
           "answer": "the black jacket",
           "explanation": "\"la chaqueta negra\" = the black jacket"
@@ -2487,15 +2487,15 @@
           "type": "multiple_choice",
           "category": "phrases",
           "topic": "general",
-          "question": "What does \"la lampara roja\" mean?",
+          "question": "What does \"la lámpara roja\" mean?",
           "options": [
-            "the red lamp",
-            "the interesting topic",
-            "the green bank",
-            "the black cat"
+            "the handsome man",
+            "the gray train",
+            "the beautiful woman",
+            "the red lamp"
           ],
           "answer": "the red lamp",
-          "explanation": "\"la lampara roja\" = the red lamp"
+          "explanation": "\"la lámpara roja\" = the red lamp"
         },
         {
           "id": "ch1b_150",
@@ -2503,15 +2503,15 @@
           "type": "multiple_choice",
           "category": "phrases",
           "topic": "general",
-          "question": "What does \"la muchacha simpatica\" mean?",
+          "question": "What does \"la muchacha simpática\" mean?",
           "options": [
-            "the strongman",
-            "the horrible dog",
-            "the interesting topic",
-            "the nice girl"
+            "the nice girl",
+            "the white house",
+            "the red lamp",
+            "the red car"
           ],
           "answer": "the nice girl",
-          "explanation": "\"la muchacha simpatica\" = the nice girl"
+          "explanation": "\"la muchacha simpática\" = the nice girl"
         },
         {
           "id": "ch1b_151",
@@ -2521,10 +2521,10 @@
           "topic": "general",
           "question": "What does \"la mujer hermosa\" mean?",
           "options": [
+            "the red lamp",
             "the green bank",
             "the beautiful woman",
-            "the interesting topic",
-            "the handsome man"
+            "the nice girl"
           ],
           "answer": "the beautiful woman",
           "explanation": "\"la mujer hermosa\" = the beautiful woman"
@@ -2537,10 +2537,10 @@
           "topic": "general",
           "question": "What does \"el libro excelente\" mean?",
           "options": [
-            "the white house",
             "The Excellent Book",
-            "the gray train",
-            "the red car"
+            "the interesting topic",
+            "the nice boy",
+            "the strongman"
           ],
           "answer": "The Excellent Book",
           "explanation": "\"el libro excelente\" = The Excellent Book"
@@ -2553,10 +2553,10 @@
           "topic": "general",
           "question": "What does \"el perro horrible\" mean?",
           "options": [
-            "the white book",
+            "the strongman",
             "the horrible dog",
-            "the blue boat",
-            "The Excellent Book"
+            "the beautiful woman",
+            "the white book"
           ],
           "answer": "the horrible dog",
           "explanation": "\"el perro horrible\" = the horrible dog"
@@ -2569,10 +2569,10 @@
           "topic": "general",
           "question": "What does \"el poema dificil\" mean?",
           "options": [
+            "the green bank",
+            "the black cat",
             "the difficult poem",
-            "the black jacket",
-            "the horrible dog",
-            "the beautiful woman"
+            "the interesting topic"
           ],
           "answer": "the difficult poem",
           "explanation": "\"el poema dificil\" = the difficult poem"
@@ -2585,10 +2585,10 @@
           "topic": "general",
           "question": "What does \"el barco azul\" mean?",
           "options": [
+            "the red lamp",
             "the blue boat",
-            "the black jacket",
-            "the handsome man",
-            "the black cat"
+            "the beautiful woman",
+            "the black jacket"
           ],
           "answer": "the blue boat",
           "explanation": "\"el barco azul\" = the blue boat"
@@ -2599,15 +2599,15 @@
           "type": "multiple_choice",
           "category": "phrases",
           "topic": "general",
-          "question": "What does \"el bano verde\" mean?",
+          "question": "What does \"el baño verde\" mean?",
           "options": [
-            "the white book",
-            "the green bank",
+            "the black cat",
             "the nice boy",
-            "the interesting topic"
+            "the green bank",
+            "the handsome man"
           ],
           "answer": "the green bank",
-          "explanation": "\"el bano verde\" = the green bank"
+          "explanation": "\"el baño verde\" = the green bank"
         },
         {
           "id": "ch1b_157",
@@ -2617,10 +2617,10 @@
           "topic": "general",
           "question": "What does \"el tren gris\" mean?",
           "options": [
-            "the beautiful woman",
-            "the white book",
             "the gray train",
-            "the nice girl"
+            "the green bank",
+            "the handsome man",
+            "the red car"
           ],
           "answer": "the gray train",
           "explanation": "\"el tren gris\" = the gray train"
@@ -2634,9 +2634,9 @@
           "question": "What does \"el tema interesante\" mean?",
           "options": [
             "the interesting topic",
-            "the green bank",
-            "the black cat",
-            "the nice boy"
+            "the white house",
+            "the red car",
+            "the black jacket"
           ],
           "answer": "the interesting topic",
           "explanation": "\"el tema interesante\" = the interesting topic"
@@ -2649,10 +2649,10 @@
           "topic": "general",
           "question": "What does \"el hombre fuerte\" mean?",
           "options": [
-            "the nice girl",
             "the strongman",
-            "the interesting topic",
-            "the black jacket"
+            "the nice girl",
+            "the white house",
+            "the green bank"
           ],
           "answer": "the strongman",
           "explanation": "\"el hombre fuerte\" = the strongman"
@@ -2723,9 +2723,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "places",
-          "question": "Translate to English: \"el bano\"",
+          "question": "Translate to English: \"el baño\"",
           "answer": "the bathroom",
-          "explanation": "\"el bano\" = the bathroom"
+          "explanation": "\"el baño\" = the bathroom"
         },
         {
           "id": "ch1b_167",
@@ -2883,9 +2883,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "people",
-          "question": "Translate to English: \"el nino\"",
+          "question": "Translate to English: \"el niño\"",
           "answer": "the little boy",
-          "explanation": "\"el nino\" = the little boy"
+          "explanation": "\"el niño\" = the little boy"
         },
         {
           "id": "ch1b_183",
@@ -2913,9 +2913,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "home",
-          "question": "Translate to English: \"la lampara\"",
+          "question": "Translate to English: \"la lámpara\"",
           "answer": "the lamp",
-          "explanation": "\"la lampara\" = the lamp"
+          "explanation": "\"la lámpara\" = the lamp"
         },
         {
           "id": "ch1b_186",
@@ -2933,9 +2933,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "home",
-          "question": "Translate to English: \"el telefono\"",
+          "question": "Translate to English: \"el teléfono\"",
           "answer": "the telephone",
-          "explanation": "\"el telefono\" = the telephone"
+          "explanation": "\"el teléfono\" = the telephone"
         },
         {
           "id": "ch1b_188",
@@ -2983,9 +2983,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "people",
-          "question": "Translate to English: \"la nina\"",
+          "question": "Translate to English: \"la niña\"",
           "answer": "the little girl",
-          "explanation": "\"la nina\" = the little girl"
+          "explanation": "\"la niña\" = the little girl"
         },
         {
           "id": "ch1b_193",
@@ -3053,9 +3053,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "food_drink",
-          "question": "Translate to English: \"el cafe\"",
+          "question": "Translate to English: \"el café\"",
           "answer": "the coffee",
-          "explanation": "\"el cafe\" = the coffee"
+          "explanation": "\"el café\" = the coffee"
         },
         {
           "id": "ch1b_200",
@@ -3163,9 +3163,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "Translate to English: \"la cancion\"",
+          "question": "Translate to English: \"la canción\"",
           "answer": "the song",
-          "explanation": "\"la cancion\" = the song"
+          "explanation": "\"la canción\" = the song"
         },
         {
           "id": "ch1b_211",
@@ -3193,9 +3193,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "Translate to English: \"la conversacion\"",
+          "question": "Translate to English: \"la conversación\"",
           "answer": "the conversation",
-          "explanation": "\"la conversacion\" = the conversation"
+          "explanation": "\"la conversación\" = the conversation"
         },
         {
           "id": "ch1b_214",
@@ -3203,9 +3203,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "Translate to English: \"la invitacion\"",
+          "question": "Translate to English: \"la invitación\"",
           "answer": "the invitation",
-          "explanation": "\"la invitacion\" = the invitation"
+          "explanation": "\"la invitación\" = the invitation"
         },
         {
           "id": "ch1b_215",
@@ -3223,9 +3223,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "Translate to English: \"la leccion\"",
+          "question": "Translate to English: \"la lección\"",
           "answer": "the lesson",
-          "explanation": "\"la leccion\" = the lesson"
+          "explanation": "\"la lección\" = the lesson"
         },
         {
           "id": "ch1b_217",
@@ -3243,9 +3243,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "general",
-          "question": "Translate to English: \"la ilusion\"",
+          "question": "Translate to English: \"la ilusión\"",
           "answer": "the illusion",
-          "explanation": "\"la ilusion\" = the illusion"
+          "explanation": "\"la ilusión\" = the illusion"
         },
         {
           "id": "ch1b_219",
@@ -3263,9 +3263,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "home",
-          "question": "Translate to English: \"la television\"",
-          "answer": "the television",
-          "explanation": "\"la television\" = the television"
+          "question": "Translate to English: \"la televisión\"",
+          "answer": "the televisión",
+          "explanation": "\"la televisión\" = the televisión"
         },
         {
           "id": "ch1b_221",
@@ -3273,9 +3273,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "nature",
-          "question": "Translate to English: \"el dia\"",
+          "question": "Translate to English: \"el día\"",
           "answer": "the day",
-          "explanation": "\"el dia\" = the day"
+          "explanation": "\"el día\" = the day"
         },
         {
           "id": "ch1b_222",
@@ -3544,8 +3544,8 @@
           "category": "noun_vocabulary",
           "topic": "places",
           "question": "Translate to Spanish: \"the bathroom\"",
-          "answer": "el bano",
-          "explanation": "\"the bathroom\" = el bano"
+          "answer": "el baño",
+          "explanation": "\"the bathroom\" = el baño"
         },
         {
           "id": "ch1b_250",
@@ -3704,8 +3704,8 @@
           "category": "noun_vocabulary",
           "topic": "people",
           "question": "Translate to Spanish: \"the little boy\"",
-          "answer": "el nino",
-          "explanation": "\"the little boy\" = el nino"
+          "answer": "el niño",
+          "explanation": "\"the little boy\" = el niño"
         },
         {
           "id": "ch1b_266",
@@ -3734,8 +3734,8 @@
           "category": "noun_vocabulary",
           "topic": "home",
           "question": "Translate to Spanish: \"the lamp\"",
-          "answer": "la lampara",
-          "explanation": "\"the lamp\" = la lampara"
+          "answer": "la lámpara",
+          "explanation": "\"the lamp\" = la lámpara"
         },
         {
           "id": "ch1b_269",
@@ -3754,8 +3754,8 @@
           "category": "noun_vocabulary",
           "topic": "home",
           "question": "Translate to Spanish: \"the telephone\"",
-          "answer": "el telefono",
-          "explanation": "\"the telephone\" = el telefono"
+          "answer": "el teléfono",
+          "explanation": "\"the telephone\" = el teléfono"
         },
         {
           "id": "ch1b_271",
@@ -3804,8 +3804,8 @@
           "category": "noun_vocabulary",
           "topic": "people",
           "question": "Translate to Spanish: \"the little girl\"",
-          "answer": "la nina",
-          "explanation": "\"the little girl\" = la nina"
+          "answer": "la niña",
+          "explanation": "\"the little girl\" = la niña"
         },
         {
           "id": "ch1b_276",
@@ -3874,8 +3874,8 @@
           "category": "noun_vocabulary",
           "topic": "food_drink",
           "question": "Translate to Spanish: \"the coffee\"",
-          "answer": "el cafe",
-          "explanation": "\"the coffee\" = el cafe"
+          "answer": "el café",
+          "explanation": "\"the coffee\" = el café"
         },
         {
           "id": "ch1b_283",
@@ -3984,8 +3984,8 @@
           "category": "noun_vocabulary",
           "topic": "general",
           "question": "Translate to Spanish: \"the song\"",
-          "answer": "la cancion",
-          "explanation": "\"the song\" = la cancion"
+          "answer": "la canción",
+          "explanation": "\"the song\" = la canción"
         },
         {
           "id": "ch1b_294",
@@ -4014,8 +4014,8 @@
           "category": "noun_vocabulary",
           "topic": "general",
           "question": "Translate to Spanish: \"the conversation\"",
-          "answer": "la conversacion",
-          "explanation": "\"the conversation\" = la conversacion"
+          "answer": "la conversación",
+          "explanation": "\"the conversation\" = la conversación"
         },
         {
           "id": "ch1b_297",
@@ -4024,8 +4024,8 @@
           "category": "noun_vocabulary",
           "topic": "general",
           "question": "Translate to Spanish: \"the invitation\"",
-          "answer": "la invitacion",
-          "explanation": "\"the invitation\" = la invitacion"
+          "answer": "la invitación",
+          "explanation": "\"the invitation\" = la invitación"
         },
         {
           "id": "ch1b_298",
@@ -4044,8 +4044,8 @@
           "category": "noun_vocabulary",
           "topic": "general",
           "question": "Translate to Spanish: \"the lesson\"",
-          "answer": "la leccion",
-          "explanation": "\"the lesson\" = la leccion"
+          "answer": "la lección",
+          "explanation": "\"the lesson\" = la lección"
         },
         {
           "id": "ch1b_300",
@@ -4064,8 +4064,8 @@
           "category": "noun_vocabulary",
           "topic": "general",
           "question": "Translate to Spanish: \"the illusion\"",
-          "answer": "la ilusion",
-          "explanation": "\"the illusion\" = la ilusion"
+          "answer": "la ilusión",
+          "explanation": "\"the illusion\" = la ilusión"
         },
         {
           "id": "ch1b_302",
@@ -4083,9 +4083,9 @@
           "type": "fill_blank",
           "category": "noun_vocabulary",
           "topic": "home",
-          "question": "Translate to Spanish: \"the television\"",
-          "answer": "la television",
-          "explanation": "\"the television\" = la television"
+          "question": "Translate to Spanish: \"the televisión\"",
+          "answer": "la televisión",
+          "explanation": "\"the televisión\" = la televisión"
         },
         {
           "id": "ch1b_304",
@@ -4094,8 +4094,8 @@
           "category": "noun_vocabulary",
           "topic": "nature",
           "question": "Translate to Spanish: \"the day\"",
-          "answer": "el dia",
-          "explanation": "\"the day\" = el dia"
+          "answer": "el día",
+          "explanation": "\"the day\" = el día"
         },
         {
           "id": "ch1b_305",
@@ -4313,9 +4313,9 @@
           "type": "fill_blank",
           "category": "plurals",
           "topic": "nature",
-          "question": "Write the plural form of: \"el dia\"",
-          "answer": "los dias",
-          "explanation": "\"el dia\" → \"los dias\". Vowel endings add -s, consonant endings add -es."
+          "question": "Write the plural form of: \"el día\"",
+          "answer": "los días",
+          "explanation": "\"el día\" → \"los días\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_327",
@@ -4353,9 +4353,9 @@
           "type": "fill_blank",
           "category": "plurals",
           "topic": "people",
-          "question": "Write the plural form of: \"la nina\"",
-          "answer": "las ninas",
-          "explanation": "\"la nina\" → \"las ninas\". Vowel endings add -s, consonant endings add -es."
+          "question": "Write the plural form of: \"la niña\"",
+          "answer": "las niñas",
+          "explanation": "\"la niña\" → \"las niñas\". Vowel endings add -s, consonant endings add -es."
         },
         {
           "id": "ch1b_331",
@@ -4524,8 +4524,8 @@
           "category": "adjective_vocabulary",
           "topic": "colors",
           "question": "What is the Spanish word for \"brown\"?",
-          "answer": "marron, pardo",
-          "explanation": "\"brown\" = \"marron, pardo\""
+          "answer": "marrón, pardo",
+          "explanation": "\"brown\" = \"marrón, pardo\""
         },
         {
           "id": "ch1b_348",
@@ -4604,8 +4604,8 @@
           "category": "adjective_vocabulary",
           "topic": "general",
           "question": "What is the Spanish word for \"fantastic\"?",
-          "answer": "fantastico",
-          "explanation": "\"fantastic\" = \"fantastico\""
+          "answer": "fantástico",
+          "explanation": "\"fantastic\" = \"fantástico\""
         },
         {
           "id": "ch1b_356",
@@ -4624,8 +4624,8 @@
           "category": "adjective_vocabulary",
           "topic": "general",
           "question": "What is the Spanish word for \"stingy\"?",
-          "answer": "tacano",
-          "explanation": "\"stingy\" = \"tacano\""
+          "answer": "tacaño",
+          "explanation": "\"stingy\" = \"tacaño\""
         },
         {
           "id": "ch1b_358",
@@ -4654,8 +4654,8 @@
           "category": "adjective_vocabulary",
           "topic": "general",
           "question": "What is the Spanish word for \"typical\"?",
-          "answer": "tipico",
-          "explanation": "\"typical\" = \"tipico\""
+          "answer": "típico",
+          "explanation": "\"typical\" = \"típico\""
         },
         {
           "id": "ch1b_362",
@@ -4744,8 +4744,8 @@
           "category": "adjective_agreement",
           "topic": "general",
           "question": "Complete the phrase with the correct form of \"nice\": \"la persona ___\"",
-          "answer": "la persona simpatica",
-          "explanation": "The adjective must agree with the gender of \"la persona\". Answer: \"la persona simpatica\""
+          "answer": "la persona simpática",
+          "explanation": "The adjective must agree with the gender of \"la persona\". Answer: \"la persona simpática\""
         },
         {
           "id": "ch1b_371",
@@ -4763,9 +4763,9 @@
           "type": "fill_blank",
           "category": "adjective_agreement",
           "topic": "general",
-          "question": "Complete the phrase with the correct form of \"beautiful\": \"el jardin ___\"",
-          "answer": "el jardin hermoso",
-          "explanation": "The adjective must agree with the gender of \"el jardin\". Answer: \"el jardin hermoso\""
+          "question": "Complete the phrase with the correct form of \"beautiful\": \"el jardín ___\"",
+          "answer": "el jardín hermoso",
+          "explanation": "The adjective must agree with the gender of \"el jardín\". Answer: \"el jardín hermoso\""
         },
         {
           "id": "ch1b_373",
@@ -4824,8 +4824,8 @@
           "category": "adjective_agreement",
           "topic": "general",
           "question": "Complete the phrase with the correct form of \"fantastic\": \"el clima ___\"",
-          "answer": "el clima fantastico",
-          "explanation": "The adjective must agree with the gender of \"el clima\". Answer: \"el clima fantastico\""
+          "answer": "el clima fantástico",
+          "explanation": "The adjective must agree with the gender of \"el clima\". Answer: \"el clima fantástico\""
         },
         {
           "id": "ch1b_379",
@@ -4943,9 +4943,9 @@
           "type": "fill_blank",
           "category": "phrases",
           "topic": "general",
-          "question": "Translate to English: \"el muchacho simpatico\"",
+          "question": "Translate to English: \"el muchacho simpático\"",
           "answer": "the nice boy",
-          "explanation": "\"el muchacho simpatico\" = \"the nice boy\""
+          "explanation": "\"el muchacho simpático\" = \"the nice boy\""
         },
         {
           "id": "ch1b_391",
@@ -4983,9 +4983,9 @@
           "type": "fill_blank",
           "category": "phrases",
           "topic": "general",
-          "question": "Translate to English: \"la lampara roja\"",
+          "question": "Translate to English: \"la lámpara roja\"",
           "answer": "the red lamp",
-          "explanation": "\"la lampara roja\" = \"the red lamp\""
+          "explanation": "\"la lámpara roja\" = \"the red lamp\""
         },
         {
           "id": "ch1b_395",
@@ -4993,9 +4993,9 @@
           "type": "fill_blank",
           "category": "phrases",
           "topic": "general",
-          "question": "Translate to English: \"la muchacha simpatica\"",
+          "question": "Translate to English: \"la muchacha simpática\"",
           "answer": "the nice girl",
-          "explanation": "\"la muchacha simpatica\" = \"the nice girl\""
+          "explanation": "\"la muchacha simpática\" = \"the nice girl\""
         },
         {
           "id": "ch1b_396",
@@ -5053,9 +5053,9 @@
           "type": "fill_blank",
           "category": "phrases",
           "topic": "general",
-          "question": "Translate to English: \"el bano verde\"",
+          "question": "Translate to English: \"el baño verde\"",
           "answer": "the green bank",
-          "explanation": "\"el bano verde\" = \"the green bank\""
+          "explanation": "\"el baño verde\" = \"the green bank\""
         },
         {
           "id": "ch1b_402",
@@ -5093,10 +5093,10 @@
           "type": "sentence",
           "category": "plurals",
           "topic": "home",
-          "question": "Write the plural form of the phrase: \"la lampara azul\"",
-          "answer": "las lamparas azules",
+          "question": "Write the plural form of the phrase: \"la lámpara azul\"",
+          "answer": "las lámparas azules",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la lampara azul\" → \"las lamparas azules\" (plural with matching article and adjective)"
+          "explanation": "\"la lámpara azul\" → \"las lámparas azules\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_406",
@@ -5104,10 +5104,10 @@
           "type": "sentence",
           "category": "plurals",
           "topic": "people",
-          "question": "Write the plural form of the phrase: \"el amigo fantastico\"",
-          "answer": "los amigos fantasticos",
+          "question": "Write the plural form of the phrase: \"el amigo fantástico\"",
+          "answer": "los amigos fantásticos",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el amigo fantastico\" → \"los amigos fantasticos\" (plural with matching article and adjective)"
+          "explanation": "\"el amigo fantástico\" → \"los amigos fantásticos\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_407",
@@ -5159,10 +5159,10 @@
           "type": "sentence",
           "category": "plurals",
           "topic": "nature",
-          "question": "Write the plural form of the phrase: \"el dia maravilloso\"",
-          "answer": "los dias maravillosos",
+          "question": "Write the plural form of the phrase: \"el día maravilloso\"",
+          "answer": "los días maravillosos",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el dia maravilloso\" → \"los dias maravillosos\" (plural with matching article and adjective)"
+          "explanation": "\"el día maravilloso\" → \"los días maravillosos\" (plural with matching article and adjective)"
         },
         {
           "id": "ch1b_412",
@@ -5336,9 +5336,9 @@
           "category": "translation",
           "topic": "general",
           "question": "Translate to Spanish: \"the nice boy\"",
-          "answer": "el muchacho simpatico",
+          "answer": "el muchacho simpático",
           "hint": "In Spanish, the adjective usually follows the noun.",
-          "explanation": "\"the nice boy\" = \"el muchacho simpatico\""
+          "explanation": "\"the nice boy\" = \"el muchacho simpático\""
         },
         {
           "id": "ch1b_428",
@@ -5380,9 +5380,9 @@
           "category": "translation",
           "topic": "general",
           "question": "Translate to Spanish: \"the red lamp\"",
-          "answer": "la lampara roja",
+          "answer": "la lámpara roja",
           "hint": "In Spanish, the adjective usually follows the noun.",
-          "explanation": "\"the red lamp\" = \"la lampara roja\""
+          "explanation": "\"the red lamp\" = \"la lámpara roja\""
         },
         {
           "id": "ch1b_432",
@@ -5391,9 +5391,9 @@
           "category": "translation",
           "topic": "general",
           "question": "Translate to Spanish: \"the nice girl\"",
-          "answer": "la muchacha simpatica",
+          "answer": "la muchacha simpática",
           "hint": "In Spanish, the adjective usually follows the noun.",
-          "explanation": "\"the nice girl\" = \"la muchacha simpatica\""
+          "explanation": "\"the nice girl\" = \"la muchacha simpática\""
         },
         {
           "id": "ch1b_433",
@@ -5457,9 +5457,9 @@
           "category": "translation",
           "topic": "general",
           "question": "Translate to Spanish: \"the green bank\"",
-          "answer": "el bano verde",
+          "answer": "el baño verde",
           "hint": "In Spanish, the adjective usually follows the noun.",
-          "explanation": "\"the green bank\" = \"el bano verde\""
+          "explanation": "\"the green bank\" = \"el baño verde\""
         }
       ]
     }
