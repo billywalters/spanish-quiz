@@ -314,8 +314,31 @@ input[type=radio]{width:18px;height:18px;cursor:pointer;accent-color:var(--brand
 </head>
 <body>
 
+<!-- ══════════ LANGUAGE PICKER ══════════ -->
+<div class="mode-screen" id="lang-screen">
+  <div class="mode-box">
+    <span class="mode-flag">🌍</span>
+    <h1 class="mode-title">Language <em>Quiz</em></h1>
+    <p class="mode-sub">Which language would you like to study?</p>
+    <div class="mode-cards" style="grid-template-columns:1fr 1fr;max-width:480px;margin:0 auto 2rem">
+      <div class="mode-card" onclick="selectLanguage('spanish')">
+        <span class="mode-card-icon">🇪🇸</span>
+        <div class="mode-card-title">Spanish</div>
+        <div class="mode-card-sub">Vocabulary, grammar, and exam prep from beginner to intermediate.</div>
+        <span class="mode-card-tag tag-a1">AVAILABLE</span>
+      </div>
+      <div class="mode-card" style="opacity:0.45;cursor:not-allowed;pointer-events:none">
+        <span class="mode-card-icon">🇩🇪</span>
+        <div class="mode-card-title">German</div>
+        <div class="mode-card-sub">Nouns, cases, verb conjugation, and core vocabulary.</div>
+        <span class="mode-card-tag tag-book" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.4)">COMING SOON</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ══════════ MODE PICKER ══════════ -->
-<div class="mode-screen" id="mode-screen">
+<div class="mode-screen" id="mode-screen" style="display:none">
   <div class="mode-box">
     <span class="mode-flag">🇪🇸</span>
     <h1 class="mode-title">Spanish <em>Quiz</em></h1>
@@ -785,6 +808,11 @@ function answersMatch(a,b){return normalize(a)===normalize(b)}
 // ══════════════════════════════════════════════════════════
 //  MODE SELECTION
 // ══════════════════════════════════════════════════════════
+function selectLanguage(lang){
+  document.getElementById('lang-screen').style.display = 'none';
+  document.getElementById('mode-screen').style.display = 'flex';
+}
+
 function selectMode(mode){
   currentMode = mode;
   localStorage.setItem('lastMode', mode);
@@ -796,9 +824,8 @@ function selectMode(mode){
 }
 
 function switchMode(){
-  // Save current state, go back to picker
   document.getElementById('app-root').style.display = 'none';
-  document.getElementById('mode-screen').style.display = 'flex';
+  document.getElementById('lang-screen').style.display = 'flex';
   currentMode = null; DB = null;
 }
 
