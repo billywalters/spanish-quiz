@@ -6,9 +6,112 @@
   "chapters": [
     {
       "id": "ch1",
-      "title": "Chapter 1 \u2014 Nouns, Articles, and Adjectives",
+      "title": "Chapter 1 — Nouns, Articles, and Adjectives",
       "description": "Singular/plural nouns, definite and indefinite articles, adjective agreement",
       "source": "Chapter 1 - Nouns, Articles, and Adjectives.xlsx",
+      "study": {
+        "overview": "Chapter 1 introduces the two foundational concepts that govern nearly all of Spanish grammar: noun gender and number. Every Spanish noun is either masculine or feminine, and this gender determines which article (el, la, un, una) you use. You'll also learn how nouns become plural and how adjectives must change form to match the noun they describe.",
+        "keyTopics": [
+          {
+            "title": "Noun Gender",
+            "icon": "🔵🔴",
+            "summary": "Every Spanish noun is either masculine (el) or feminine (la). Gender is a grammatical property — not based on biology.",
+            "points": [
+              "Nouns ending in -o are usually masculine: el libro, el amigo",
+              "Nouns ending in -a are usually feminine: la casa, la amiga",
+              "Many exceptions exist and must be memorized: el día, la mano",
+              "Gender affects the article and any adjective used with the noun"
+            ]
+          },
+          {
+            "title": "Definite Articles (The)",
+            "icon": "📌",
+            "summary": "Spanish has four forms of 'the' depending on gender and number.",
+            "points": [
+              "el — masculine singular: el amigo (the friend)",
+              "la — feminine singular: la amiga (the friend, female)",
+              "los — masculine plural: los amigos (the friends)",
+              "las — feminine plural: las amigas (the friends, female)"
+            ]
+          },
+          {
+            "title": "Indefinite Articles (A / Some)",
+            "icon": "🔖",
+            "summary": "Spanish has four forms of 'a/an' and 'some' depending on gender and number.",
+            "points": [
+              "un — masculine singular: un amigo (a friend)",
+              "una — feminine singular: una amiga (a friend, female)",
+              "unos — masculine plural: unos amigos (some friends)",
+              "unas — feminine plural: unas amigas (some friends, female)"
+            ]
+          },
+          {
+            "title": "Plural Nouns",
+            "icon": "📚",
+            "summary": "Making a noun plural follows simple rules based on the word's ending.",
+            "points": [
+              "Add -s after a vowel: el libro → los libros",
+              "Add -es after a consonant: el profesor → los profesores",
+              "Words ending in -z change to -ces: el lápiz → los lápices",
+              "The article also changes to match: el/la → los/las"
+            ]
+          },
+          {
+            "title": "Adjective Placement & Agreement",
+            "icon": "✏️",
+            "summary": "Adjectives in Spanish usually follow the noun and must match its gender and number.",
+            "points": [
+              "Adjectives ending in -o change to -a for feminine: rojo → roja",
+              "Adjectives not ending in -o stay the same for both genders: inteligente",
+              "All adjectives add -s (or -es) for plural: rojos, rojas, inteligentes",
+              "Most adjectives follow the noun: el libro rojo (the red book)"
+            ]
+          }
+        ],
+        "quickReview": [
+          {
+            "rule": "Masculine nouns use el / un",
+            "examples": [
+              "el amigo — the (male) friend",
+              "el libro — the book",
+              "un banco — a bank"
+            ]
+          },
+          {
+            "rule": "Feminine nouns use la / una",
+            "examples": [
+              "la amiga — the (female) friend",
+              "la casa — the house",
+              "una bolsa — a bag"
+            ]
+          },
+          {
+            "rule": "Plural: add -s after vowels, -es after consonants",
+            "examples": [
+              "libro → libros",
+              "profesor → profesores",
+              "lápiz → lápices"
+            ]
+          },
+          {
+            "rule": "Adjective agreement: match the noun's gender and number",
+            "examples": [
+              "el libro rojo",
+              "la casa roja",
+              "los libros rojos",
+              "las casas rojas"
+            ]
+          },
+          {
+            "rule": "Adjectives not ending in -o stay the same for both genders",
+            "examples": [
+              "el estudiante inteligente",
+              "la estudiante inteligente",
+              "los estudiantes inteligentes"
+            ]
+          }
+        ]
+      },
       "questions": [
         {
           "id": "ch1b_001",
@@ -1259,2209 +1362,979 @@
           "id": "ch1b_084",
           "tier": "beginner",
           "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the friend\" in Spanish?",
-          "options": [
-            "el muchaco",
-            "la amiga",
-            "la nina",
-            "el amigo"
-          ],
-          "answer": "el amigo",
-          "explanation": "\"the friend\" = el amigo"
-        },
-        {
-          "id": "ch1b_086",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the (male) artist\" in Spanish?",
-          "options": [
-            "el artista",
-            "el libro",
-            "el clima",
-            "el pianista"
-          ],
-          "answer": "el artista",
-          "explanation": "\"the (male) artist\" = el artista"
-        },
-        {
-          "id": "ch1b_087",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the bank\" in Spanish?",
-          "options": [
-            "el banco",
-            "la presidente",
-            "la luz",
-            "el idioma"
-          ],
-          "answer": "el banco",
-          "explanation": "\"the bank\" = el banco"
-        },
-        {
-          "id": "ch1b_088",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the blouse\" in Spanish?",
-          "options": [
-            "la ilusion",
-            "la pianista",
-            "la blusa",
-            "el dia"
-          ],
-          "answer": "la blusa",
-          "explanation": "\"the blouse\" = la blusa"
-        },
-        {
-          "id": "ch1b_089",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the (female) artist\" in Spanish?",
-          "options": [
-            "la artista",
-            "el drama",
-            "la piel",
-            "el mapa"
-          ],
-          "answer": "la artista",
-          "explanation": "\"the (female) artist\" = la artista"
-        },
-        {
-          "id": "ch1b_090",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the bathroom\" in Spanish?",
-          "options": [
-            "el bano",
-            "la muchacha",
-            "el dentista",
-            "la silla"
-          ],
-          "answer": "el bano",
-          "explanation": "\"the bathroom\" = el bano"
-        },
-        {
-          "id": "ch1b_091",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the bag\" in Spanish?",
-          "options": [
-            "el gato",
-            "el pianista",
-            "la bolsa",
-            "el poema"
-          ],
-          "answer": "la bolsa",
-          "explanation": "\"the bag\" = la bolsa"
-        },
-        {
-          "id": "ch1b_092",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the car\" in Spanish?",
-          "options": [
-            "el carro",
-            "la mesa",
-            "la hermana",
-            "la cama"
-          ],
-          "answer": "el carro",
-          "explanation": "\"the car\" = el carro"
-        },
-        {
-          "id": "ch1b_093",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the bed\" in Spanish?",
-          "options": [
-            "la television",
-            "el poema",
-            "la invitacion",
-            "la cama"
-          ],
-          "answer": "la cama",
-          "explanation": "\"the bed\" = la cama"
-        },
-        {
-          "id": "ch1b_094",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the (male) dentist\" in Spanish?",
-          "options": [
-            "la mano",
-            "el dentista",
-            "la cancion",
-            "el artista"
-          ],
-          "answer": "el dentista",
-          "explanation": "\"the (male) dentist\" = el dentista"
-        },
-        {
-          "id": "ch1b_095",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the cat\" in Spanish?",
-          "options": [
-            "el hospital",
-            "el gato",
-            "el cafe",
-            "la cancion"
-          ],
-          "answer": "el gato",
-          "explanation": "\"the cat\" = el gato"
-        },
-        {
-          "id": "ch1b_096",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the house\" in Spanish?",
-          "options": [
-            "la taxista",
-            "la casa",
-            "el drama",
-            "el cantante"
-          ],
-          "answer": "la casa",
-          "explanation": "\"the house\" = la casa"
-        },
-        {
-          "id": "ch1b_097",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the (female) dentist\" in Spanish?",
-          "options": [
-            "el hombre",
-            "la dentista",
-            "el tren",
-            "la cancion"
-          ],
-          "answer": "la dentista",
-          "explanation": "\"the (female) dentist\" = la dentista"
-        },
-        {
-          "id": "ch1b_098",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the brother\" in Spanish?",
-          "options": [
-            "la mujer",
-            "el hermano",
-            "el planeta",
-            "el banco"
-          ],
-          "answer": "el hermano",
-          "explanation": "\"the brother\" = el hermano"
-        },
-        {
-          "id": "ch1b_099",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the beer\" in Spanish?",
-          "options": [
-            "el dentista",
-            "el presidente",
-            "la cerveza",
-            "el pianista"
-          ],
-          "answer": "la cerveza",
-          "explanation": "\"the beer\" = la cerveza"
-        },
-        {
-          "id": "ch1b_100",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the book\" in Spanish?",
-          "options": [
-            "el libro",
-            "el tomate",
-            "la ventana",
-            "la planta"
-          ],
-          "answer": "el libro",
-          "explanation": "\"the book\" = el libro"
-        },
-        {
-          "id": "ch1b_101",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the meal\" in Spanish?",
-          "options": [
-            "el tomate",
-            "la comida",
-            "el hombre",
-            "el animal"
-          ],
-          "answer": "la comida",
-          "explanation": "\"the meal\" = la comida"
-        },
-        {
-          "id": "ch1b_102",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the (male) pianist\" in Spanish?",
-          "options": [
-            "el artista",
-            "el poema",
-            "el dia",
-            "el pianista"
-          ],
-          "answer": "el pianista",
-          "explanation": "\"the (male) pianist\" = el pianista"
-        },
-        {
-          "id": "ch1b_103",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the boy\" in Spanish?",
-          "options": [
-            "el banco",
-            "la artista",
-            "el muchaco",
-            "el carro"
-          ],
-          "answer": "el muchaco",
-          "explanation": "\"the boy\" = el muchaco"
-        },
-        {
-          "id": "ch1b_104",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the sister\" in Spanish?",
-          "options": [
-            "el muchaco",
-            "la hermana",
-            "la muchacha",
-            "la mujer"
-          ],
-          "answer": "la hermana",
-          "explanation": "\"the sister\" = la hermana"
-        },
-        {
-          "id": "ch1b_105",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the (female) pianist\" in Spanish?",
-          "options": [
-            "la television",
-            "la pianista",
-            "la foto",
-            "la mesa"
-          ],
-          "answer": "la pianista",
-          "explanation": "\"the (female) pianist\" = la pianista"
-        },
-        {
-          "id": "ch1b_106",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the little boy\" in Spanish?",
-          "options": [
-            "la flor",
-            "la hermana",
-            "el nino",
-            "el hermano"
-          ],
-          "answer": "el nino",
-          "explanation": "\"the little boy\" = el nino"
-        },
-        {
-          "id": "ch1b_107",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the church\" in Spanish?",
-          "options": [
-            "la tienda",
-            "la iglesia",
-            "el sistema",
-            "el tomate"
-          ],
-          "answer": "la iglesia",
-          "explanation": "\"the church\" = la iglesia"
-        },
-        {
-          "id": "ch1b_108",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the dog\" in Spanish?",
-          "options": [
-            "la radio",
-            "la piel",
-            "el perro",
-            "la cama"
-          ],
-          "answer": "el perro",
-          "explanation": "\"the dog\" = el perro"
-        },
-        {
-          "id": "ch1b_109",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the lamp\" in Spanish?",
-          "options": [
-            "la foto",
-            "la cerveza",
-            "la clase",
-            "la lampara"
-          ],
-          "answer": "la lampara",
-          "explanation": "\"the lamp\" = la lampara"
-        },
-        {
-          "id": "ch1b_110",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the (male) cabdriver\" in Spanish?",
-          "options": [
-            "el idioma",
-            "el gerente",
-            "el taxista",
-            "el carro"
-          ],
-          "answer": "el taxista",
-          "explanation": "\"the (male) cabdriver\" = el taxista"
-        },
-        {
-          "id": "ch1b_111",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the telephone\" in Spanish?",
-          "options": [
-            "el telefono",
-            "el drama",
-            "la leccion",
-            "la dentista"
-          ],
-          "answer": "el telefono",
-          "explanation": "\"the telephone\" = el telefono"
-        },
-        {
-          "id": "ch1b_112",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the table\" in Spanish?",
-          "options": [
-            "la mesa",
-            "el muchaco",
-            "el nino",
-            "la leccion"
-          ],
-          "answer": "la mesa",
-          "explanation": "\"the table\" = la mesa"
-        },
-        {
-          "id": "ch1b_113",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the (female) cabdriver\" in Spanish?",
-          "options": [
-            "la radio",
-            "la taxista",
-            "la television",
-            "la leccion"
-          ],
-          "answer": "la taxista",
-          "explanation": "\"the (female) cabdriver\" = la taxista"
-        },
-        {
-          "id": "ch1b_114",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the wine\" in Spanish?",
-          "options": [
-            "el vino",
-            "el animal",
-            "la ilusion",
-            "el gato"
-          ],
-          "answer": "el vino",
-          "explanation": "\"the wine\" = el vino"
-        },
-        {
-          "id": "ch1b_115",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the girl\" in Spanish?",
-          "options": [
-            "la verdad",
-            "el hombre",
-            "la muchacha",
-            "el banco"
-          ],
-          "answer": "la muchacha",
-          "explanation": "\"the girl\" = la muchacha"
-        },
-        {
-          "id": "ch1b_116",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the little girl\" in Spanish?",
-          "options": [
-            "la nina",
-            "la planta",
-            "el telefono",
-            "el hospital"
-          ],
-          "answer": "la nina",
-          "explanation": "\"the little girl\" = la nina"
-        },
-        {
-          "id": "ch1b_117",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the person\" in Spanish?",
-          "options": [
-            "el mapa",
-            "la amiga",
-            "la persona",
-            "el programa"
-          ],
-          "answer": "la persona",
-          "explanation": "\"the person\" = la persona"
-        },
-        {
-          "id": "ch1b_118",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the plant\" in Spanish?",
-          "options": [
-            "la planta",
-            "el programa",
-            "el drama",
-            "la conversacion"
-          ],
-          "answer": "la planta",
-          "explanation": "\"the plant\" = la planta"
-        },
-        {
-          "id": "ch1b_119",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the male singer\" in Spanish?",
-          "options": [
-            "la ilusion",
-            "el artista",
-            "el drama",
-            "el cantante"
-          ],
-          "answer": "el cantante",
-          "explanation": "\"the male singer\" = el cantante"
-        },
-        {
-          "id": "ch1b_120",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the animal\" in Spanish?",
-          "options": [
-            "el animal",
-            "la tienda",
-            "el tren",
-            "la muchacha"
-          ],
-          "answer": "el animal",
-          "explanation": "\"the animal\" = el animal"
-        },
-        {
-          "id": "ch1b_121",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the chair\" in Spanish?",
-          "options": [
-            "la silla",
-            "el presidente",
-            "el estudiante",
-            "el problema"
-          ],
-          "answer": "la silla",
-          "explanation": "\"the chair\" = la silla"
-        },
-        {
-          "id": "ch1b_122",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the female singer\" in Spanish?",
-          "options": [
-            "la nina",
-            "la tienda",
-            "la cantante",
-            "la planta"
-          ],
-          "answer": "la cantante",
-          "explanation": "\"the female singer\" = la cantante"
-        },
-        {
-          "id": "ch1b_123",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the coffee\" in Spanish?",
-          "options": [
-            "el planeta",
-            "la cerveza",
-            "el cafe",
-            "el doctor"
-          ],
-          "answer": "el cafe",
-          "explanation": "\"the coffee\" = el cafe"
-        },
-        {
-          "id": "ch1b_124",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the store\" in Spanish?",
-          "options": [
-            "la ciudad",
-            "la radio",
-            "la tienda",
-            "el cantante"
-          ],
-          "answer": "la tienda",
-          "explanation": "\"the store\" = la tienda"
-        },
-        {
-          "id": "ch1b_125",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the doctor\" in Spanish?",
-          "options": [
-            "la taxista",
-            "el doctor",
-            "el hotel",
-            "la silla"
-          ],
-          "answer": "el doctor",
-          "explanation": "\"the doctor\" = el doctor"
-        },
-        {
-          "id": "ch1b_126",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the window\" in Spanish?",
-          "options": [
-            "el libro",
-            "el planeta",
-            "el cantante",
-            "la ventana"
-          ],
-          "answer": "la ventana",
-          "explanation": "\"the window\" = la ventana"
-        },
-        {
-          "id": "ch1b_127",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the male student\" in Spanish?",
-          "options": [
-            "la suerte",
-            "el libro",
-            "el drama",
-            "el estudiante"
-          ],
-          "answer": "el estudiante",
-          "explanation": "\"the male student\" = el estudiante"
-        },
-        {
-          "id": "ch1b_128",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the man\" in Spanish?",
-          "options": [
-            "el dia",
-            "la presidente",
-            "el hombre",
-            "la ciudad"
-          ],
-          "answer": "el hombre",
-          "explanation": "\"the man\" = el hombre"
-        },
-        {
-          "id": "ch1b_129",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the female student\" in Spanish?",
-          "options": [
-            "el hermano",
-            "la ciudad",
-            "la nina",
-            "la estudiante"
-          ],
-          "answer": "la estudiante",
-          "explanation": "\"the female student\" = la estudiante"
-        },
-        {
-          "id": "ch1b_130",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the hospital\" in Spanish?",
-          "options": [
-            "la cama",
-            "el sistema",
-            "la piel",
-            "el hospital"
-          ],
-          "answer": "el hospital",
-          "explanation": "\"the hospital\" = el hospital"
-        },
-        {
-          "id": "ch1b_131",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the hotel\" in Spanish?",
-          "options": [
-            "la cantante",
-            "el dentista",
-            "el hotel",
-            "la foto"
-          ],
-          "answer": "el hotel",
-          "explanation": "\"the hotel\" = el hotel"
-        },
-        {
-          "id": "ch1b_132",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the male manager\" in Spanish?",
-          "options": [
-            "el gerente",
-            "la mujer",
-            "la clase",
-            "la flor"
-          ],
-          "answer": "el gerente",
-          "explanation": "\"the male manager\" = el gerente"
-        },
-        {
-          "id": "ch1b_133",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the tomoto\" in Spanish?",
-          "options": [
-            "la presidente",
-            "el tomate",
-            "la ilusion",
-            "la cantante"
-          ],
-          "answer": "el tomate",
-          "explanation": "\"the tomoto\" = el tomate"
-        },
-        {
-          "id": "ch1b_134",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the song\" in Spanish?",
-          "options": [
-            "la casa",
-            "la cancion",
-            "el taxista",
-            "la luz"
-          ],
-          "answer": "la cancion",
-          "explanation": "\"the song\" = la cancion"
-        },
-        {
-          "id": "ch1b_135",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the female manager\" in Spanish?",
-          "options": [
-            "la hermana",
-            "el vino",
-            "el nino",
-            "la gerente"
-          ],
-          "answer": "la gerente",
-          "explanation": "\"the female manager\" = la gerente"
-        },
-        {
-          "id": "ch1b_136",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the train\" in Spanish?",
-          "options": [
-            "la ilusion",
-            "el tren",
-            "la conversacion",
-            "la clase"
-          ],
-          "answer": "el tren",
-          "explanation": "\"the train\" = el tren"
-        },
-        {
-          "id": "ch1b_137",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the conversation\" in Spanish?",
-          "options": [
-            "la taxista",
-            "el clima",
-            "el animal",
-            "la conversacion"
-          ],
-          "answer": "la conversacion",
-          "explanation": "\"the conversation\" = la conversacion"
-        },
-        {
-          "id": "ch1b_138",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the invitation\" in Spanish?",
-          "options": [
-            "la piel",
-            "la invitacion",
-            "la radio",
-            "la persona"
-          ],
-          "answer": "la invitacion",
-          "explanation": "\"the invitation\" = la invitacion"
-        },
-        {
-          "id": "ch1b_139",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the male president\" in Spanish?",
-          "options": [
-            "el poema",
-            "el muchaco",
-            "el presidente",
-            "la mesa"
-          ],
-          "answer": "el presidente",
-          "explanation": "\"the male president\" = el presidente"
-        },
-        {
-          "id": "ch1b_140",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the lesson\" in Spanish?",
-          "options": [
-            "el cafe",
-            "la leccion",
-            "la bolsa",
-            "la pianista"
-          ],
-          "answer": "la leccion",
-          "explanation": "\"the lesson\" = la leccion"
-        },
-        {
-          "id": "ch1b_141",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the female president\" in Spanish?",
-          "options": [
-            "la presidente",
-            "la television",
-            "la gerente",
-            "la cantante"
-          ],
-          "answer": "la presidente",
-          "explanation": "\"the female president\" = la presidente"
-        },
-        {
-          "id": "ch1b_142",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the illusion\" in Spanish?",
-          "options": [
-            "la clase",
-            "el dentista",
-            "la leccion",
-            "la ilusion"
-          ],
-          "answer": "la ilusion",
-          "explanation": "\"the illusion\" = la ilusion"
-        },
-        {
-          "id": "ch1b_143",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the climate\" in Spanish?",
-          "options": [
-            "la flor",
-            "la nina",
-            "el banco",
-            "el clima"
-          ],
-          "answer": "el clima",
-          "explanation": "\"the climate\" = el clima"
-        },
-        {
-          "id": "ch1b_144",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the television\" in Spanish?",
-          "options": [
-            "la television",
-            "el sistema",
-            "la artista",
-            "la planta"
-          ],
-          "answer": "la television",
-          "explanation": "\"the television\" = la television"
-        },
-        {
-          "id": "ch1b_145",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the day\" in Spanish?",
-          "options": [
-            "el dia",
-            "el cantante",
-            "la iglesia",
-            "la mano"
-          ],
-          "answer": "el dia",
-          "explanation": "\"the day\" = el dia"
-        },
-        {
-          "id": "ch1b_146",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the city\" in Spanish?",
-          "options": [
-            "la ciudad",
-            "la television",
-            "el gato",
-            "el hombre"
-          ],
-          "answer": "la ciudad",
-          "explanation": "\"the city\" = la ciudad"
-        },
-        {
-          "id": "ch1b_147",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the drama\" in Spanish?",
-          "options": [
-            "el drama",
-            "la dentista",
-            "la hermana",
-            "la ventana"
-          ],
-          "answer": "el drama",
-          "explanation": "\"the drama\" = el drama"
-        },
-        {
-          "id": "ch1b_148",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the truth\" in Spanish?",
-          "options": [
-            "la gerente",
-            "el problema",
-            "el animal",
-            "la verdad"
-          ],
-          "answer": "la verdad",
-          "explanation": "\"the truth\" = la verdad"
-        },
-        {
-          "id": "ch1b_149",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the language\" in Spanish?",
-          "options": [
-            "la nina",
-            "el doctor",
-            "la tienda",
-            "el idioma"
-          ],
-          "answer": "el idioma",
-          "explanation": "\"the language\" = el idioma"
-        },
-        {
-          "id": "ch1b_150",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the friendship\" in Spanish?",
-          "options": [
-            "el clima",
-            "el poema",
-            "el tren",
-            "la amistad"
-          ],
-          "answer": "la amistad",
-          "explanation": "\"the friendship\" = la amistad"
-        },
-        {
-          "id": "ch1b_151",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the map\" in Spanish?",
-          "options": [
-            "la mujer",
-            "el drama",
-            "el mapa",
-            "la piel"
-          ],
-          "answer": "el mapa",
-          "explanation": "\"the map\" = el mapa"
-        },
-        {
-          "id": "ch1b_152",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the attitude\" in Spanish?",
-          "options": [
-            "la actitud",
-            "el libro",
-            "la planta",
-            "el problema"
-          ],
-          "answer": "la actitud",
-          "explanation": "\"the attitude\" = la actitud"
-        },
-        {
-          "id": "ch1b_153",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the planet\" in Spanish?",
-          "options": [
-            "la piel",
-            "el planeta",
-            "el banco",
-            "la cerveza"
-          ],
-          "answer": "el planeta",
-          "explanation": "\"the planet\" = el planeta"
-        },
-        {
-          "id": "ch1b_154",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the poem\" in Spanish?",
-          "options": [
-            "el cafe",
-            "el problema",
-            "el poema",
-            "la amiga"
-          ],
-          "answer": "el poema",
-          "explanation": "\"the poem\" = el poema"
-        },
-        {
-          "id": "ch1b_155",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the problem\" in Spanish?",
-          "options": [
-            "el problema",
-            "el clima",
-            "la cerveza",
-            "el hermano"
-          ],
-          "answer": "el problema",
-          "explanation": "\"the problem\" = el problema"
-        },
-        {
-          "id": "ch1b_156",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the program\" in Spanish?",
-          "options": [
-            "la planta",
-            "el programa",
-            "el idioma",
-            "la conversacion"
-          ],
-          "answer": "el programa",
-          "explanation": "\"the program\" = el programa"
-        },
-        {
-          "id": "ch1b_157",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the photograph\" in Spanish?",
-          "options": [
-            "la ilusion",
-            "el poema",
-            "la foto",
-            "el pianista"
-          ],
-          "answer": "la foto",
-          "explanation": "\"the photograph\" = la foto"
-        },
-        {
-          "id": "ch1b_158",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the system\" in Spanish?",
-          "options": [
-            "el sistema",
-            "el carro",
-            "la conversacion",
-            "el cantante"
-          ],
-          "answer": "el sistema",
-          "explanation": "\"the system\" = el sistema"
-        },
-        {
-          "id": "ch1b_159",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the hand\" in Spanish?",
-          "options": [
-            "el animal",
-            "el amigo",
-            "la mano",
-            "la cantante"
-          ],
-          "answer": "la mano",
-          "explanation": "\"the hand\" = la mano"
-        },
-        {
-          "id": "ch1b_160",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the radio\" in Spanish?",
-          "options": [
-            "la radio",
-            "la actitud",
-            "el hombre",
-            "el dia"
-          ],
-          "answer": "la radio",
-          "explanation": "\"the radio\" = la radio"
-        },
-        {
-          "id": "ch1b_161",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the class\" in Spanish?",
-          "options": [
-            "la clase",
-            "el perro",
-            "el doctor",
-            "la ilusion"
-          ],
-          "answer": "la clase",
-          "explanation": "\"the class\" = la clase"
-        },
-        {
-          "id": "ch1b_162",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the flower\" in Spanish?",
-          "options": [
-            "la flor",
-            "la taxista",
-            "la artista",
-            "el tren"
-          ],
-          "answer": "la flor",
-          "explanation": "\"the flower\" = la flor"
-        },
-        {
-          "id": "ch1b_163",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the light\" in Spanish?",
-          "options": [
-            "el gerente",
-            "el tomate",
-            "la luz",
-            "el muchaco"
-          ],
-          "answer": "la luz",
-          "explanation": "\"the light\" = la luz"
-        },
-        {
-          "id": "ch1b_164",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the woman\" in Spanish?",
-          "options": [
-            "la mano",
-            "la ventana",
-            "la verdad",
-            "la mujer"
-          ],
-          "answer": "la mujer",
-          "explanation": "\"the woman\" = la mujer"
-        },
-        {
-          "id": "ch1b_165",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the skin\" in Spanish?",
-          "options": [
-            "la ilusion",
-            "la piel",
-            "la amiga",
-            "el mapa"
-          ],
-          "answer": "la piel",
-          "explanation": "\"the skin\" = la piel"
-        },
-        {
-          "id": "ch1b_166",
-          "tier": "beginner",
-          "type": "multiple_choice",
-          "category": "noun_vocabulary",
-          "question": "How do you say \"the luck\" in Spanish?",
-          "options": [
-            "la suerte",
-            "la cama",
-            "la persona",
-            "la television"
-          ],
-          "answer": "la suerte",
-          "explanation": "\"the luck\" = la suerte"
-        },
-        {
-          "id": "ch1b_167",
-          "tier": "beginner",
-          "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un amigo\" mean in English?",
           "options": [
-            "a male friend",
-            "a library",
+            "a city",
+            "a cat",
             "some female artists",
-            "a suitcase"
+            "a male friend"
           ],
           "answer": "a male friend",
           "explanation": "\"un amigo\" = a male friend. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_168",
+          "id": "ch1b_085",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una amiga\" mean in English?",
           "options": [
-            "a bathroom",
-            "a ticket",
-            "some boats",
-            "a female friend"
+            "a cat",
+            "a mirror",
+            "a female friend",
+            "some books"
           ],
           "answer": "a female friend",
           "explanation": "\"una amiga\" = a female friend. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_169",
+          "id": "ch1b_086",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un bano\" mean in English?",
           "options": [
-            "a cat",
-            "some languages",
             "a bathroom",
-            "a library"
+            "a car",
+            "a page",
+            "a city"
           ],
           "answer": "a bathroom",
           "explanation": "\"un bano\" = a bathroom. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_170",
+          "id": "ch1b_087",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una biblioteca\" mean in English?",
           "options": [
-            "a page",
-            "some houses",
             "a library",
-            "a mirror"
+            "some conversations",
+            "a page",
+            "some boats"
           ],
           "answer": "a library",
           "explanation": "\"una biblioteca\" = a library. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_171",
+          "id": "ch1b_088",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un carro\" mean in English?",
           "options": [
+            "some languages",
             "a car",
-            "a female friend",
-            "a suitcase",
-            "some books"
+            "a mirror",
+            "an armchair"
           ],
           "answer": "a car",
           "explanation": "\"un carro\" = a car. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_172",
+          "id": "ch1b_089",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una ciudad\" mean in English?",
           "options": [
-            "a male pianist",
+            "some flowers",
             "a city",
-            "a car",
-            "a cat"
+            "some female artists",
+            "a bookstore"
           ],
           "answer": "a city",
           "explanation": "\"una ciudad\" = a city. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_173",
+          "id": "ch1b_090",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un espejo\" mean in English?",
           "options": [
-            "a city",
-            "a mirror",
             "a bathroom",
-            "some boats"
+            "a bookstore",
+            "a mirror",
+            "a page"
           ],
           "answer": "a mirror",
           "explanation": "\"un espejo\" = a mirror. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_174",
+          "id": "ch1b_091",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una idea\" mean in English?",
           "options": [
+            "a bathroom",
+            "a ticket",
             "an idea",
-            "a pen",
-            "a car",
-            "an armchair"
+            "a suitcase"
           ],
           "answer": "an idea",
           "explanation": "\"una idea\" = an idea. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_175",
+          "id": "ch1b_092",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un gato\" mean in English?",
           "options": [
-            "some cats",
-            "a bookstore",
-            "a page",
-            "a cat"
+            "some houses",
+            "a car",
+            "a cat",
+            "a woman"
           ],
           "answer": "a cat",
           "explanation": "\"un gato\" = a cat. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_176",
+          "id": "ch1b_093",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una libreria\" mean in English?",
           "options": [
-            "a city",
-            "a ticket",
-            "some cats",
-            "a bookstore"
+            "a suitcase",
+            "a bookstore",
+            "a male pianist",
+            "a ticket"
           ],
           "answer": "a bookstore",
           "explanation": "\"una libreria\" = a bookstore. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_177",
+          "id": "ch1b_094",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un jardin\" mean in English?",
           "options": [
+            "a mirror",
             "a garden",
-            "a pen",
-            "a bookstore",
-            "some female artists"
+            "some flowers",
+            "a male pianist"
           ],
           "answer": "a garden",
           "explanation": "\"un jardin\" = a garden. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_178",
+          "id": "ch1b_095",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una maleta\" mean in English?",
           "options": [
-            "a bookstore",
+            "a pen",
+            "some conversations",
             "a suitcase",
-            "a page",
-            "a mirror"
+            "a woman"
           ],
           "answer": "a suitcase",
           "explanation": "\"una maleta\" = a suitcase. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_179",
+          "id": "ch1b_096",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un museo\" mean in English?",
           "options": [
+            "a bookstore",
             "a museum",
-            "an idea",
-            "a pen",
+            "some conversations",
             "a woman"
           ],
           "answer": "a museum",
           "explanation": "\"un museo\" = a museum. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_180",
+          "id": "ch1b_097",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una mujer\" mean in English?",
           "options": [
-            "a bookstore",
+            "an idea",
             "a woman",
-            "some houses",
-            "a male friend"
+            "an armchair",
+            "a cat"
           ],
           "answer": "a woman",
           "explanation": "\"una mujer\" = a woman. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_181",
+          "id": "ch1b_098",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un pianista\" mean in English?",
           "options": [
-            "some conversations",
-            "a pen",
-            "some cats",
-            "a male pianist"
+            "a museum",
+            "a male pianist",
+            "a garden",
+            "some cats"
           ],
           "answer": "a male pianist",
           "explanation": "\"un pianista\" = a male pianist. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_182",
+          "id": "ch1b_099",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una pagina\" mean in English?",
           "options": [
-            "a page",
-            "some conversations",
-            "a bookstore",
-            "some flowers"
+            "a male pianist",
+            "a car",
+            "some flowers",
+            "a page"
           ],
           "answer": "a page",
           "explanation": "\"una pagina\" = a page. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_183",
+          "id": "ch1b_100",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un sillon\" mean in English?",
           "options": [
-            "an idea",
+            "some female artists",
             "an armchair",
-            "a mirror",
-            "some female artists"
+            "a woman",
+            "a bathroom"
           ],
           "answer": "an armchair",
           "explanation": "\"un sillon\" = an armchair. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_184",
+          "id": "ch1b_101",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una persona\" mean in English?",
           "options": [
+            "a museum",
             "a female friend",
             "a person (male or female)",
-            "some female artists",
-            "a library"
+            "a cat"
           ],
           "answer": "a person (male or female)",
           "explanation": "\"una persona\" = a person (male or female). Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_185",
+          "id": "ch1b_102",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"un tiquete\" mean in English?",
           "options": [
-            "a suitcase",
-            "some languages",
             "a ticket",
-            "a pen"
+            "a museum",
+            "a garden",
+            "some conversations"
           ],
           "answer": "a ticket",
           "explanation": "\"un tiquete\" = a ticket. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_186",
+          "id": "ch1b_103",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"una pluma\" mean in English?",
           "options": [
-            "a woman",
-            "some languages",
-            "a pen",
-            "a garden"
+            "some flowers",
+            "a page",
+            "a bathroom",
+            "a pen"
           ],
           "answer": "a pen",
           "explanation": "\"una pluma\" = a pen. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_187",
+          "id": "ch1b_104",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"unos barcos\" mean in English?",
           "options": [
             "a suitcase",
-            "some books",
-            "some boats",
-            "a person (male or female)"
+            "some female artists",
+            "an idea",
+            "some boats"
           ],
           "answer": "some boats",
           "explanation": "\"unos barcos\" = some boats. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_188",
+          "id": "ch1b_105",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"unas artistas\" mean in English?",
           "options": [
+            "an idea",
+            "a male friend",
             "some female artists",
-            "some flowers",
-            "some books",
-            "a page"
+            "some conversations"
           ],
           "answer": "some female artists",
           "explanation": "\"unas artistas\" = some female artists. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_189",
+          "id": "ch1b_106",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"unos gatos\" mean in English?",
           "options": [
-            "some books",
-            "a library",
-            "a male pianist",
+            "an idea",
+            "a page",
+            "a car",
             "some cats"
           ],
           "answer": "some cats",
           "explanation": "\"unos gatos\" = some cats. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_190",
+          "id": "ch1b_107",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"unas casa\" mean in English?",
           "options": [
-            "a museum",
-            "some female artists",
+            "a male pianist",
+            "a cat",
             "some houses",
-            "some languages"
+            "some cats"
           ],
           "answer": "some houses",
           "explanation": "\"unas casa\" = some houses. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_191",
+          "id": "ch1b_108",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"unos idiomas\" mean in English?",
           "options": [
-            "a person (male or female)",
-            "a cat",
-            "a male friend",
-            "some languages"
+            "some conversations",
+            "a city",
+            "some languages",
+            "some flowers"
           ],
           "answer": "some languages",
           "explanation": "\"unos idiomas\" = some languages. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_192",
+          "id": "ch1b_109",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"unas conversaciones\" mean in English?",
           "options": [
+            "a ticket",
             "some conversations",
-            "some female artists",
-            "some houses",
-            "a cat"
+            "a bookstore",
+            "some female artists"
           ],
           "answer": "some conversations",
           "explanation": "\"unas conversaciones\" = some conversations. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_193",
+          "id": "ch1b_110",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"unos libros\" mean in English?",
           "options": [
-            "some female artists",
-            "a library",
+            "a ticket",
+            "some cats",
             "some books",
-            "an idea"
+            "a bathroom"
           ],
           "answer": "some books",
           "explanation": "\"unos libros\" = some books. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_194",
+          "id": "ch1b_111",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "articles",
           "question": "What does \"unas flores\" mean in English?",
           "options": [
-            "some boats",
+            "some female artists",
+            "some conversations",
             "a pen",
-            "an idea",
             "some flowers"
           ],
           "answer": "some flowers",
           "explanation": "\"unas flores\" = some flowers. Un/unos = masculine, una/unas = feminine."
         },
         {
-          "id": "ch1b_195",
+          "id": "ch1b_112",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"amarillo\" mean?",
           "options": [
-            "sincere",
-            "inexpensive",
+            "weak",
+            "sad",
             "yellow",
-            "nice"
+            "fat"
           ],
           "answer": "yellow",
           "explanation": "\"amarillo\" = yellow"
         },
         {
-          "id": "ch1b_196",
+          "id": "ch1b_113",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"anaranjado\" mean?",
           "options": [
-            "white",
-            "inexpensive",
             "strong",
+            "old",
+            "yellow",
             "orange"
           ],
           "answer": "orange",
           "explanation": "\"anaranjado\" = orange"
         },
         {
-          "id": "ch1b_197",
+          "id": "ch1b_114",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"azul\" mean?",
           "options": [
+            "marvelous, wonderful",
+            "handsome, beautiful",
             "blue",
-            "red",
-            "fat",
-            "thin"
+            "pink"
           ],
           "answer": "blue",
           "explanation": "\"azul\" = blue"
         },
         {
-          "id": "ch1b_198",
+          "id": "ch1b_115",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"blanco\" mean?",
           "options": [
-            "old",
-            "pink",
-            "big",
-            "white"
+            "white",
+            "fat",
+            "excellent",
+            "slender"
           ],
           "answer": "white",
           "explanation": "\"blanco\" = white"
         },
         {
-          "id": "ch1b_199",
+          "id": "ch1b_116",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"gris\" mean?",
           "options": [
-            "sincere",
-            "intelligent",
+            "purple",
             "gray",
-            "blue"
+            "ugly",
+            "happy"
           ],
           "answer": "gray",
           "explanation": "\"gris\" = gray"
         },
         {
-          "id": "ch1b_200",
+          "id": "ch1b_117",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"marron, pardo\" mean?",
           "options": [
-            "expensive",
-            "fragile",
-            "happy",
-            "brown"
+            "great, terrific",
+            "brown",
+            "marvelous, wonderful",
+            "excellent"
           ],
           "answer": "brown",
           "explanation": "\"marron, pardo\" = brown"
         },
         {
-          "id": "ch1b_201",
+          "id": "ch1b_118",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"morado\" mean?",
           "options": [
-            "sad",
-            "nice",
-            "fat",
-            "purple"
+            "ugly",
+            "strong",
+            "purple",
+            "agreeable, pleasant"
           ],
           "answer": "purple",
           "explanation": "\"morado\" = purple"
         },
         {
-          "id": "ch1b_202",
+          "id": "ch1b_119",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"moreno\" mean?",
           "options": [
-            "fantastic",
-            "marvelous, wonderful",
-            "black",
-            "brown-skinned"
+            "happy",
+            "brown-skinned",
+            "intelligent",
+            "interesting"
           ],
           "answer": "brown-skinned",
           "explanation": "\"moreno\" = brown-skinned"
         },
         {
-          "id": "ch1b_203",
+          "id": "ch1b_120",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"negro\" mean?",
           "options": [
-            "handsome, beautiful",
-            "nice",
-            "rich",
-            "black"
+            "black",
+            "brown",
+            "fantastic",
+            "difficult"
           ],
           "answer": "black",
           "explanation": "\"negro\" = black"
         },
         {
-          "id": "ch1b_204",
+          "id": "ch1b_121",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"rojo\" mean?",
           "options": [
-            "great, terrific",
-            "black",
             "red",
+            "strong",
+            "poor",
             "happy"
           ],
           "answer": "red",
           "explanation": "\"rojo\" = red"
         },
         {
-          "id": "ch1b_205",
+          "id": "ch1b_122",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"rosado\" mean?",
           "options": [
-            "big",
-            "stingy",
+            "brown",
+            "fragile",
             "pink",
-            "horrible"
+            "orange"
           ],
           "answer": "pink",
           "explanation": "\"rosado\" = pink"
         },
         {
-          "id": "ch1b_206",
+          "id": "ch1b_123",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"verde\" mean?",
           "options": [
-            "intelligent",
-            "black",
             "green",
-            "red"
+            "inexpensive",
+            "sincere",
+            "happy"
           ],
           "answer": "green",
           "explanation": "\"verde\" = green"
         },
         {
-          "id": "ch1b_207",
+          "id": "ch1b_124",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"agradable\" mean?",
           "options": [
-            "orange",
-            "black",
-            "easy",
-            "agreeable, pleasant"
+            "agreeable, pleasant",
+            "weak",
+            "interesting",
+            "poor"
           ],
           "answer": "agreeable, pleasant",
           "explanation": "\"agradable\" = agreeable, pleasant"
         },
         {
-          "id": "ch1b_208",
+          "id": "ch1b_125",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"fantastico\" mean?",
           "options": [
-            "ugly",
+            "happy",
+            "inexpensive",
             "fantastic",
-            "orange",
-            "big"
+            "intelligent"
           ],
           "answer": "fantastic",
           "explanation": "\"fantastico\" = fantastic"
         },
         {
-          "id": "ch1b_209",
+          "id": "ch1b_126",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"horrible\" mean?",
           "options": [
-            "black",
-            "difficult",
-            "old",
-            "horrible"
+            "fat",
+            "brown-skinned",
+            "horrible",
+            "ugly"
           ],
           "answer": "horrible",
           "explanation": "\"horrible\" = horrible"
         },
         {
-          "id": "ch1b_210",
+          "id": "ch1b_127",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"tacano\" mean?",
           "options": [
-            "fragile",
-            "expensive",
             "slender",
-            "stingy"
+            "big",
+            "stingy",
+            "intelligent"
           ],
           "answer": "stingy",
           "explanation": "\"tacano\" = stingy"
         },
         {
-          "id": "ch1b_211",
+          "id": "ch1b_128",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"alegre\" mean?",
           "options": [
-            "beautiful",
+            "horrible",
             "happy",
-            "handsome, beautiful",
-            "blue"
+            "thin",
+            "inexpensive"
           ],
           "answer": "happy",
           "explanation": "\"alegre\" = happy"
         },
         {
-          "id": "ch1b_212",
+          "id": "ch1b_129",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"felix\" mean?",
           "options": [
-            "white",
-            "happy",
-            "strong",
-            "old"
+            "black",
+            "poor",
+            "typical",
+            "happy"
           ],
           "answer": "happy",
           "explanation": "\"felix\" = happy"
         },
         {
-          "id": "ch1b_213",
+          "id": "ch1b_130",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"inteligente\" mean?",
           "options": [
-            "fragile",
-            "gray",
-            "strong",
-            "intelligent"
+            "sincere",
+            "black",
+            "intelligent",
+            "handsome, beautiful"
           ],
           "answer": "intelligent",
           "explanation": "\"inteligente\" = intelligent"
         },
         {
-          "id": "ch1b_214",
+          "id": "ch1b_131",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"tipico\" mean?",
           "options": [
             "typical",
-            "happy",
-            "gray",
-            "black"
+            "intelligent",
+            "great, terrific",
+            "slender"
           ],
           "answer": "typical",
           "explanation": "\"tipico\" = typical"
         },
         {
-          "id": "ch1b_215",
+          "id": "ch1b_132",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"barato\" mean?",
           "options": [
-            "marvelous, wonderful",
-            "little, small",
+            "green",
+            "white",
             "inexpensive",
-            "rich"
+            "happy"
           ],
           "answer": "inexpensive",
           "explanation": "\"barato\" = inexpensive"
         },
         {
-          "id": "ch1b_216",
+          "id": "ch1b_133",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"feo\" mean?",
           "options": [
-            "poor",
-            "ugly",
-            "nice",
-            "fantastic"
+            "young",
+            "strong",
+            "gray",
+            "ugly"
           ],
           "answer": "ugly",
           "explanation": "\"feo\" = ugly"
         },
         {
-          "id": "ch1b_217",
+          "id": "ch1b_134",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"interesante\" mean?",
           "options": [
-            "ugly",
+            "typical",
+            "brown",
             "interesting",
-            "old",
-            "marvelous, wonderful"
+            "great, terrific"
           ],
           "answer": "interesting",
           "explanation": "\"interesante\" = interesting"
         },
         {
-          "id": "ch1b_218",
+          "id": "ch1b_135",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"triste\" mean?",
           "options": [
-            "easy",
             "sad",
-            "inexpensive",
-            "weak"
+            "excellent",
+            "rich",
+            "horrible"
           ],
           "answer": "sad",
           "explanation": "\"triste\" = sad"
         },
         {
-          "id": "ch1b_219",
+          "id": "ch1b_136",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"caro\" mean?",
           "options": [
-            "beautiful",
-            "slender",
-            "gray",
-            "expensive"
+            "typical",
+            "expensive",
+            "weak",
+            "big"
           ],
           "answer": "expensive",
           "explanation": "\"caro\" = expensive"
         },
         {
-          "id": "ch1b_220",
+          "id": "ch1b_137",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"flaco\" mean?",
           "options": [
-            "sad",
-            "thin",
             "purple",
-            "weak"
+            "thin",
+            "fantastic",
+            "excellent"
           ],
           "answer": "thin",
           "explanation": "\"flaco\" = thin"
         },
         {
-          "id": "ch1b_221",
+          "id": "ch1b_138",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"joven\" mean?",
           "options": [
-            "ugly",
-            "poor",
-            "big",
+            "pink",
+            "stingy",
+            "green",
             "young"
           ],
           "answer": "young",
           "explanation": "\"joven\" = young"
         },
         {
-          "id": "ch1b_222",
+          "id": "ch1b_139",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"viejo\" mean?",
           "options": [
+            "fragile",
             "old",
-            "easy",
-            "white",
-            "weak"
+            "young",
+            "sincere"
           ],
           "answer": "old",
           "explanation": "\"viejo\" = old"
         },
         {
-          "id": "ch1b_223",
+          "id": "ch1b_140",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"debil\" mean?",
           "options": [
-            "purple",
-            "great, terrific",
+            "horrible",
+            "intelligent",
             "weak",
-            "interesting"
+            "sincere"
           ],
           "answer": "weak",
           "explanation": "\"debil\" = weak"
         },
         {
-          "id": "ch1b_224",
+          "id": "ch1b_141",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "adjective_vocabulary",
           "question": "What does the Spanish adjective \"fragil\" mean?",
           "options": [
-            "interesting",
-            "horrible",
+            "handsome, beautiful",
             "fragile",
-            "purple"
+            "big",
+            "happy"
           ],
           "answer": "fragile",
           "explanation": "\"fragil\" = fragile"
         },
         {
-          "id": "ch1b_225",
+          "id": "ch1b_142",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el libro blanco\" mean?",
           "options": [
-            "the interesting topic",
             "the nice girl",
-            "the green bank",
-            "the white book"
+            "the gray train",
+            "the white book",
+            "the white house"
           ],
           "answer": "the white book",
           "explanation": "\"el libro blanco\" = the white book"
         },
         {
-          "id": "ch1b_226",
+          "id": "ch1b_143",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el gate negro\" mean?",
           "options": [
             "the black cat",
-            "the white house",
-            "the white book",
+            "the red car",
+            "the blue boat",
             "the black jacket"
           ],
           "answer": "the black cat",
           "explanation": "\"el gate negro\" = the black cat"
         },
         {
-          "id": "ch1b_227",
+          "id": "ch1b_144",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el carro rojo\" mean?",
           "options": [
             "the red car",
-            "the green bank",
-            "the black jacket",
-            "the white book"
+            "the gray train",
+            "the nice girl",
+            "the handsome man"
           ],
           "answer": "the red car",
           "explanation": "\"el carro rojo\" = the red car"
         },
         {
-          "id": "ch1b_228",
+          "id": "ch1b_145",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el mechacho simpatico\" mean?",
           "options": [
-            "the red car",
-            "the white house",
-            "the difficult poem",
+            "the beautiful woman",
+            "the nice girl",
+            "the interesting topic",
             "the nice boy"
           ],
           "answer": "the nice boy",
           "explanation": "\"el mechacho simpatico\" = the nice boy"
         },
         {
-          "id": "ch1b_229",
+          "id": "ch1b_146",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el hombre hermoso\" mean?",
           "options": [
-            "the nice girl",
-            "the blue boat",
+            "the green bank",
+            "The Excellent Book",
             "the handsome man",
-            "the green bank"
+            "the horrible dog"
           ],
           "answer": "the handsome man",
           "explanation": "\"el hombre hermoso\" = the handsome man"
         },
         {
-          "id": "ch1b_230",
+          "id": "ch1b_147",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"la casa blanca\" mean?",
           "options": [
-            "The Excellent Book",
-            "the horrible dog",
+            "the nice girl",
+            "the white house",
             "the blue boat",
-            "the white house"
+            "the white book"
           ],
           "answer": "the white house",
           "explanation": "\"la casa blanca\" = the white house"
         },
         {
-          "id": "ch1b_231",
+          "id": "ch1b_148",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"la chaqueta negra\" mean?",
           "options": [
-            "the horrible dog",
-            "the black cat",
+            "the interesting topic",
+            "the black jacket",
             "the white house",
-            "the black jacket"
+            "the beautiful woman"
           ],
           "answer": "the black jacket",
           "explanation": "\"la chaqueta negra\" = the black jacket"
         },
         {
-          "id": "ch1b_232",
+          "id": "ch1b_149",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
@@ -3470,73 +2343,73 @@
             "the red lamp",
             "the interesting topic",
             "the green bank",
-            "The Excellent Book"
+            "the black cat"
           ],
           "answer": "the red lamp",
           "explanation": "\"la lampara roja\" = the red lamp"
         },
         {
-          "id": "ch1b_233",
+          "id": "ch1b_150",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"la muchacha simpatica\" mean?",
           "options": [
-            "the nice boy",
-            "the black jacket",
-            "the nice girl",
-            "the white house"
+            "the strongman",
+            "the horrible dog",
+            "the interesting topic",
+            "the nice girl"
           ],
           "answer": "the nice girl",
           "explanation": "\"la muchacha simpatica\" = the nice girl"
         },
         {
-          "id": "ch1b_234",
+          "id": "ch1b_151",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"la mujer hermosa\" mean?",
           "options": [
-            "The Excellent Book",
+            "the green bank",
             "the beautiful woman",
-            "the white book",
-            "the interesting topic"
+            "the interesting topic",
+            "the handsome man"
           ],
           "answer": "the beautiful woman",
           "explanation": "\"la mujer hermosa\" = the beautiful woman"
         },
         {
-          "id": "ch1b_235",
+          "id": "ch1b_152",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el libro excelenty\" mean?",
           "options": [
-            "the black jacket",
-            "the handsome man",
+            "the white house",
             "The Excellent Book",
-            "the white book"
+            "the gray train",
+            "the red car"
           ],
           "answer": "The Excellent Book",
           "explanation": "\"el libro excelenty\" = The Excellent Book"
         },
         {
-          "id": "ch1b_236",
+          "id": "ch1b_153",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el perro horrible\" mean?",
           "options": [
-            "the black cat",
-            "The Excellent Book",
-            "the beautiful woman",
-            "the horrible dog"
+            "the white book",
+            "the horrible dog",
+            "the blue boat",
+            "The Excellent Book"
           ],
           "answer": "the horrible dog",
           "explanation": "\"el perro horrible\" = the horrible dog"
         },
         {
-          "id": "ch1b_237",
+          "id": "ch1b_154",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
@@ -3544,89 +2417,89 @@
           "options": [
             "the difficult poem",
             "the black jacket",
-            "the handsome man",
-            "the white house"
+            "the horrible dog",
+            "the beautiful woman"
           ],
           "answer": "the difficult poem",
           "explanation": "\"el poema dificil\" = the difficult poem"
         },
         {
-          "id": "ch1b_238",
+          "id": "ch1b_155",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el barco azul\" mean?",
           "options": [
-            "the difficult poem",
-            "the green bank",
-            "the red car",
-            "the blue boat"
+            "the blue boat",
+            "the black jacket",
+            "the handsome man",
+            "the black cat"
           ],
           "answer": "the blue boat",
           "explanation": "\"el barco azul\" = the blue boat"
         },
         {
-          "id": "ch1b_239",
+          "id": "ch1b_156",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el bano verde\" mean?",
           "options": [
+            "the white book",
             "the green bank",
-            "the gray train",
-            "the blue boat",
-            "the red car"
+            "the nice boy",
+            "the interesting topic"
           ],
           "answer": "the green bank",
           "explanation": "\"el bano verde\" = the green bank"
         },
         {
-          "id": "ch1b_240",
+          "id": "ch1b_157",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el tren gris\" mean?",
           "options": [
-            "the blue boat",
-            "the handsome man",
-            "the difficult poem",
-            "the gray train"
+            "the beautiful woman",
+            "the white book",
+            "the gray train",
+            "the nice girl"
           ],
           "answer": "the gray train",
           "explanation": "\"el tren gris\" = the gray train"
         },
         {
-          "id": "ch1b_241",
+          "id": "ch1b_158",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el tema interesante\" mean?",
           "options": [
             "the interesting topic",
-            "The Excellent Book",
-            "the white house",
-            "the difficult poem"
+            "the green bank",
+            "the black cat",
+            "the nice boy"
           ],
           "answer": "the interesting topic",
           "explanation": "\"el tema interesante\" = the interesting topic"
         },
         {
-          "id": "ch1b_242",
+          "id": "ch1b_159",
           "tier": "beginner",
           "type": "multiple_choice",
           "category": "phrases",
           "question": "What does \"el hombre fuerte\" mean?",
           "options": [
-            "the blue boat",
-            "the red car",
-            "the gray train",
-            "the strongman"
+            "the nice girl",
+            "the strongman",
+            "the interesting topic",
+            "the black jacket"
           ],
           "answer": "the strongman",
           "explanation": "\"el hombre fuerte\" = the strongman"
         },
         {
-          "id": "ch1b_243",
+          "id": "ch1b_160",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3635,7 +2508,7 @@
           "explanation": "\"el amigo\" = the friend"
         },
         {
-          "id": "ch1b_244",
+          "id": "ch1b_161",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3644,7 +2517,7 @@
           "explanation": "\"la amiga\" = the friend"
         },
         {
-          "id": "ch1b_245",
+          "id": "ch1b_162",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3653,7 +2526,7 @@
           "explanation": "\"el artista\" = the (male) artist"
         },
         {
-          "id": "ch1b_246",
+          "id": "ch1b_163",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3662,7 +2535,7 @@
           "explanation": "\"el banco\" = the bank"
         },
         {
-          "id": "ch1b_247",
+          "id": "ch1b_164",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3671,7 +2544,7 @@
           "explanation": "\"la blusa\" = the blouse"
         },
         {
-          "id": "ch1b_248",
+          "id": "ch1b_165",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3680,7 +2553,7 @@
           "explanation": "\"la artista\" = the (female) artist"
         },
         {
-          "id": "ch1b_249",
+          "id": "ch1b_166",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3689,7 +2562,7 @@
           "explanation": "\"el bano\" = the bathroom"
         },
         {
-          "id": "ch1b_250",
+          "id": "ch1b_167",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3698,7 +2571,7 @@
           "explanation": "\"la bolsa\" = the bag"
         },
         {
-          "id": "ch1b_251",
+          "id": "ch1b_168",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3707,7 +2580,7 @@
           "explanation": "\"el carro\" = the car"
         },
         {
-          "id": "ch1b_252",
+          "id": "ch1b_169",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3716,7 +2589,7 @@
           "explanation": "\"la cama\" = the bed"
         },
         {
-          "id": "ch1b_253",
+          "id": "ch1b_170",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3725,7 +2598,7 @@
           "explanation": "\"el dentista\" = the (male) dentist"
         },
         {
-          "id": "ch1b_254",
+          "id": "ch1b_171",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3734,7 +2607,7 @@
           "explanation": "\"el gato\" = the cat"
         },
         {
-          "id": "ch1b_255",
+          "id": "ch1b_172",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3743,7 +2616,7 @@
           "explanation": "\"la casa\" = the house"
         },
         {
-          "id": "ch1b_256",
+          "id": "ch1b_173",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3752,7 +2625,7 @@
           "explanation": "\"la dentista\" = the (female) dentist"
         },
         {
-          "id": "ch1b_257",
+          "id": "ch1b_174",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3761,7 +2634,7 @@
           "explanation": "\"el hermano\" = the brother"
         },
         {
-          "id": "ch1b_258",
+          "id": "ch1b_175",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3770,7 +2643,7 @@
           "explanation": "\"la cerveza\" = the beer"
         },
         {
-          "id": "ch1b_259",
+          "id": "ch1b_176",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3779,7 +2652,7 @@
           "explanation": "\"el libro\" = the book"
         },
         {
-          "id": "ch1b_260",
+          "id": "ch1b_177",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3788,7 +2661,7 @@
           "explanation": "\"la comida\" = the meal"
         },
         {
-          "id": "ch1b_261",
+          "id": "ch1b_178",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3797,7 +2670,7 @@
           "explanation": "\"el pianista\" = the (male) pianist"
         },
         {
-          "id": "ch1b_262",
+          "id": "ch1b_179",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3806,7 +2679,7 @@
           "explanation": "\"el muchaco\" = the boy"
         },
         {
-          "id": "ch1b_263",
+          "id": "ch1b_180",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3815,7 +2688,7 @@
           "explanation": "\"la hermana\" = the sister"
         },
         {
-          "id": "ch1b_264",
+          "id": "ch1b_181",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3824,7 +2697,7 @@
           "explanation": "\"la pianista\" = the (female) pianist"
         },
         {
-          "id": "ch1b_265",
+          "id": "ch1b_182",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3833,7 +2706,7 @@
           "explanation": "\"el nino\" = the little boy"
         },
         {
-          "id": "ch1b_266",
+          "id": "ch1b_183",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3842,7 +2715,7 @@
           "explanation": "\"la iglesia\" = the church"
         },
         {
-          "id": "ch1b_267",
+          "id": "ch1b_184",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3851,7 +2724,7 @@
           "explanation": "\"el perro\" = the dog"
         },
         {
-          "id": "ch1b_268",
+          "id": "ch1b_185",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3860,7 +2733,7 @@
           "explanation": "\"la lampara\" = the lamp"
         },
         {
-          "id": "ch1b_269",
+          "id": "ch1b_186",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3869,7 +2742,7 @@
           "explanation": "\"el taxista\" = the (male) cabdriver"
         },
         {
-          "id": "ch1b_270",
+          "id": "ch1b_187",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3878,7 +2751,7 @@
           "explanation": "\"el telefono\" = the telephone"
         },
         {
-          "id": "ch1b_271",
+          "id": "ch1b_188",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3887,7 +2760,7 @@
           "explanation": "\"la mesa\" = the table"
         },
         {
-          "id": "ch1b_272",
+          "id": "ch1b_189",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3896,7 +2769,7 @@
           "explanation": "\"la taxista\" = the (female) cabdriver"
         },
         {
-          "id": "ch1b_273",
+          "id": "ch1b_190",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3905,7 +2778,7 @@
           "explanation": "\"el vino\" = the wine"
         },
         {
-          "id": "ch1b_274",
+          "id": "ch1b_191",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3914,7 +2787,7 @@
           "explanation": "\"la muchacha\" = the girl"
         },
         {
-          "id": "ch1b_275",
+          "id": "ch1b_192",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3923,7 +2796,7 @@
           "explanation": "\"la nina\" = the little girl"
         },
         {
-          "id": "ch1b_276",
+          "id": "ch1b_193",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3932,7 +2805,7 @@
           "explanation": "\"la persona\" = the person"
         },
         {
-          "id": "ch1b_277",
+          "id": "ch1b_194",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3941,7 +2814,7 @@
           "explanation": "\"la planta\" = the plant"
         },
         {
-          "id": "ch1b_278",
+          "id": "ch1b_195",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3950,7 +2823,7 @@
           "explanation": "\"el cantante\" = the male singer"
         },
         {
-          "id": "ch1b_279",
+          "id": "ch1b_196",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3959,7 +2832,7 @@
           "explanation": "\"el animal\" = the animal"
         },
         {
-          "id": "ch1b_280",
+          "id": "ch1b_197",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3968,7 +2841,7 @@
           "explanation": "\"la silla\" = the chair"
         },
         {
-          "id": "ch1b_281",
+          "id": "ch1b_198",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3977,7 +2850,7 @@
           "explanation": "\"la cantante\" = the female singer"
         },
         {
-          "id": "ch1b_282",
+          "id": "ch1b_199",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3986,7 +2859,7 @@
           "explanation": "\"el cafe\" = the coffee"
         },
         {
-          "id": "ch1b_283",
+          "id": "ch1b_200",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -3995,7 +2868,7 @@
           "explanation": "\"la tienda\" = the store"
         },
         {
-          "id": "ch1b_284",
+          "id": "ch1b_201",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4004,7 +2877,7 @@
           "explanation": "\"el doctor\" = the doctor"
         },
         {
-          "id": "ch1b_285",
+          "id": "ch1b_202",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4013,7 +2886,7 @@
           "explanation": "\"la ventana\" = the window"
         },
         {
-          "id": "ch1b_286",
+          "id": "ch1b_203",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4022,7 +2895,7 @@
           "explanation": "\"el estudiante\" = the male student"
         },
         {
-          "id": "ch1b_287",
+          "id": "ch1b_204",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4031,7 +2904,7 @@
           "explanation": "\"el hombre\" = the man"
         },
         {
-          "id": "ch1b_288",
+          "id": "ch1b_205",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4040,7 +2913,7 @@
           "explanation": "\"la estudiante\" = the female student"
         },
         {
-          "id": "ch1b_289",
+          "id": "ch1b_206",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4049,7 +2922,7 @@
           "explanation": "\"el hospital\" = the hospital"
         },
         {
-          "id": "ch1b_290",
+          "id": "ch1b_207",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4058,7 +2931,7 @@
           "explanation": "\"el hotel\" = the hotel"
         },
         {
-          "id": "ch1b_291",
+          "id": "ch1b_208",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4067,7 +2940,7 @@
           "explanation": "\"el gerente\" = the male manager"
         },
         {
-          "id": "ch1b_292",
+          "id": "ch1b_209",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4076,7 +2949,7 @@
           "explanation": "\"el tomate\" = the tomoto"
         },
         {
-          "id": "ch1b_293",
+          "id": "ch1b_210",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4085,7 +2958,7 @@
           "explanation": "\"la cancion\" = the song"
         },
         {
-          "id": "ch1b_294",
+          "id": "ch1b_211",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4094,7 +2967,7 @@
           "explanation": "\"la gerente\" = the female manager"
         },
         {
-          "id": "ch1b_295",
+          "id": "ch1b_212",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4103,7 +2976,7 @@
           "explanation": "\"el tren\" = the train"
         },
         {
-          "id": "ch1b_296",
+          "id": "ch1b_213",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4112,7 +2985,7 @@
           "explanation": "\"la conversacion\" = the conversation"
         },
         {
-          "id": "ch1b_297",
+          "id": "ch1b_214",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4121,7 +2994,7 @@
           "explanation": "\"la invitacion\" = the invitation"
         },
         {
-          "id": "ch1b_298",
+          "id": "ch1b_215",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4130,7 +3003,7 @@
           "explanation": "\"el presidente\" = the male president"
         },
         {
-          "id": "ch1b_299",
+          "id": "ch1b_216",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4139,7 +3012,7 @@
           "explanation": "\"la leccion\" = the lesson"
         },
         {
-          "id": "ch1b_300",
+          "id": "ch1b_217",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4148,7 +3021,7 @@
           "explanation": "\"la presidente\" = the female president"
         },
         {
-          "id": "ch1b_301",
+          "id": "ch1b_218",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4157,7 +3030,7 @@
           "explanation": "\"la ilusion\" = the illusion"
         },
         {
-          "id": "ch1b_302",
+          "id": "ch1b_219",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4166,7 +3039,7 @@
           "explanation": "\"el clima\" = the climate"
         },
         {
-          "id": "ch1b_303",
+          "id": "ch1b_220",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4175,7 +3048,7 @@
           "explanation": "\"la television\" = the television"
         },
         {
-          "id": "ch1b_304",
+          "id": "ch1b_221",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4184,7 +3057,7 @@
           "explanation": "\"el dia\" = the day"
         },
         {
-          "id": "ch1b_305",
+          "id": "ch1b_222",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4193,7 +3066,7 @@
           "explanation": "\"la ciudad\" = the city"
         },
         {
-          "id": "ch1b_306",
+          "id": "ch1b_223",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4202,7 +3075,7 @@
           "explanation": "\"el drama\" = the drama"
         },
         {
-          "id": "ch1b_307",
+          "id": "ch1b_224",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4211,7 +3084,7 @@
           "explanation": "\"la verdad\" = the truth"
         },
         {
-          "id": "ch1b_308",
+          "id": "ch1b_225",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4220,7 +3093,7 @@
           "explanation": "\"el idioma\" = the language"
         },
         {
-          "id": "ch1b_309",
+          "id": "ch1b_226",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4229,7 +3102,7 @@
           "explanation": "\"la amistad\" = the friendship"
         },
         {
-          "id": "ch1b_310",
+          "id": "ch1b_227",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4238,7 +3111,7 @@
           "explanation": "\"el mapa\" = the map"
         },
         {
-          "id": "ch1b_311",
+          "id": "ch1b_228",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4247,7 +3120,7 @@
           "explanation": "\"la actitud\" = the attitude"
         },
         {
-          "id": "ch1b_312",
+          "id": "ch1b_229",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4256,7 +3129,7 @@
           "explanation": "\"el planeta\" = the planet"
         },
         {
-          "id": "ch1b_313",
+          "id": "ch1b_230",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4265,7 +3138,7 @@
           "explanation": "\"el poema\" = the poem"
         },
         {
-          "id": "ch1b_314",
+          "id": "ch1b_231",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4274,7 +3147,7 @@
           "explanation": "\"el problema\" = the problem"
         },
         {
-          "id": "ch1b_315",
+          "id": "ch1b_232",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4283,7 +3156,7 @@
           "explanation": "\"el programa\" = the program"
         },
         {
-          "id": "ch1b_316",
+          "id": "ch1b_233",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4292,7 +3165,7 @@
           "explanation": "\"la foto\" = the photograph"
         },
         {
-          "id": "ch1b_317",
+          "id": "ch1b_234",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4301,7 +3174,7 @@
           "explanation": "\"el sistema\" = the system"
         },
         {
-          "id": "ch1b_318",
+          "id": "ch1b_235",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4310,7 +3183,7 @@
           "explanation": "\"la mano\" = the hand"
         },
         {
-          "id": "ch1b_319",
+          "id": "ch1b_236",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4319,7 +3192,7 @@
           "explanation": "\"la radio\" = the radio"
         },
         {
-          "id": "ch1b_320",
+          "id": "ch1b_237",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4328,7 +3201,7 @@
           "explanation": "\"la clase\" = the class"
         },
         {
-          "id": "ch1b_321",
+          "id": "ch1b_238",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4337,7 +3210,7 @@
           "explanation": "\"la flor\" = the flower"
         },
         {
-          "id": "ch1b_322",
+          "id": "ch1b_239",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4346,7 +3219,7 @@
           "explanation": "\"la luz\" = the light"
         },
         {
-          "id": "ch1b_323",
+          "id": "ch1b_240",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4355,7 +3228,7 @@
           "explanation": "\"la mujer\" = the woman"
         },
         {
-          "id": "ch1b_324",
+          "id": "ch1b_241",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4364,7 +3237,7 @@
           "explanation": "\"la piel\" = the skin"
         },
         {
-          "id": "ch1b_325",
+          "id": "ch1b_242",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4373,7 +3246,7 @@
           "explanation": "\"la suerte\" = the luck"
         },
         {
-          "id": "ch1b_326",
+          "id": "ch1b_243",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4382,7 +3255,7 @@
           "explanation": "\"the friend\" = el amigo"
         },
         {
-          "id": "ch1b_328",
+          "id": "ch1b_245",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4391,7 +3264,7 @@
           "explanation": "\"the (male) artist\" = el artista"
         },
         {
-          "id": "ch1b_329",
+          "id": "ch1b_246",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4400,7 +3273,7 @@
           "explanation": "\"the bank\" = el banco"
         },
         {
-          "id": "ch1b_330",
+          "id": "ch1b_247",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4409,7 +3282,7 @@
           "explanation": "\"the blouse\" = la blusa"
         },
         {
-          "id": "ch1b_331",
+          "id": "ch1b_248",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4418,7 +3291,7 @@
           "explanation": "\"the (female) artist\" = la artista"
         },
         {
-          "id": "ch1b_332",
+          "id": "ch1b_249",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4427,7 +3300,7 @@
           "explanation": "\"the bathroom\" = el bano"
         },
         {
-          "id": "ch1b_333",
+          "id": "ch1b_250",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4436,7 +3309,7 @@
           "explanation": "\"the bag\" = la bolsa"
         },
         {
-          "id": "ch1b_334",
+          "id": "ch1b_251",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4445,7 +3318,7 @@
           "explanation": "\"the car\" = el carro"
         },
         {
-          "id": "ch1b_335",
+          "id": "ch1b_252",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4454,7 +3327,7 @@
           "explanation": "\"the bed\" = la cama"
         },
         {
-          "id": "ch1b_336",
+          "id": "ch1b_253",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4463,7 +3336,7 @@
           "explanation": "\"the (male) dentist\" = el dentista"
         },
         {
-          "id": "ch1b_337",
+          "id": "ch1b_254",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4472,7 +3345,7 @@
           "explanation": "\"the cat\" = el gato"
         },
         {
-          "id": "ch1b_338",
+          "id": "ch1b_255",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4481,7 +3354,7 @@
           "explanation": "\"the house\" = la casa"
         },
         {
-          "id": "ch1b_339",
+          "id": "ch1b_256",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4490,7 +3363,7 @@
           "explanation": "\"the (female) dentist\" = la dentista"
         },
         {
-          "id": "ch1b_340",
+          "id": "ch1b_257",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4499,7 +3372,7 @@
           "explanation": "\"the brother\" = el hermano"
         },
         {
-          "id": "ch1b_341",
+          "id": "ch1b_258",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4508,7 +3381,7 @@
           "explanation": "\"the beer\" = la cerveza"
         },
         {
-          "id": "ch1b_342",
+          "id": "ch1b_259",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4517,7 +3390,7 @@
           "explanation": "\"the book\" = el libro"
         },
         {
-          "id": "ch1b_343",
+          "id": "ch1b_260",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4526,7 +3399,7 @@
           "explanation": "\"the meal\" = la comida"
         },
         {
-          "id": "ch1b_344",
+          "id": "ch1b_261",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4535,7 +3408,7 @@
           "explanation": "\"the (male) pianist\" = el pianista"
         },
         {
-          "id": "ch1b_345",
+          "id": "ch1b_262",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4544,7 +3417,7 @@
           "explanation": "\"the boy\" = el muchaco"
         },
         {
-          "id": "ch1b_346",
+          "id": "ch1b_263",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4553,7 +3426,7 @@
           "explanation": "\"the sister\" = la hermana"
         },
         {
-          "id": "ch1b_347",
+          "id": "ch1b_264",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4562,7 +3435,7 @@
           "explanation": "\"the (female) pianist\" = la pianista"
         },
         {
-          "id": "ch1b_348",
+          "id": "ch1b_265",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4571,7 +3444,7 @@
           "explanation": "\"the little boy\" = el nino"
         },
         {
-          "id": "ch1b_349",
+          "id": "ch1b_266",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4580,7 +3453,7 @@
           "explanation": "\"the church\" = la iglesia"
         },
         {
-          "id": "ch1b_350",
+          "id": "ch1b_267",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4589,7 +3462,7 @@
           "explanation": "\"the dog\" = el perro"
         },
         {
-          "id": "ch1b_351",
+          "id": "ch1b_268",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4598,7 +3471,7 @@
           "explanation": "\"the lamp\" = la lampara"
         },
         {
-          "id": "ch1b_352",
+          "id": "ch1b_269",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4607,7 +3480,7 @@
           "explanation": "\"the (male) cabdriver\" = el taxista"
         },
         {
-          "id": "ch1b_353",
+          "id": "ch1b_270",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4616,7 +3489,7 @@
           "explanation": "\"the telephone\" = el telefono"
         },
         {
-          "id": "ch1b_354",
+          "id": "ch1b_271",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4625,7 +3498,7 @@
           "explanation": "\"the table\" = la mesa"
         },
         {
-          "id": "ch1b_355",
+          "id": "ch1b_272",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4634,7 +3507,7 @@
           "explanation": "\"the (female) cabdriver\" = la taxista"
         },
         {
-          "id": "ch1b_356",
+          "id": "ch1b_273",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4643,7 +3516,7 @@
           "explanation": "\"the wine\" = el vino"
         },
         {
-          "id": "ch1b_357",
+          "id": "ch1b_274",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4652,7 +3525,7 @@
           "explanation": "\"the girl\" = la muchacha"
         },
         {
-          "id": "ch1b_358",
+          "id": "ch1b_275",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4661,7 +3534,7 @@
           "explanation": "\"the little girl\" = la nina"
         },
         {
-          "id": "ch1b_359",
+          "id": "ch1b_276",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4670,7 +3543,7 @@
           "explanation": "\"the person\" = la persona"
         },
         {
-          "id": "ch1b_360",
+          "id": "ch1b_277",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4679,7 +3552,7 @@
           "explanation": "\"the plant\" = la planta"
         },
         {
-          "id": "ch1b_361",
+          "id": "ch1b_278",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4688,7 +3561,7 @@
           "explanation": "\"the male singer\" = el cantante"
         },
         {
-          "id": "ch1b_362",
+          "id": "ch1b_279",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4697,7 +3570,7 @@
           "explanation": "\"the animal\" = el animal"
         },
         {
-          "id": "ch1b_363",
+          "id": "ch1b_280",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4706,7 +3579,7 @@
           "explanation": "\"the chair\" = la silla"
         },
         {
-          "id": "ch1b_364",
+          "id": "ch1b_281",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4715,7 +3588,7 @@
           "explanation": "\"the female singer\" = la cantante"
         },
         {
-          "id": "ch1b_365",
+          "id": "ch1b_282",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4724,7 +3597,7 @@
           "explanation": "\"the coffee\" = el cafe"
         },
         {
-          "id": "ch1b_366",
+          "id": "ch1b_283",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4733,7 +3606,7 @@
           "explanation": "\"the store\" = la tienda"
         },
         {
-          "id": "ch1b_367",
+          "id": "ch1b_284",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4742,7 +3615,7 @@
           "explanation": "\"the doctor\" = el doctor"
         },
         {
-          "id": "ch1b_368",
+          "id": "ch1b_285",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4751,7 +3624,7 @@
           "explanation": "\"the window\" = la ventana"
         },
         {
-          "id": "ch1b_369",
+          "id": "ch1b_286",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4760,7 +3633,7 @@
           "explanation": "\"the male student\" = el estudiante"
         },
         {
-          "id": "ch1b_370",
+          "id": "ch1b_287",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4769,7 +3642,7 @@
           "explanation": "\"the man\" = el hombre"
         },
         {
-          "id": "ch1b_371",
+          "id": "ch1b_288",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4778,7 +3651,7 @@
           "explanation": "\"the female student\" = la estudiante"
         },
         {
-          "id": "ch1b_372",
+          "id": "ch1b_289",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4787,7 +3660,7 @@
           "explanation": "\"the hospital\" = el hospital"
         },
         {
-          "id": "ch1b_373",
+          "id": "ch1b_290",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4796,7 +3669,7 @@
           "explanation": "\"the hotel\" = el hotel"
         },
         {
-          "id": "ch1b_374",
+          "id": "ch1b_291",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4805,7 +3678,7 @@
           "explanation": "\"the male manager\" = el gerente"
         },
         {
-          "id": "ch1b_375",
+          "id": "ch1b_292",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4814,7 +3687,7 @@
           "explanation": "\"the tomoto\" = el tomate"
         },
         {
-          "id": "ch1b_376",
+          "id": "ch1b_293",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4823,7 +3696,7 @@
           "explanation": "\"the song\" = la cancion"
         },
         {
-          "id": "ch1b_377",
+          "id": "ch1b_294",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4832,7 +3705,7 @@
           "explanation": "\"the female manager\" = la gerente"
         },
         {
-          "id": "ch1b_378",
+          "id": "ch1b_295",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4841,7 +3714,7 @@
           "explanation": "\"the train\" = el tren"
         },
         {
-          "id": "ch1b_379",
+          "id": "ch1b_296",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4850,7 +3723,7 @@
           "explanation": "\"the conversation\" = la conversacion"
         },
         {
-          "id": "ch1b_380",
+          "id": "ch1b_297",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4859,7 +3732,7 @@
           "explanation": "\"the invitation\" = la invitacion"
         },
         {
-          "id": "ch1b_381",
+          "id": "ch1b_298",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4868,7 +3741,7 @@
           "explanation": "\"the male president\" = el presidente"
         },
         {
-          "id": "ch1b_382",
+          "id": "ch1b_299",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4877,7 +3750,7 @@
           "explanation": "\"the lesson\" = la leccion"
         },
         {
-          "id": "ch1b_383",
+          "id": "ch1b_300",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4886,7 +3759,7 @@
           "explanation": "\"the female president\" = la presidente"
         },
         {
-          "id": "ch1b_384",
+          "id": "ch1b_301",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4895,7 +3768,7 @@
           "explanation": "\"the illusion\" = la ilusion"
         },
         {
-          "id": "ch1b_385",
+          "id": "ch1b_302",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4904,7 +3777,7 @@
           "explanation": "\"the climate\" = el clima"
         },
         {
-          "id": "ch1b_386",
+          "id": "ch1b_303",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4913,7 +3786,7 @@
           "explanation": "\"the television\" = la television"
         },
         {
-          "id": "ch1b_387",
+          "id": "ch1b_304",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4922,7 +3795,7 @@
           "explanation": "\"the day\" = el dia"
         },
         {
-          "id": "ch1b_388",
+          "id": "ch1b_305",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4931,7 +3804,7 @@
           "explanation": "\"the city\" = la ciudad"
         },
         {
-          "id": "ch1b_389",
+          "id": "ch1b_306",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4940,7 +3813,7 @@
           "explanation": "\"the drama\" = el drama"
         },
         {
-          "id": "ch1b_390",
+          "id": "ch1b_307",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4949,7 +3822,7 @@
           "explanation": "\"the truth\" = la verdad"
         },
         {
-          "id": "ch1b_391",
+          "id": "ch1b_308",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4958,7 +3831,7 @@
           "explanation": "\"the language\" = el idioma"
         },
         {
-          "id": "ch1b_392",
+          "id": "ch1b_309",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4967,7 +3840,7 @@
           "explanation": "\"the friendship\" = la amistad"
         },
         {
-          "id": "ch1b_393",
+          "id": "ch1b_310",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4976,7 +3849,7 @@
           "explanation": "\"the map\" = el mapa"
         },
         {
-          "id": "ch1b_394",
+          "id": "ch1b_311",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4985,7 +3858,7 @@
           "explanation": "\"the attitude\" = la actitud"
         },
         {
-          "id": "ch1b_395",
+          "id": "ch1b_312",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -4994,7 +3867,7 @@
           "explanation": "\"the planet\" = el planeta"
         },
         {
-          "id": "ch1b_396",
+          "id": "ch1b_313",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5003,7 +3876,7 @@
           "explanation": "\"the poem\" = el poema"
         },
         {
-          "id": "ch1b_397",
+          "id": "ch1b_314",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5012,7 +3885,7 @@
           "explanation": "\"the problem\" = el problema"
         },
         {
-          "id": "ch1b_398",
+          "id": "ch1b_315",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5021,7 +3894,7 @@
           "explanation": "\"the program\" = el programa"
         },
         {
-          "id": "ch1b_399",
+          "id": "ch1b_316",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5030,7 +3903,7 @@
           "explanation": "\"the photograph\" = la foto"
         },
         {
-          "id": "ch1b_400",
+          "id": "ch1b_317",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5039,7 +3912,7 @@
           "explanation": "\"the system\" = el sistema"
         },
         {
-          "id": "ch1b_401",
+          "id": "ch1b_318",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5048,7 +3921,7 @@
           "explanation": "\"the hand\" = la mano"
         },
         {
-          "id": "ch1b_402",
+          "id": "ch1b_319",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5057,7 +3930,7 @@
           "explanation": "\"the radio\" = la radio"
         },
         {
-          "id": "ch1b_403",
+          "id": "ch1b_320",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5066,7 +3939,7 @@
           "explanation": "\"the class\" = la clase"
         },
         {
-          "id": "ch1b_404",
+          "id": "ch1b_321",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5075,7 +3948,7 @@
           "explanation": "\"the flower\" = la flor"
         },
         {
-          "id": "ch1b_405",
+          "id": "ch1b_322",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5084,7 +3957,7 @@
           "explanation": "\"the light\" = la luz"
         },
         {
-          "id": "ch1b_406",
+          "id": "ch1b_323",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5093,7 +3966,7 @@
           "explanation": "\"the woman\" = la mujer"
         },
         {
-          "id": "ch1b_407",
+          "id": "ch1b_324",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5102,7 +3975,7 @@
           "explanation": "\"the skin\" = la piel"
         },
         {
-          "id": "ch1b_408",
+          "id": "ch1b_325",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "noun_vocabulary",
@@ -5111,151 +3984,151 @@
           "explanation": "\"the luck\" = la suerte"
         },
         {
-          "id": "ch1b_409",
+          "id": "ch1b_326",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el dia\"",
           "answer": "los dias",
-          "explanation": "\"el dia\" \u2192 \"los dias\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el dia\" → \"los dias\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_410",
+          "id": "ch1b_327",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"la bolsa\"",
           "answer": "los bolsas",
-          "explanation": "\"la bolsa\" \u2192 \"los bolsas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la bolsa\" → \"los bolsas\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_411",
+          "id": "ch1b_328",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el hermano\"",
           "answer": "los hermanos",
-          "explanation": "\"el hermano\" \u2192 \"los hermanos\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el hermano\" → \"los hermanos\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_412",
+          "id": "ch1b_329",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el libro\"",
           "answer": "los libros",
-          "explanation": "\"el libro\" \u2192 \"los libros\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el libro\" → \"los libros\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_413",
+          "id": "ch1b_330",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"la nina\"",
           "answer": "las ninas",
-          "explanation": "\"la nina\" \u2192 \"las ninas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la nina\" → \"las ninas\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_414",
+          "id": "ch1b_331",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el muchacho\"",
           "answer": "los muchachos",
-          "explanation": "\"el muchacho\" \u2192 \"los muchachos\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el muchacho\" → \"los muchachos\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_415",
+          "id": "ch1b_332",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"la persona\"",
           "answer": "las personas",
-          "explanation": "\"la persona\" \u2192 \"las personas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la persona\" → \"las personas\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_416",
+          "id": "ch1b_333",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el perro\"",
           "answer": "los perros",
-          "explanation": "\"el perro\" \u2192 \"los perros\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el perro\" → \"los perros\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_417",
+          "id": "ch1b_334",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"la tienda\"",
           "answer": "las tiendas",
-          "explanation": "\"la tienda\" \u2192 \"las tiendas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la tienda\" → \"las tiendas\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_418",
+          "id": "ch1b_335",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el problema\"",
           "answer": "los problemas",
-          "explanation": "\"el problema\" \u2192 \"los problemas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el problema\" → \"los problemas\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_419",
+          "id": "ch1b_336",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"la ventana\"",
           "answer": "las ventanas",
-          "explanation": "\"la ventana\" \u2192 \"las ventanas\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"la ventana\" → \"las ventanas\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_420",
+          "id": "ch1b_337",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el animal\"",
           "answer": "los animales",
-          "explanation": "\"el animal\" \u2192 \"los animales\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el animal\" → \"los animales\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_421",
+          "id": "ch1b_338",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el doctor\"",
           "answer": "los doctores",
-          "explanation": "\"el doctor\" \u2192 \"los doctores\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el doctor\" → \"los doctores\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_422",
+          "id": "ch1b_339",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el hospital\"",
           "answer": "los hospitales",
-          "explanation": "\"el hospital\" \u2192 \"los hospitales\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el hospital\" → \"los hospitales\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_423",
+          "id": "ch1b_340",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el hotel\"",
           "answer": "los hoteles",
-          "explanation": "\"el hotel\" \u2192 \"los hoteles\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el hotel\" → \"los hoteles\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_424",
+          "id": "ch1b_341",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "plurals",
           "question": "Write the plural form of: \"el tren\"",
           "answer": "los trenes",
-          "explanation": "\"el tren\" \u2192 \"los trenes\". Vowel endings add -s, consonant endings add -es."
+          "explanation": "\"el tren\" → \"los trenes\". Vowel endings add -s, consonant endings add -es."
         },
         {
-          "id": "ch1b_425",
+          "id": "ch1b_342",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5264,7 +4137,7 @@
           "explanation": "\"yellow\" = \"amarillo\""
         },
         {
-          "id": "ch1b_426",
+          "id": "ch1b_343",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5273,7 +4146,7 @@
           "explanation": "\"orange\" = \"anaranjado\""
         },
         {
-          "id": "ch1b_427",
+          "id": "ch1b_344",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5282,7 +4155,7 @@
           "explanation": "\"blue\" = \"azul\""
         },
         {
-          "id": "ch1b_428",
+          "id": "ch1b_345",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5291,7 +4164,7 @@
           "explanation": "\"white\" = \"blanco\""
         },
         {
-          "id": "ch1b_429",
+          "id": "ch1b_346",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5300,7 +4173,7 @@
           "explanation": "\"gray\" = \"gris\""
         },
         {
-          "id": "ch1b_430",
+          "id": "ch1b_347",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5309,7 +4182,7 @@
           "explanation": "\"brown\" = \"marron, pardo\""
         },
         {
-          "id": "ch1b_431",
+          "id": "ch1b_348",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5318,7 +4191,7 @@
           "explanation": "\"purple\" = \"morado\""
         },
         {
-          "id": "ch1b_432",
+          "id": "ch1b_349",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5327,7 +4200,7 @@
           "explanation": "\"brown-skinned\" = \"moreno\""
         },
         {
-          "id": "ch1b_433",
+          "id": "ch1b_350",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5336,7 +4209,7 @@
           "explanation": "\"black\" = \"negro\""
         },
         {
-          "id": "ch1b_434",
+          "id": "ch1b_351",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5345,7 +4218,7 @@
           "explanation": "\"red\" = \"rojo\""
         },
         {
-          "id": "ch1b_435",
+          "id": "ch1b_352",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5354,7 +4227,7 @@
           "explanation": "\"pink\" = \"rosado\""
         },
         {
-          "id": "ch1b_436",
+          "id": "ch1b_353",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5363,7 +4236,7 @@
           "explanation": "\"green\" = \"verde\""
         },
         {
-          "id": "ch1b_437",
+          "id": "ch1b_354",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5372,7 +4245,7 @@
           "explanation": "\"agreeable, pleasant\" = \"agradable\""
         },
         {
-          "id": "ch1b_438",
+          "id": "ch1b_355",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5381,7 +4254,7 @@
           "explanation": "\"fantastic\" = \"fantastico\""
         },
         {
-          "id": "ch1b_439",
+          "id": "ch1b_356",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5390,7 +4263,7 @@
           "explanation": "\"horrible\" = \"horrible\""
         },
         {
-          "id": "ch1b_440",
+          "id": "ch1b_357",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5399,7 +4272,7 @@
           "explanation": "\"stingy\" = \"tacano\""
         },
         {
-          "id": "ch1b_441",
+          "id": "ch1b_358",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5408,7 +4281,7 @@
           "explanation": "\"happy\" = \"alegre\""
         },
         {
-          "id": "ch1b_443",
+          "id": "ch1b_360",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5417,7 +4290,7 @@
           "explanation": "\"intelligent\" = \"inteligente\""
         },
         {
-          "id": "ch1b_444",
+          "id": "ch1b_361",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5426,7 +4299,7 @@
           "explanation": "\"typical\" = \"tipico\""
         },
         {
-          "id": "ch1b_445",
+          "id": "ch1b_362",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5435,7 +4308,7 @@
           "explanation": "\"inexpensive\" = \"barato\""
         },
         {
-          "id": "ch1b_446",
+          "id": "ch1b_363",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5444,7 +4317,7 @@
           "explanation": "\"ugly\" = \"feo\""
         },
         {
-          "id": "ch1b_447",
+          "id": "ch1b_364",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5453,7 +4326,7 @@
           "explanation": "\"interesting\" = \"interesante\""
         },
         {
-          "id": "ch1b_448",
+          "id": "ch1b_365",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5462,7 +4335,7 @@
           "explanation": "\"sad\" = \"triste\""
         },
         {
-          "id": "ch1b_449",
+          "id": "ch1b_366",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_vocabulary",
@@ -5471,7 +4344,7 @@
           "explanation": "\"expensive\" = \"caro\""
         },
         {
-          "id": "ch1b_450",
+          "id": "ch1b_367",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5480,7 +4353,7 @@
           "explanation": "The adjective must agree with the gender of \"el hombre\". Answer: \"el hombre viejo\""
         },
         {
-          "id": "ch1b_451",
+          "id": "ch1b_368",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5489,7 +4362,7 @@
           "explanation": "The adjective must agree with the gender of \"la situacion\". Answer: \"la situacion dificil\""
         },
         {
-          "id": "ch1b_452",
+          "id": "ch1b_369",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5498,7 +4371,7 @@
           "explanation": "The adjective must agree with the gender of \"el idioma\". Answer: \"el idioma maravilloso\""
         },
         {
-          "id": "ch1b_453",
+          "id": "ch1b_370",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5507,7 +4380,7 @@
           "explanation": "The adjective must agree with the gender of \"la persona\". Answer: \"la persona simpatica\""
         },
         {
-          "id": "ch1b_454",
+          "id": "ch1b_371",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5516,7 +4389,7 @@
           "explanation": "The adjective must agree with the gender of \"la flor\". Answer: \"la flor amarilla\""
         },
         {
-          "id": "ch1b_455",
+          "id": "ch1b_372",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5525,7 +4398,7 @@
           "explanation": "The adjective must agree with the gender of \"el jardin\". Answer: \"el jardin hermoso\""
         },
         {
-          "id": "ch1b_456",
+          "id": "ch1b_373",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5534,7 +4407,7 @@
           "explanation": "The adjective must agree with the gender of \"la muchacha\". Answer: \"la muchacha delgada\""
         },
         {
-          "id": "ch1b_457",
+          "id": "ch1b_374",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5543,7 +4416,7 @@
           "explanation": "The adjective must agree with the gender of \"el vino\". Answer: \"el vino blanco\""
         },
         {
-          "id": "ch1b_458",
+          "id": "ch1b_375",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5552,7 +4425,7 @@
           "explanation": "The adjective must agree with the gender of \"el apartamento\". Answer: \"el apartamento caro\""
         },
         {
-          "id": "ch1b_459",
+          "id": "ch1b_376",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5561,7 +4434,7 @@
           "explanation": "The adjective must agree with the gender of \"el carro\". Answer: \"el carro barato\""
         },
         {
-          "id": "ch1b_460",
+          "id": "ch1b_377",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5570,7 +4443,7 @@
           "explanation": "The adjective must agree with the gender of \"el hotel\". Answer: \"el hotel pequeno\""
         },
         {
-          "id": "ch1b_461",
+          "id": "ch1b_378",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5579,7 +4452,7 @@
           "explanation": "The adjective must agree with the gender of \"el clima\". Answer: \"el clima fantastico\""
         },
         {
-          "id": "ch1b_462",
+          "id": "ch1b_379",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5588,7 +4461,7 @@
           "explanation": "The adjective must agree with the gender of \"la hermana\". Answer: \"la hermana inteligente\""
         },
         {
-          "id": "ch1b_463",
+          "id": "ch1b_380",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5597,7 +4470,7 @@
           "explanation": "The adjective must agree with the gender of \"el libro\". Answer: \"el libro interesante\""
         },
         {
-          "id": "ch1b_464",
+          "id": "ch1b_381",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5606,7 +4479,7 @@
           "explanation": "The adjective must agree with the gender of \"la ciudad\". Answer: \"la ciudad grande\""
         },
         {
-          "id": "ch1b_465",
+          "id": "ch1b_382",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5615,7 +4488,7 @@
           "explanation": "The adjective must agree with the gender of \"el hombre\". Answer: \"el hombre rico\""
         },
         {
-          "id": "ch1b_466",
+          "id": "ch1b_383",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5624,7 +4497,7 @@
           "explanation": "The adjective must agree with the gender of \"el dentista\". Answer: \"el dentista joven\""
         },
         {
-          "id": "ch1b_467",
+          "id": "ch1b_384",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5633,7 +4506,7 @@
           "explanation": "The adjective must agree with the gender of \"la bolsa\". Answer: \"la bolsa roja\""
         },
         {
-          "id": "ch1b_468",
+          "id": "ch1b_385",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5642,7 +4515,7 @@
           "explanation": "The adjective must agree with the gender of \"la ventana\". Answer: \"la ventana azul\""
         },
         {
-          "id": "ch1b_469",
+          "id": "ch1b_386",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "adjective_agreement",
@@ -5651,7 +4524,7 @@
           "explanation": "The adjective must agree with the gender of \"la planta\". Answer: \"la planta verde\""
         },
         {
-          "id": "ch1b_470",
+          "id": "ch1b_387",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5660,7 +4533,7 @@
           "explanation": "\"el libro blanco\" = \"the white book\""
         },
         {
-          "id": "ch1b_471",
+          "id": "ch1b_388",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5669,7 +4542,7 @@
           "explanation": "\"el gate negro\" = \"the black cat\""
         },
         {
-          "id": "ch1b_472",
+          "id": "ch1b_389",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5678,7 +4551,7 @@
           "explanation": "\"el carro rojo\" = \"the red car\""
         },
         {
-          "id": "ch1b_473",
+          "id": "ch1b_390",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5687,7 +4560,7 @@
           "explanation": "\"el mechacho simpatico\" = \"the nice boy\""
         },
         {
-          "id": "ch1b_474",
+          "id": "ch1b_391",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5696,7 +4569,7 @@
           "explanation": "\"el hombre hermoso\" = \"the handsome man\""
         },
         {
-          "id": "ch1b_475",
+          "id": "ch1b_392",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5705,7 +4578,7 @@
           "explanation": "\"la casa blanca\" = \"the white house\""
         },
         {
-          "id": "ch1b_476",
+          "id": "ch1b_393",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5714,7 +4587,7 @@
           "explanation": "\"la chaqueta negra\" = \"the black jacket\""
         },
         {
-          "id": "ch1b_477",
+          "id": "ch1b_394",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5723,7 +4596,7 @@
           "explanation": "\"la lampara roja\" = \"the red lamp\""
         },
         {
-          "id": "ch1b_478",
+          "id": "ch1b_395",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5732,7 +4605,7 @@
           "explanation": "\"la muchacha simpatica\" = \"the nice girl\""
         },
         {
-          "id": "ch1b_479",
+          "id": "ch1b_396",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5741,7 +4614,7 @@
           "explanation": "\"la mujer hermosa\" = \"the beautiful woman\""
         },
         {
-          "id": "ch1b_480",
+          "id": "ch1b_397",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5750,7 +4623,7 @@
           "explanation": "\"el libro excelenty\" = \"The Excellent Book\""
         },
         {
-          "id": "ch1b_481",
+          "id": "ch1b_398",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5759,7 +4632,7 @@
           "explanation": "\"el perro horrible\" = \"the horrible dog\""
         },
         {
-          "id": "ch1b_482",
+          "id": "ch1b_399",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5768,7 +4641,7 @@
           "explanation": "\"el poema dificil\" = \"the difficult poem\""
         },
         {
-          "id": "ch1b_483",
+          "id": "ch1b_400",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5777,7 +4650,7 @@
           "explanation": "\"el barco azul\" = \"the blue boat\""
         },
         {
-          "id": "ch1b_484",
+          "id": "ch1b_401",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5786,7 +4659,7 @@
           "explanation": "\"el bano verde\" = \"the green bank\""
         },
         {
-          "id": "ch1b_485",
+          "id": "ch1b_402",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5795,7 +4668,7 @@
           "explanation": "\"el tren gris\" = \"the gray train\""
         },
         {
-          "id": "ch1b_486",
+          "id": "ch1b_403",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5804,7 +4677,7 @@
           "explanation": "\"el tema interesante\" = \"the interesting topic\""
         },
         {
-          "id": "ch1b_487",
+          "id": "ch1b_404",
           "tier": "intermediate",
           "type": "fill_blank",
           "category": "phrases",
@@ -5813,107 +4686,107 @@
           "explanation": "\"el hombre fuerte\" = \"the strongman\""
         },
         {
-          "id": "ch1b_488",
+          "id": "ch1b_405",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"la lampara azul\"",
           "answer": "las lamparas azules",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la lampara azul\" \u2192 \"las lamparas azules\" (plural with matching article and adjective)"
+          "explanation": "\"la lampara azul\" → \"las lamparas azules\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_489",
+          "id": "ch1b_406",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"el amigo fantastico\"",
           "answer": "los amigos fantasticos",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el amigo fantastico\" \u2192 \"los amigos fantasticos\" (plural with matching article and adjective)"
+          "explanation": "\"el amigo fantastico\" → \"los amigos fantasticos\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_490",
+          "id": "ch1b_407",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"el perro gris\"",
           "answer": "los perros grises",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el perro gris\" \u2192 \"los perros grises\" (plural with matching article and adjective)"
+          "explanation": "\"el perro gris\" → \"los perros grises\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_491",
+          "id": "ch1b_408",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"la cerveza negra\"",
           "answer": "las cervezas negras",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la cerveza negra\" \u2192 \"las cervezas negras\" (plural with matching article and adjective)"
+          "explanation": "\"la cerveza negra\" → \"las cervezas negras\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_492",
+          "id": "ch1b_409",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"el vino rosado\"",
           "answer": "los vinos rosados",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el vino rosado\" \u2192 \"los vinos rosados\" (plural with matching article and adjective)"
+          "explanation": "\"el vino rosado\" → \"los vinos rosados\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_493",
+          "id": "ch1b_410",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"la persona fuerte\"",
           "answer": "las personas fuertes",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la persona fuerte\" \u2192 \"las personas fuertes\" (plural with matching article and adjective)"
+          "explanation": "\"la persona fuerte\" → \"las personas fuertes\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_494",
+          "id": "ch1b_411",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"el dia maravilloso\"",
           "answer": "los dias maravillosos",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el dia maravilloso\" \u2192 \"los dias maravillosos\" (plural with matching article and adjective)"
+          "explanation": "\"el dia maravilloso\" → \"los dias maravillosos\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_495",
+          "id": "ch1b_412",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"la luz verde\"",
           "answer": "las luzes verdes",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la luz verde\" \u2192 \"las luzes verdes\" (plural with matching article and adjective)"
+          "explanation": "\"la luz verde\" → \"las luzes verdes\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_496",
+          "id": "ch1b_413",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"la ciudad pequena\"",
           "answer": "las ciudades pequenas",
           "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-          "explanation": "\"la ciudad pequena\" \u2192 \"las ciudades pequenas\" (plural with matching article and adjective)"
+          "explanation": "\"la ciudad pequena\" → \"las ciudades pequenas\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_497",
+          "id": "ch1b_414",
           "tier": "advanced",
           "type": "sentence",
           "category": "plurals",
           "question": "Write the plural form of the phrase: \"el muchacho joven\"",
           "answer": "los muchachos jovenes",
           "hint": "Change the article from \"el\" to \"los\", and make the noun and adjective plural.",
-          "explanation": "\"el muchacho joven\" \u2192 \"los muchachos jovenes\" (plural with matching article and adjective)"
+          "explanation": "\"el muchacho joven\" → \"los muchachos jovenes\" (plural with matching article and adjective)"
         },
         {
-          "id": "ch1b_498",
+          "id": "ch1b_415",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -5923,7 +4796,7 @@
           "explanation": "\"Q\" = \"A\""
         },
         {
-          "id": "ch1b_499",
+          "id": "ch1b_416",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -5933,7 +4806,7 @@
           "explanation": "\"the red tomatoes\" = \"los tomates rojos\""
         },
         {
-          "id": "ch1b_500",
+          "id": "ch1b_417",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -5943,7 +4816,7 @@
           "explanation": "\"the strong men\" = \"los hombres fuertes\""
         },
         {
-          "id": "ch1b_501",
+          "id": "ch1b_418",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -5953,7 +4826,7 @@
           "explanation": "\"the thin women\" = \"las mujeres flacas\""
         },
         {
-          "id": "ch1b_502",
+          "id": "ch1b_419",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -5963,7 +4836,7 @@
           "explanation": "\"the yellow blouses\" = \"las blusas amarillas\""
         },
         {
-          "id": "ch1b_503",
+          "id": "ch1b_420",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -5973,7 +4846,7 @@
           "explanation": "\"the interesting songs\" = \"las canciones interesantes\""
         },
         {
-          "id": "ch1b_504",
+          "id": "ch1b_421",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -5983,7 +4856,7 @@
           "explanation": "\"the green planets\" = \"los planetas verdes\""
         },
         {
-          "id": "ch1b_505",
+          "id": "ch1b_422",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -5993,7 +4866,7 @@
           "explanation": "\"the blue windows\" = \"las ventanas azules\""
         },
         {
-          "id": "ch1b_506",
+          "id": "ch1b_423",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6003,7 +4876,7 @@
           "explanation": "\"the old hotels\" = \"los hoteles viejos\""
         },
         {
-          "id": "ch1b_507",
+          "id": "ch1b_424",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6013,7 +4886,7 @@
           "explanation": "\"the white book\" = \"el libro blanco\""
         },
         {
-          "id": "ch1b_508",
+          "id": "ch1b_425",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6023,7 +4896,7 @@
           "explanation": "\"the black cat\" = \"el gate negro\""
         },
         {
-          "id": "ch1b_509",
+          "id": "ch1b_426",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6033,7 +4906,7 @@
           "explanation": "\"the red car\" = \"el carro rojo\""
         },
         {
-          "id": "ch1b_510",
+          "id": "ch1b_427",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6043,7 +4916,7 @@
           "explanation": "\"the nice boy\" = \"el mechacho simpatico\""
         },
         {
-          "id": "ch1b_511",
+          "id": "ch1b_428",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6053,7 +4926,7 @@
           "explanation": "\"the handsome man\" = \"el hombre hermoso\""
         },
         {
-          "id": "ch1b_512",
+          "id": "ch1b_429",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6063,7 +4936,7 @@
           "explanation": "\"the white house\" = \"la casa blanca\""
         },
         {
-          "id": "ch1b_513",
+          "id": "ch1b_430",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6073,7 +4946,7 @@
           "explanation": "\"the black jacket\" = \"la chaqueta negra\""
         },
         {
-          "id": "ch1b_514",
+          "id": "ch1b_431",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6083,7 +4956,7 @@
           "explanation": "\"the red lamp\" = \"la lampara roja\""
         },
         {
-          "id": "ch1b_515",
+          "id": "ch1b_432",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6093,7 +4966,7 @@
           "explanation": "\"the nice girl\" = \"la muchacha simpatica\""
         },
         {
-          "id": "ch1b_516",
+          "id": "ch1b_433",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6103,7 +4976,7 @@
           "explanation": "\"the beautiful woman\" = \"la mujer hermosa\""
         },
         {
-          "id": "ch1b_517",
+          "id": "ch1b_434",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6113,7 +4986,7 @@
           "explanation": "\"The Excellent Book\" = \"el libro excelenty\""
         },
         {
-          "id": "ch1b_518",
+          "id": "ch1b_435",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6123,7 +4996,7 @@
           "explanation": "\"the horrible dog\" = \"el perro horrible\""
         },
         {
-          "id": "ch1b_519",
+          "id": "ch1b_436",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6133,7 +5006,7 @@
           "explanation": "\"the difficult poem\" = \"el poema dificil\""
         },
         {
-          "id": "ch1b_520",
+          "id": "ch1b_437",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6143,7 +5016,7 @@
           "explanation": "\"the blue boat\" = \"el barco azul\""
         },
         {
-          "id": "ch1b_521",
+          "id": "ch1b_438",
           "tier": "advanced",
           "type": "sentence",
           "category": "translation",
@@ -6152,115 +5025,7 @@
           "hint": "In Spanish, the adjective usually follows the noun.",
           "explanation": "\"the green bank\" = \"el bano verde\""
         }
-      ],
-      "study": {
-        "overview": "Chapter 1 introduces the two foundational concepts of Spanish grammar: every noun has a gender (masculine or feminine), and adjectives must match that gender and number. You will learn the four definite articles (el, la, los, las), the four indefinite articles (un, una, unos, unas), how to make nouns plural, and how adjectives change their endings to agree with the nouns they describe. Mastering these rules unlocks the ability to build any basic Spanish noun phrase.",
-        "keyTopics": [
-          {
-            "title": "Noun Gender",
-            "icon": "\ud83d\udd35\ud83d\udd34",
-            "summary": "Every Spanish noun is either masculine or feminine \u2014 there is no neutral. The article reveals the gender.",
-            "points": [
-              "Most nouns ending in -o are masculine: el libro (book), el carro (car), el gato (cat)",
-              "Most nouns ending in -a are feminine: la casa (house), la mesa (table), la blusa (blouse)",
-              "Nouns ending in -ci\u00f3n, -si\u00f3n, -dad, -tad, or -tud are always feminine: la canci\u00f3n, la ciudad, la verdad",
-              "Nouns ending in -ista can be either gender: el/la artista, el/la dentista",
-              "Watch out for exceptions: el d\u00eda, el mapa, el problema, el clima are masculine despite ending in -a",
-              "And: la foto, la mano, la radio are feminine despite ending in -o"
-            ]
-          },
-          {
-            "title": "Definite Articles (The)",
-            "icon": "\ud83d\udccc",
-            "summary": "Spanish has four words for the \u2014 they must match the gender and number of the noun.",
-            "points": [
-              "el \u2014 masculine singular: el libro (the book)",
-              "la \u2014 feminine singular: la mesa (the table)",
-              "los \u2014 masculine plural: los libros (the books)",
-              "las \u2014 feminine plural: las mesas (the tables)"
-            ]
-          },
-          {
-            "title": "Indefinite Articles (A / Some)",
-            "icon": "\ud83d\udd16",
-            "summary": "Spanish has four words for a/an (singular) and some (plural).",
-            "points": [
-              "un \u2014 masculine singular: un libro (a book)",
-              "una \u2014 feminine singular: una mesa (a table)",
-              "unos \u2014 masculine plural: unos libros (some books)",
-              "unas \u2014 feminine plural: unas mesas (some tables)"
-            ]
-          },
-          {
-            "title": "Plural Nouns",
-            "icon": "\ud83d\udcda",
-            "summary": "Forming plurals follows two simple rules based on the final letter of the noun.",
-            "points": [
-              "Nouns ending in a vowel \u2192 add -s: el libro \u2192 los libros, la casa \u2192 las casas",
-              "Nouns ending in a consonant \u2192 add -es: el hotel \u2192 los hoteles, la canci\u00f3n \u2192 las canciones",
-              "The article changes too: el \u2192 los, la \u2192 las"
-            ]
-          },
-          {
-            "title": "Adjective Placement & Agreement",
-            "icon": "\u270f\ufe0f",
-            "summary": "In Spanish, adjectives almost always follow the noun and must match its gender and number.",
-            "points": [
-              "Adjectives follow the noun: el libro blanco (the white book), NOT el blanco libro",
-              "Adjectives ending in -o change to -a for feminine: blanco \u2192 blanca, rojo \u2192 roja",
-              "Plural adjectives add -s (vowel) or -es (consonant): blancos, blancas, azules, grises",
-              "Adjectives NOT ending in -o have the same form for both genders: el libro azul / la mesa azul",
-              "Example: el muchacho simp\u00e1tico, la muchacha simp\u00e1tica, los muchachos simp\u00e1ticos"
-            ]
-          }
-        ],
-        "quickReview": [
-          {
-            "rule": "Masculine nouns use el / un",
-            "examples": [
-              "el amigo \u2014 the (male) friend",
-              "el libro \u2014 the book",
-              "un carro \u2014 a car",
-              "un problema \u2014 a problem"
-            ]
-          },
-          {
-            "rule": "Feminine nouns use la / una",
-            "examples": [
-              "la amiga \u2014 the (female) friend",
-              "la casa \u2014 the house",
-              "una mesa \u2014 a table",
-              "una canci\u00f3n \u2014 a song"
-            ]
-          },
-          {
-            "rule": "Plural: add -s after vowels, -es after consonants",
-            "examples": [
-              "el libro \u2192 los libros",
-              "la casa \u2192 las casas",
-              "el hotel \u2192 los hoteles",
-              "la ciudad \u2192 las ciudades"
-            ]
-          },
-          {
-            "rule": "Adjective agreement: match the noun's gender and number",
-            "examples": [
-              "el libro blanco (m.sg.)",
-              "la casa blanca (f.sg.)",
-              "los libros blancos (m.pl.)",
-              "las casas blancas (f.pl.)"
-            ]
-          },
-          {
-            "rule": "Adjectives not ending in -o stay the same for both genders",
-            "examples": [
-              "el libro azul / la mesa azul",
-              "el perro gris / la mesa gris",
-              "el tema interesante / la idea interesante"
-            ]
-          }
-        ]
-      }
+      ]
     }
   ]
 }
