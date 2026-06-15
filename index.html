@@ -1094,15 +1094,14 @@ function startTimer(mins){
 // ══════════════════════════════════════════════════════════
 const TTS = {
   muted: localStorage.getItem('tts_muted') === '1',
-  unavailable: false,
   esVoice: null,
   enVoice: null,
 
   init(){
-    if(!window.speechSynthesis) { this.unavailable=true; this._updateBtn(); return; }
+    if(!window.speechSynthesis){ this._updateBtn(); return; }
     const load = () => {
       const vs = speechSynthesis.getVoices();
-      if(!vs.length) return; // not ready yet
+      if(!vs.length) return;
       const esAll = vs.filter(v=>v.lang.startsWith('es'));
       this.esVoice = esAll.find(v=>/natural|neural/i.test(v.name))
                   || esAll.find(v=>v.lang==='es-US')
@@ -1113,19 +1112,13 @@ const TTS = {
       this.enVoice = enAll.find(v=>/natural|neural/i.test(v.name))
                   || enAll.find(v=>v.lang==='en-US')
                   || enAll[0] || null;
-      this.unavailable = false;
-      this._updateBtn();
     };
     load();
     speechSynthesis.onvoiceschanged = load;
-    // Some browsers (Brave) block voices — detect after short wait
-    setTimeout(()=>{
-      if(!this.esVoice){
-        this.unavailable = true;
-        this._updateBtn();
-        toast('🔇 Audio blocked by this browser. In Brave: click the Shields icon → disable fingerprinting protection for this site.');
-      }
-    }, 1500);
+    // Retry a few times — some browsers (Brave) load voices slowly
+    setTimeout(load, 500);
+    setTimeout(load, 1500);
+    setTimeout(load, 3000);
     this._updateBtn();
   },
 
@@ -1174,6 +1167,7 @@ const TTS = {
 
   speakQ(q){
     if(this.muted || !window.speechSynthesis) return;
+    if(!this.esVoice) return;
     // Collect all quoted segments from the question
     const all = [...q.question.matchAll(/"([^"]+)"/g)];
     if(!all.length) return;
@@ -1213,14 +1207,6 @@ const TTS = {
   _updateBtn(){
     const btn = document.getElementById('tts-toggle');
     if(!btn) return;
-    if(this.unavailable){
-      btn.textContent = '🔇';
-      btn.title = 'Audio unavailable — browser is blocking speech synthesis. In Brave: Shields → disable fingerprinting protection.';
-      btn.classList.add('tts-off');
-      btn.disabled = true;
-      return;
-    }
-    btn.disabled = false;
     btn.textContent = this.muted ? '🔇' : '🔊';
     btn.title = this.muted ? 'Unmute audio' : 'Mute audio';
     btn.classList.toggle('tts-off', this.muted);
