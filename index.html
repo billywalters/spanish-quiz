@@ -426,6 +426,7 @@ input[type=radio]{width:18px;height:18px;cursor:pointer;accent-color:var(--brand
     <nav class="sb-nav">
       <span class="sb-section">Study</span>
       <button class="nav-btn active" data-screen="home"><span class="ni">🏠</span> Home</button>
+      <button class="nav-btn" data-screen="chapter"><span class="ni">📖</span> Study Guide</button>
       <button class="nav-btn" data-screen="builder"><span class="ni">📝</span> Practice Test</button>
       <button class="nav-btn" data-screen="bank"><span class="ni">📚</span> Question Bank</button>
       <button class="nav-btn" data-screen="history"><span class="ni">📊</span> History</button>
@@ -1289,7 +1290,11 @@ function init(){
     const fresh=btn.cloneNode(true);
     btn.parentNode.replaceChild(fresh,btn);
     fresh.addEventListener('click',()=>{
-      const s=fresh.dataset.screen; showScreen(s);
+      const s=fresh.dataset.screen;
+      if(s==='chapter'){
+        const ch=DB.chapters[0]; if(ch) showChapterDetail(ch.id); return;
+      }
+      showScreen(s);
       if(s==='home') renderHome();
       if(s==='builder'){selectedChapters=new Set();selectedCategories=new Set();renderBuilder();}
       if(s==='bank'){
