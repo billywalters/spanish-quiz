@@ -1163,12 +1163,22 @@ const TTS = {
 
   speakQ(q){
     if(this.muted || !window.speechSynthesis) return;
-    // Only read the Spanish quoted portion — skip English wrapper text
-    const m = q.question.match(/"([^"]+)"/);
-    if(m && this._isSpanish(m[1])){
-      speechSynthesis.cancel();
-      speechSynthesis.speak(this._utt(m[1], 'es-ES'));
+    // Collect all quoted segments from the question
+    const all = [...q.question.matchAll(/"([^"]+)"/g)];
+    if(!all.length) return;
+    let seg;
+    if(/translate to spanish|spanish word for/i.test(q.question)){
+      // Quoted text is English — nothing useful to speak
+      return;
+    } else if(/complete the phrase/i.test(q.question)){
+      // Second quoted segment is the Spanish phrase (first is the English adjective name)
+      seg = all[1] || all[0];
+    } else {
+      seg = all[0];
     }
+    if(!seg) return;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(this._utt(seg[1], 'es-ES'));
   },
 
   speakReveal(q){
