@@ -982,7 +982,7 @@ function buildWordBank(ch){
     var words=byTopic[k].slice().sort(function(a,b){return a.es.localeCompare(b.es);});
     return '<div class="wb-section">'
       +'<div class="wb-topic-head"><span class="wb-topic-label">'+(TOPIC_LABELS[k]||k)+'</span><span class="wb-count">'+words.length+'</span></div>'
-      +words.map(function(w){return '<div class="wb-row"><span class="wb-es wb-speak" onclick="TTS.speak('' + w.es.replace(/'/g,"\'")+"'','es-ES')">'+esc(w.es)+'<span class="wb-hear">🔊</span></span><span class="wb-en">'+esc(w.en)+'</span></div>';}).join('')
+      +words.map(function(w){return '<div class="wb-row"><span class="wb-es wb-speak" data-word="'+esc(w.es)+'" onclick="TTS.speak(this.dataset.word,'es-ES')">'+esc(w.es)+'<span class="wb-hear">🔊</span></span><span class="wb-en">'+esc(w.en)+'</span></div>';}).join('')
       +'</div>';
   });
   if(!sections.length) return '<p style="color:var(--g400)">No vocabulary found for this chapter.</p>';
