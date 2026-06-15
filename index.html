@@ -339,6 +339,16 @@ input[type=radio]{width:18px;height:18px;cursor:pointer;accent-color:var(--brand
 .ch-quiz-icon{font-size:28px;margin-bottom:6px}
 .ch-quiz-label{font-size:14px;font-weight:700;color:var(--g700);margin-bottom:4px}
 .ch-quiz-desc{font-size:12px;color:var(--g400)}
+/* ── Word Bank ── */
+.wb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem}
+.wb-section{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.wb-topic-head{display:flex;align-items:center;justify-content:space-between;padding:.7rem 1rem;background:var(--g50);border-bottom:1px solid var(--border)}
+.wb-topic-label{font-size:14px;font-weight:700;color:var(--g700)}
+.wb-count{font-size:12px;font-weight:500;color:var(--g400);background:var(--border);border-radius:20px;padding:2px 8px}
+.wb-row{display:grid;grid-template-columns:1fr 1fr;padding:.45rem .9rem;border-bottom:1px solid var(--g100);font-size:13px}
+.wb-row:last-child{border-bottom:none}
+.wb-es{font-weight:600;color:var(--g700)}
+.wb-en{color:var(--g500)}
 </style>
 </head>
 <body>
@@ -532,11 +542,13 @@ input[type=radio]{width:18px;height:18px;cursor:pointer;accent-color:var(--brand
         <button class="ch-tab-btn active" data-tab="overview" onclick="switchChapterTab('overview')">Overview</button>
         <button class="ch-tab-btn" data-tab="topics" onclick="switchChapterTab('topics')">Key Topics</button>
         <button class="ch-tab-btn" data-tab="review" onclick="switchChapterTab('review')">Quick Review</button>
+        <button class="ch-tab-btn" data-tab="wordbank" onclick="switchChapterTab('wordbank')">Word Bank</button>
         <button class="ch-tab-btn" data-tab="quiz" onclick="switchChapterTab('quiz')">Quizzes</button>
       </div>
       <div class="ch-tab-pane active" data-tab="overview" id="ch-tab-overview"></div>
       <div class="ch-tab-pane" data-tab="topics" id="ch-tab-topics"></div>
       <div class="ch-tab-pane" data-tab="review" id="ch-tab-review"></div>
+      <div class="ch-tab-pane" data-tab="wordbank" id="ch-tab-wordbank"></div>
       <div class="ch-tab-pane" data-tab="quiz" id="ch-tab-quiz"></div>
     </div>
 
@@ -849,6 +861,7 @@ function renderChapterDetail(ch){
   document.getElementById('ch-tab-review').innerHTML=qr.map(function(r){
     return '<div class="ch-rule-card"><div class="ch-rule-label">'+r.rule+'</div><div class="ch-rule-examples">'+(r.examples||[]).map(function(e){return '<span class="ch-eg">'+e+'</span>';}).join('')+'</div></div>';
   }).join('');
+  document.getElementById('ch-tab-wordbank').innerHTML=buildWordBank(ch);
   var chId=ch.id;
   var q="'";
   document.getElementById('ch-tab-quiz').innerHTML='<p style="margin-bottom:1.5rem;color:var(--g500)">Choose a tier to practice this chapter.</p><div class="ch-quiz-grid">'
@@ -858,6 +871,37 @@ function renderChapterDetail(ch){
     +'<div class="ch-quiz-tile" onclick="startChapterQuiz('+q+chId+q+','+q+q+')"><div class="ch-quiz-icon">⚡</div><div class="ch-quiz-label">All Levels</div><div class="ch-quiz-desc">Mixed practice</div></div>'
     +'</div>';
   switchChapterTab('overview');
+}
+function buildWordBank(ch){
+  var TOPIC_LABELS={
+    animals:'🐾 Animals', people:'👤 People', home:'🏠 Home',
+    food_drink:'🍽️ Food & Drink', places:'📍 Places',
+    transportation:'🚗 Transportation', nature:'🌿 Nature',
+    colors:'🎨 Colors', general:'📚 General'
+  };
+  var byTopic={};
+  ch.questions.forEach(function(q){
+    var t=q.topic||'general';
+    if(!byTopic[t]) byTopic[t]=[];
+    var spanish,english;
+    if((q.category==='noun_vocabulary'||q.category==='adjective_vocabulary')&&q.type==='multiple_choice'){
+      var m=q.question.match(/"([^"]+)"/);
+      if(m){spanish=m[1];english=q.answer;}
+    }
+    if(spanish&&english&&!byTopic[t].find(function(x){return x.es===spanish;})){
+      byTopic[t].push({es:spanish,en:english});
+    }
+  });
+  var order=['animals','people','home','food_drink','places','transportation','nature','colors','general'];
+  var sections=order.filter(function(k){return byTopic[k]&&byTopic[k].length;}).map(function(k){
+    var words=byTopic[k].slice().sort(function(a,b){return a.es.localeCompare(b.es);});
+    return '<div class="wb-section">'
+      +'<div class="wb-topic-head"><span class="wb-topic-label">'+(TOPIC_LABELS[k]||k)+'</span><span class="wb-count">'+words.length+'</span></div>'
+      +words.map(function(w){return '<div class="wb-row"><span class="wb-es">'+esc(w.es)+'</span><span class="wb-en">'+esc(w.en)+'</span></div>';}).join('')
+      +'</div>';
+  });
+  if(!sections.length) return '<p style="color:var(--g400)">No vocabulary found for this chapter.</p>';
+  return '<div class="wb-grid">'+sections.join('')+'</div>';
 }
 function switchChapterTab(tab){
   document.querySelectorAll('.ch-tab-btn').forEach(function(b){b.classList.toggle('active',b.dataset.tab===tab);});
