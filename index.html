@@ -1094,15 +1094,16 @@ function startTimer(mins){
 // ══════════════════════════════════════════════════════════
 const TTS = {
   muted: localStorage.getItem('tts_muted') === '1',
+  unavailable: false,
   esVoice: null,
   enVoice: null,
 
   init(){
-    if(!window.speechSynthesis) return;
+    if(!window.speechSynthesis) { this.unavailable=true; this._updateBtn(); return; }
     const load = () => {
       const vs = speechSynthesis.getVoices();
+      if(!vs.length) return; // not ready yet
       const esAll = vs.filter(v=>v.lang.startsWith('es'));
-      // Prefer neural/natural voices, then US/MX Spanish (often better quality), then any Spanish
       this.esVoice = esAll.find(v=>/natural|neural/i.test(v.name))
                   || esAll.find(v=>v.lang==='es-US')
                   || esAll.find(v=>v.lang==='es-MX')
@@ -1112,9 +1113,19 @@ const TTS = {
       this.enVoice = enAll.find(v=>/natural|neural/i.test(v.name))
                   || enAll.find(v=>v.lang==='en-US')
                   || enAll[0] || null;
+      this.unavailable = false;
+      this._updateBtn();
     };
     load();
     speechSynthesis.onvoiceschanged = load;
+    // Some browsers (Brave) block voices — detect after short wait
+    setTimeout(()=>{
+      if(!this.esVoice){
+        this.unavailable = true;
+        this._updateBtn();
+        toast('🔇 Audio blocked by this browser. In Brave: click the Shields icon → disable fingerprinting protection for this site.');
+      }
+    }, 1500);
     this._updateBtn();
   },
 
@@ -1202,6 +1213,14 @@ const TTS = {
   _updateBtn(){
     const btn = document.getElementById('tts-toggle');
     if(!btn) return;
+    if(this.unavailable){
+      btn.textContent = '🔇';
+      btn.title = 'Audio unavailable — browser is blocking speech synthesis. In Brave: Shields → disable fingerprinting protection.';
+      btn.classList.add('tts-off');
+      btn.disabled = true;
+      return;
+    }
+    btn.disabled = false;
     btn.textContent = this.muted ? '🔇' : '🔊';
     btn.title = this.muted ? 'Unmute audio' : 'Mute audio';
     btn.classList.toggle('tts-off', this.muted);
