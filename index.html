@@ -349,6 +349,11 @@ input[type=radio]{width:18px;height:18px;cursor:pointer;accent-color:var(--brand
 .wb-row:last-child{border-bottom:none}
 .wb-es{font-weight:600;color:var(--g700)}
 .wb-en{color:var(--g500)}
+/* ── TTS ── */
+.tts-btn{background:none;border:1.5px solid var(--g200);border-radius:8px;padding:5px 10px;font-size:17px;cursor:pointer;transition:background .15s,opacity .15s;line-height:1}
+.tts-btn:hover{background:var(--g100)}
+.tts-btn.tts-off{opacity:0.35}
+.test-top{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1.5rem}
 /* ── Loading + Coming Soon ── */
 @keyframes spin{to{transform:rotate(360deg)}}
 .spinner{width:38px;height:38px;border:3px solid var(--g200);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite}
@@ -509,6 +514,7 @@ input[type=radio]{width:18px;height:18px;cursor:pointer;accent-color:var(--brand
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           <span id="timer-display">0:00</span>
         </div>
+        <button id="tts-toggle" class="tts-btn" onclick="TTS.toggle()" title="Mute audio">🔊</button>
       </div>
       <div class="q-card">
         <div class="q-meta" id="q-meta"></div>
@@ -1080,6 +1086,100 @@ function startTimer(mins){
 }
 
 // ══════════════════════════════════════════════════════════
+//  TEXT-TO-SPEECH
+// ══════════════════════════════════════════════════════════
+const TTS = {
+  muted: localStorage.getItem('tts_muted') === '1',
+  esVoice: null,
+  enVoice: null,
+
+  init(){
+    if(!window.speechSynthesis) return;
+    const load = () => {
+      const vs = speechSynthesis.getVoices();
+      this.esVoice = vs.find(v=>v.lang==='es-ES')
+                  || vs.find(v=>v.lang==='es-MX')
+                  || vs.find(v=>v.lang.startsWith('es'))
+                  || null;
+      this.enVoice = vs.find(v=>v.lang==='en-US')
+                  || vs.find(v=>v.lang.startsWith('en'))
+                  || null;
+    };
+    load();
+    speechSynthesis.onvoiceschanged = load;
+    this._updateBtn();
+  },
+
+  _utt(text, lang){
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = lang;
+    u.rate = 0.88;
+    if(lang.startsWith('es') && this.esVoice) u.voice = this.esVoice;
+    if(lang.startsWith('en') && this.enVoice) u.voice = this.enVoice;
+    return u;
+  },
+
+  // Heuristic: does this text look like Spanish?
+  _isSpanish(text){
+    return /(el|la|los|las|un|una|unos|unas)/i.test(text) || /[áéíóúñ]/i.test(text);
+  },
+
+  // Determine if the correct answer for a question should be spoken in Spanish
+  _answerIsSpanish(q){
+    if(/translate to spanish|spanish word for|write the plural|complete the phrase/i.test(q.question)) return true;
+    return this._isSpanish(q.answer);
+  },
+
+  // Split text on quoted segments; tag each segment's language
+  _segments(text){
+    const parts = [];
+    const re = /"([^"]+)"/g;
+    let last = 0, m;
+    while((m = re.exec(text)) !== null){
+      const before = text.slice(last, m.index).replace(/"/g,'').trim();
+      if(before) parts.push({t: before, l: 'en-US'});
+      const inner = m[1];
+      parts.push({t: inner, l: this._isSpanish(inner) ? 'es-ES' : 'en-US'});
+      last = m.index + m[0].length;
+    }
+    const after = text.slice(last).replace(/"/g,'').trim();
+    if(after) parts.push({t: after, l: 'en-US'});
+    return parts.length ? parts : [{t: text, l: 'en-US'}];
+  },
+
+  speakQ(q){
+    if(this.muted || !window.speechSynthesis) return;
+    speechSynthesis.cancel();
+    this._segments(q.question).forEach(s => speechSynthesis.speak(this._utt(s.t, s.l)));
+  },
+
+  speakReveal(q){
+    if(this.muted || !window.speechSynthesis) return;
+    const lang = this._answerIsSpanish(q) ? 'es-ES' : 'en-US';
+    setTimeout(() => {
+      speechSynthesis.cancel();
+      speechSynthesis.speak(this._utt(q.answer, lang));
+    }, 350);
+  },
+
+  toggle(){
+    this.muted = !this.muted;
+    localStorage.setItem('tts_muted', this.muted ? '1' : '0');
+    if(this.muted && window.speechSynthesis) speechSynthesis.cancel();
+    this._updateBtn();
+    toast(this.muted ? '🔇 Audio muted' : '🔊 Audio on');
+  },
+
+  _updateBtn(){
+    const btn = document.getElementById('tts-toggle');
+    if(!btn) return;
+    btn.textContent = this.muted ? '🔇' : '🔊';
+    btn.title = this.muted ? 'Unmute audio' : 'Mute audio';
+    btn.classList.toggle('tts-off', this.muted);
+  }
+};
+
+// ══════════════════════════════════════════════════════════
 //  MC OPTION RANDOMIZATION
 // ══════════════════════════════════════════════════════════
 let _mcPools = null;
@@ -1124,6 +1224,7 @@ function renderQ(){
     <span class="badge b-neutral">${q.type.replace('_',' ')}</span>
     <span class="badge b-neutral" style="color:var(--g400)">${q.chapterTitle.split('—')[0].trim()}</span>`;
   document.getElementById('q-text').textContent=q.question;
+  TTS.speakQ(q);
   const aa=document.getElementById('answer-area'), eb=document.getElementById('explanation-box');
   eb.className='expl'; eb.innerHTML='';
   if(q.type==='multiple_choice'){
@@ -1171,6 +1272,8 @@ function showExpl(ok,q){
     ${!ok?`<div style="margin-bottom:4px;font-size:14px">Correct answer: <strong>${esc(q.answer)}</strong></div>`:''}
     ${q.explanation?esc(q.explanation):''}`;
 }
+  TTS.speakReveal(q);
+
 function showNext(){
   const last=activeTest.current>=activeTest.questions.length-1;
   document.getElementById('q-actions').innerHTML=`<span></span>
@@ -1375,6 +1478,7 @@ function clearHistory(){
 //  INIT  (called once per mode selection)
 // ══════════════════════════════════════════════════════════
 function init(){
+  TTS.init();
   document.querySelectorAll('.nav-btn[data-screen]').forEach(btn=>{
     // Clone to remove old listeners from previous mode
     const fresh=btn.cloneNode(true);
