@@ -348,6 +348,10 @@ input[type=radio]{width:18px;height:18px;cursor:pointer;accent-color:var(--brand
 .wb-row{display:grid;grid-template-columns:1fr 1fr;padding:.45rem .9rem;border-bottom:1px solid var(--g100);font-size:13px}
 .wb-row:last-child{border-bottom:none}
 .wb-es{font-weight:600;color:var(--g700)}
+.wb-speak{cursor:pointer;display:flex;align-items:center;gap:5px;border-radius:4px;padding:1px 3px;margin:-1px -3px;transition:background .12s}
+.wb-speak:hover{background:var(--g100);color:var(--accent)}
+.wb-hear{font-size:11px;opacity:0;transition:opacity .12s}
+.wb-speak:hover .wb-hear{opacity:1}
 .wb-en{color:var(--g500)}
 /* ── TTS ── */
 .tts-btn{background:none;border:1.5px solid var(--g200);border-radius:8px;padding:5px 10px;font-size:17px;cursor:pointer;transition:background .15s,opacity .15s;line-height:1}
@@ -978,7 +982,7 @@ function buildWordBank(ch){
     var words=byTopic[k].slice().sort(function(a,b){return a.es.localeCompare(b.es);});
     return '<div class="wb-section">'
       +'<div class="wb-topic-head"><span class="wb-topic-label">'+(TOPIC_LABELS[k]||k)+'</span><span class="wb-count">'+words.length+'</span></div>'
-      +words.map(function(w){return '<div class="wb-row"><span class="wb-es">'+esc(w.es)+'</span><span class="wb-en">'+esc(w.en)+'</span></div>';}).join('')
+      +words.map(function(w){return '<div class="wb-row"><span class="wb-es wb-speak" onclick="TTS.speak('' + w.es.replace(/'/g,"\'")+"'','es-ES')">'+esc(w.es)+'<span class="wb-hear">🔊</span></span><span class="wb-en">'+esc(w.en)+'</span></div>';}).join('')
       +'</div>';
   });
   if(!sections.length) return '<p style="color:var(--g400)">No vocabulary found for this chapter.</p>';
@@ -1097,13 +1101,17 @@ const TTS = {
     if(!window.speechSynthesis) return;
     const load = () => {
       const vs = speechSynthesis.getVoices();
-      this.esVoice = vs.find(v=>v.lang==='es-ES')
-                  || vs.find(v=>v.lang==='es-MX')
-                  || vs.find(v=>v.lang.startsWith('es'))
-                  || null;
-      this.enVoice = vs.find(v=>v.lang==='en-US')
-                  || vs.find(v=>v.lang.startsWith('en'))
-                  || null;
+      const esAll = vs.filter(v=>v.lang.startsWith('es'));
+      // Prefer neural/natural voices, then US/MX Spanish (often better quality), then any Spanish
+      this.esVoice = esAll.find(v=>/natural|neural/i.test(v.name))
+                  || esAll.find(v=>v.lang==='es-US')
+                  || esAll.find(v=>v.lang==='es-MX')
+                  || esAll.find(v=>v.lang==='es-ES')
+                  || esAll[0] || null;
+      const enAll = vs.filter(v=>v.lang.startsWith('en'));
+      this.enVoice = enAll.find(v=>/natural|neural/i.test(v.name))
+                  || enAll.find(v=>v.lang==='en-US')
+                  || enAll[0] || null;
     };
     load();
     speechSynthesis.onvoiceschanged = load;
@@ -1147,19 +1155,30 @@ const TTS = {
     return parts.length ? parts : [{t: text, l: 'en-US'}];
   },
 
-  speakQ(q){
+  speak(text, lang){
     if(this.muted || !window.speechSynthesis) return;
     speechSynthesis.cancel();
-    this._segments(q.question).forEach(s => speechSynthesis.speak(this._utt(s.t, s.l)));
+    speechSynthesis.speak(this._utt(text, lang || 'es-ES'));
+  },
+
+  speakQ(q){
+    if(this.muted || !window.speechSynthesis) return;
+    // Only read the Spanish quoted portion — skip English wrapper text
+    const m = q.question.match(/"([^"]+)"/);
+    if(m && this._isSpanish(m[1])){
+      speechSynthesis.cancel();
+      speechSynthesis.speak(this._utt(m[1], 'es-ES'));
+    }
   },
 
   speakReveal(q){
     if(this.muted || !window.speechSynthesis) return;
-    const lang = this._answerIsSpanish(q) ? 'es-ES' : 'en-US';
+    // Only speak the answer if it's Spanish — no English readback
+    if(!this._answerIsSpanish(q)) return;
     setTimeout(() => {
       speechSynthesis.cancel();
-      speechSynthesis.speak(this._utt(q.answer, lang));
-    }, 350);
+      speechSynthesis.speak(this._utt(q.answer, 'es-ES'));
+    }, 150);
   },
 
   toggle(){
