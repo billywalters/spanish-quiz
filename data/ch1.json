@@ -6792,8 +6792,8 @@
       "category": "adjective_agreement",
       "topic": "general",
       "question": "Complete the phrase with the correct form of \"small\": \"el hotel ___\"",
-      "answer": "el hotel pequeno",
-      "explanation": "The adjective must agree with the gender of \"el hotel\". Answer: \"el hotel pequeno\""
+      "answer": "el hotel pequeño",
+      "explanation": "The adjective must agree with the gender of \"el hotel\". Answer: \"el hotel pequeño\""
     },
     {
       "id": "ch1b_506",
@@ -7159,10 +7159,10 @@
       "type": "sentence",
       "category": "plurals",
       "topic": "places",
-      "question": "Write the plural form of the phrase: \"la ciudad pequena\"",
-      "answer": "las ciudades pequenas",
+      "question": "Write the plural form of the phrase: \"la ciudad pequeña\"",
+      "answer": "las ciudades pequeñas",
       "hint": "Change the article from \"la\" to \"las\", and make the noun and adjective plural.",
-      "explanation": "\"la ciudad pequena\" → \"las ciudades pequenas\" (plural with matching article and adjective)"
+      "explanation": "\"la ciudad pequeña\" → \"las ciudades pequeñas\" (plural with matching article and adjective)"
     },
     {
       "id": "ch1b_542",
@@ -7438,6 +7438,54 @@
       "answer": "el baño verde",
       "hint": "In Spanish, the adjective usually follows the noun.",
       "explanation": "\"the green bank\" = \"el baño verde\""
+    },
+    {
+      "id": "ch1b_567",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "people",
+      "question": "What does the Spanish adjective \"fuerte\" mean?",
+      "options": [
+        "weak",
+        "tall",
+        "strong",
+        "happy"
+      ],
+      "answer": "strong",
+      "explanation": "\"fuerte\" = strong"
+    },
+    {
+      "id": "ch1b_568",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "general",
+      "question": "What does the Spanish adjective \"maravilloso\" mean?",
+      "options": [
+        "horrible",
+        "interesting",
+        "typical",
+        "marvelous"
+      ],
+      "answer": "marvelous",
+      "explanation": "\"maravilloso\" = marvelous / wonderful"
+    },
+    {
+      "id": "ch1b_569",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "general",
+      "question": "What does the Spanish adjective \"pequeño\" mean?",
+      "options": [
+        "large",
+        "old",
+        "tall",
+        "small"
+      ],
+      "answer": "small",
+      "explanation": "\"pequeño\" = small"
     }
   ]
 }
