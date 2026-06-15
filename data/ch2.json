@@ -1,6 +1,2491 @@
 {
   "id": "ch2",
-  "title": "Chapter 2 — Verbs in the Present Tense",
-  "description": "Present tense conjugations, ser vs. estar, regular and irregular verbs",
-  "questions": []
+  "title": "Chapter 2 — The Verb Estar",
+  "description": "Subject pronouns, the verb estar, adjectives of condition, and the four uses of estar",
+  "questions": [
+    {
+      "id": "ch2_1",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"yo\" mean?",
+      "options": [
+        "they (fem.)",
+        "you (formal)",
+        "they (masc.)",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "\"yo\" = I"
+    },
+    {
+      "id": "ch2_2",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"I\"?",
+      "options": [
+        "usted",
+        "nosotros",
+        "yo",
+        "ella"
+      ],
+      "answer": "yo",
+      "explanation": "\"I\" in Spanish is \"yo\""
+    },
+    {
+      "id": "ch2_3",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"tu\" mean?",
+      "options": [
+        "they (fem.)",
+        "you (informal)",
+        "you all (Spain)",
+        "you all"
+      ],
+      "answer": "you (informal)",
+      "explanation": "\"tu\" = you (informal)"
+    },
+    {
+      "id": "ch2_4",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"you (informal)\"?",
+      "options": [
+        "ustedes",
+        "ellas",
+        "usted",
+        "tu"
+      ],
+      "answer": "tu",
+      "explanation": "\"you (informal)\" in Spanish is \"tu\""
+    },
+    {
+      "id": "ch2_5",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"el\" mean?",
+      "options": [
+        "you (informal)",
+        "I",
+        "you (formal)",
+        "he"
+      ],
+      "answer": "he",
+      "explanation": "\"el\" = he"
+    },
+    {
+      "id": "ch2_6",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"he\"?",
+      "options": [
+        "vosotros",
+        "ustedes",
+        "el",
+        "ella"
+      ],
+      "answer": "el",
+      "explanation": "\"he\" in Spanish is \"el\""
+    },
+    {
+      "id": "ch2_7",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"ella\" mean?",
+      "options": [
+        "she",
+        "we",
+        "they (masc.)",
+        "they (fem.)"
+      ],
+      "answer": "she",
+      "explanation": "\"ella\" = she"
+    },
+    {
+      "id": "ch2_8",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"she\"?",
+      "options": [
+        "ellas",
+        "ella",
+        "ellos",
+        "ustedes"
+      ],
+      "answer": "ella",
+      "explanation": "\"she\" in Spanish is \"ella\""
+    },
+    {
+      "id": "ch2_9",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"usted\" mean?",
+      "options": [
+        "they (masc.)",
+        "you (formal)",
+        "he",
+        "I"
+      ],
+      "answer": "you (formal)",
+      "explanation": "\"usted\" = you (formal)"
+    },
+    {
+      "id": "ch2_10",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"you (formal)\"?",
+      "options": [
+        "usted",
+        "tu",
+        "yo",
+        "el"
+      ],
+      "answer": "usted",
+      "explanation": "\"you (formal)\" in Spanish is \"usted\""
+    },
+    {
+      "id": "ch2_11",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"nosotros\" mean?",
+      "options": [
+        "he",
+        "she",
+        "you all (Spain)",
+        "we"
+      ],
+      "answer": "we",
+      "explanation": "\"nosotros\" = we"
+    },
+    {
+      "id": "ch2_12",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"we\"?",
+      "options": [
+        "ella",
+        "tu",
+        "ellos",
+        "nosotros"
+      ],
+      "answer": "nosotros",
+      "explanation": "\"we\" in Spanish is \"nosotros\""
+    },
+    {
+      "id": "ch2_13",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"vosotros\" mean?",
+      "options": [
+        "she",
+        "you all (Spain)",
+        "you (formal)",
+        "they (masc.)"
+      ],
+      "answer": "you all (Spain)",
+      "explanation": "\"vosotros\" = you all (Spain)"
+    },
+    {
+      "id": "ch2_14",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"you all (Spain)\"?",
+      "options": [
+        "ella",
+        "ellas",
+        "vosotros",
+        "ustedes"
+      ],
+      "answer": "vosotros",
+      "explanation": "\"you all (Spain)\" in Spanish is \"vosotros\""
+    },
+    {
+      "id": "ch2_15",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"ellos\" mean?",
+      "options": [
+        "he",
+        "she",
+        "they (fem.)",
+        "they (masc.)"
+      ],
+      "answer": "they (masc.)",
+      "explanation": "\"ellos\" = they (masc.)"
+    },
+    {
+      "id": "ch2_16",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"they (masc.)\"?",
+      "options": [
+        "ellos",
+        "yo",
+        "nosotros",
+        "vosotros"
+      ],
+      "answer": "ellos",
+      "explanation": "\"they (masc.)\" in Spanish is \"ellos\""
+    },
+    {
+      "id": "ch2_17",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"ellas\" mean?",
+      "options": [
+        "you (formal)",
+        "they (fem.)",
+        "she",
+        "he"
+      ],
+      "answer": "they (fem.)",
+      "explanation": "\"ellas\" = they (fem.)"
+    },
+    {
+      "id": "ch2_18",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"they (fem.)\"?",
+      "options": [
+        "ella",
+        "usted",
+        "ellas",
+        "el"
+      ],
+      "answer": "ellas",
+      "explanation": "\"they (fem.)\" in Spanish is \"ellas\""
+    },
+    {
+      "id": "ch2_19",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "What does the Spanish pronoun \"ustedes\" mean?",
+      "options": [
+        "he",
+        "we",
+        "you all",
+        "I"
+      ],
+      "answer": "you all",
+      "explanation": "\"ustedes\" = you all"
+    },
+    {
+      "id": "ch2_20",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "pronoun_vocabulary",
+      "topic": "pronouns",
+      "question": "Which Spanish pronoun means \"you all\"?",
+      "options": [
+        "yo",
+        "ellas",
+        "ellos",
+        "ustedes"
+      ],
+      "answer": "ustedes",
+      "explanation": "\"you all\" in Spanish is \"ustedes\""
+    },
+    {
+      "id": "ch2_21",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What is the \"yo\" form of the verb \"estar\"?",
+      "options": [
+        "estoy",
+        "estáis",
+        "están",
+        "está"
+      ],
+      "answer": "estoy",
+      "explanation": "yo -> estoy (I am)"
+    },
+    {
+      "id": "ch2_22",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What does \"estoy\" mean?",
+      "options": [
+        "we are",
+        "they/you all are",
+        "I am",
+        "you are"
+      ],
+      "answer": "I am",
+      "explanation": "\"estoy\" means \"I am\""
+    },
+    {
+      "id": "ch2_23",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What is the \"tú\" form of the verb \"estar\"?",
+      "options": [
+        "está",
+        "estamos",
+        "están",
+        "estás"
+      ],
+      "answer": "estás",
+      "explanation": "tú -> estás (you are)"
+    },
+    {
+      "id": "ch2_24",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What does \"estás\" mean?",
+      "options": [
+        "we are",
+        "I am",
+        "you are",
+        "he/she/you is"
+      ],
+      "answer": "you are",
+      "explanation": "\"estás\" means \"you are\""
+    },
+    {
+      "id": "ch2_25",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What is the \"él / ella / usted\" form of the verb \"estar\"?",
+      "options": [
+        "está",
+        "estamos",
+        "están",
+        "estás"
+      ],
+      "answer": "está",
+      "explanation": "él / ella / usted -> está (he/she/you is)"
+    },
+    {
+      "id": "ch2_26",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What does \"está\" mean?",
+      "options": [
+        "you are",
+        "I am",
+        "he/she/you is",
+        "we are"
+      ],
+      "answer": "he/she/you is",
+      "explanation": "\"está\" means \"he/she/you is\""
+    },
+    {
+      "id": "ch2_27",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What is the \"nosotros\" form of the verb \"estar\"?",
+      "options": [
+        "estás",
+        "estáis",
+        "está",
+        "estamos"
+      ],
+      "answer": "estamos",
+      "explanation": "nosotros -> estamos (we are)"
+    },
+    {
+      "id": "ch2_28",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What does \"estamos\" mean?",
+      "options": [
+        "I am",
+        "he/she/you is",
+        "we are",
+        "you all are"
+      ],
+      "answer": "we are",
+      "explanation": "\"estamos\" means \"we are\""
+    },
+    {
+      "id": "ch2_29",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What is the \"vosotros\" form of the verb \"estar\"?",
+      "options": [
+        "están",
+        "estoy",
+        "está",
+        "estáis"
+      ],
+      "answer": "estáis",
+      "explanation": "vosotros -> estáis (you all are)"
+    },
+    {
+      "id": "ch2_30",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What does \"estáis\" mean?",
+      "options": [
+        "you are",
+        "they/you all are",
+        "you all are",
+        "I am"
+      ],
+      "answer": "you all are",
+      "explanation": "\"estáis\" means \"you all are\""
+    },
+    {
+      "id": "ch2_31",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What is the \"ellos / ellas / ustedes\" form of the verb \"estar\"?",
+      "options": [
+        "estáis",
+        "están",
+        "estoy",
+        "está"
+      ],
+      "answer": "están",
+      "explanation": "ellos / ellas / ustedes -> están (they/you all are)"
+    },
+    {
+      "id": "ch2_32",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "verb_conjugation",
+      "topic": "estar_verb",
+      "question": "What does \"están\" mean?",
+      "options": [
+        "you are",
+        "he/she/you is",
+        "you all are",
+        "they/you all are"
+      ],
+      "answer": "they/you all are",
+      "explanation": "\"están\" means \"they/you all are\""
+    },
+    {
+      "id": "ch2_33",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Yo ______ en la clase.\"",
+      "answer": "estoy",
+      "explanation": "Yo estoy en la clase. = I am in the class."
+    },
+    {
+      "id": "ch2_34",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Ella ______ enferma.\"",
+      "answer": "está",
+      "explanation": "Ella está enferma. = She is sick."
+    },
+    {
+      "id": "ch2_35",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Nosotros ______ bien, gracias.\"",
+      "answer": "estamos",
+      "explanation": "Nosotros estamos bien, gracias. = We are fine, thanks."
+    },
+    {
+      "id": "ch2_36",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"¿Cómo ______ tú?\"",
+      "answer": "estás",
+      "explanation": "¿Cómo estás tú? = How are you?"
+    },
+    {
+      "id": "ch2_37",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Ellos ______ cansados.\"",
+      "answer": "están",
+      "explanation": "Ellos están cansados. = They are tired."
+    },
+    {
+      "id": "ch2_38",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"El restaurante ______ en la ciudad.\"",
+      "answer": "está",
+      "explanation": "El restaurante está en la ciudad. = The restaurant is in the city."
+    },
+    {
+      "id": "ch2_39",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Vosotros ______ alegres.\"",
+      "answer": "estáis",
+      "explanation": "Vosotros estáis alegres. = You all are happy."
+    },
+    {
+      "id": "ch2_40",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Las doctoras ______ enfermas.\"",
+      "answer": "están",
+      "explanation": "Las doctoras están enfermas. = The doctors are sick."
+    },
+    {
+      "id": "ch2_41",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Yo ______ feliz hoy.\"",
+      "answer": "estoy",
+      "explanation": "Yo estoy feliz hoy. = I am happy today."
+    },
+    {
+      "id": "ch2_42",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Nosotros ______ en el carro.\"",
+      "answer": "estamos",
+      "explanation": "Nosotros estamos en el carro. = We are in the car."
+    },
+    {
+      "id": "ch2_43",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Ellas ______ en el baño.\"",
+      "answer": "están",
+      "explanation": "Ellas están en el baño. = They are in the bathroom."
+    },
+    {
+      "id": "ch2_44",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"Él ______ guapo.\"",
+      "answer": "está",
+      "explanation": "Él está guapo. = He is handsome."
+    },
+    {
+      "id": "ch2_45",
+      "tier": "beginner",
+      "type": "fill_blank",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Complete the sentence with the correct form of \"estar\": \"La sopa ______ sabrosa.\"",
+      "answer": "está",
+      "explanation": "La sopa está sabrosa. = The soup is delicious."
+    },
+    {
+      "id": "ch2_46",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Which subject pronoun goes with \"estoy\"?",
+      "options": [
+        "nosotros",
+        "tú",
+        "yo",
+        "él"
+      ],
+      "answer": "yo",
+      "explanation": "\"estoy\" is the yo (I) form of estar."
+    },
+    {
+      "id": "ch2_47",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Which subject pronoun goes with \"estamos\"?",
+      "options": [
+        "nosotros",
+        "tú",
+        "ustedes",
+        "yo"
+      ],
+      "answer": "nosotros",
+      "explanation": "\"estamos\" is the nosotros (we) form of estar."
+    },
+    {
+      "id": "ch2_48",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "estar_usage",
+      "topic": "estar_verb",
+      "question": "Which subject pronoun goes with \"están\"?",
+      "options": [
+        "ellos",
+        "tú",
+        "yo",
+        "ella"
+      ],
+      "answer": "ellos",
+      "explanation": "\"están\" is the ellos/ellas/ustedes form of estar."
+    },
+    {
+      "id": "ch2_49",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"alegre\" mean?",
+      "options": [
+        "angry",
+        "good",
+        "happy (contented)",
+        "happy (merry)"
+      ],
+      "answer": "happy (merry)",
+      "explanation": "\"alegre\" = happy (merry)"
+    },
+    {
+      "id": "ch2_50",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"happy (merry)\"?",
+      "options": [
+        "enojado",
+        "lindo",
+        "bonito",
+        "alegre"
+      ],
+      "answer": "alegre",
+      "explanation": "\"happy (merry)\" in Spanish is \"alegre\""
+    },
+    {
+      "id": "ch2_51",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"alegre\"?",
+      "options": [
+        "bonitos",
+        "buenos",
+        "cansados",
+        "alegres"
+      ],
+      "answer": "alegres",
+      "explanation": "\"alegre\" -> plural: \"alegres\""
+    },
+    {
+      "id": "ch2_52",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"bonito\" mean?",
+      "options": [
+        "angry",
+        "pretty",
+        "handsome",
+        "good"
+      ],
+      "answer": "pretty",
+      "explanation": "\"bonito\" = pretty"
+    },
+    {
+      "id": "ch2_53",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"pretty\"?",
+      "options": [
+        "sabroso",
+        "bonito",
+        "feliz",
+        "contento"
+      ],
+      "answer": "bonito",
+      "explanation": "\"pretty\" in Spanish is \"bonito\""
+    },
+    {
+      "id": "ch2_54",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"bonito\"?",
+      "options": [
+        "bonita",
+        "buena",
+        "cansada",
+        "alegre"
+      ],
+      "answer": "bonita",
+      "explanation": "\"bonito\" (masc.) changes to \"bonita\" (fem.)"
+    },
+    {
+      "id": "ch2_55",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"bonito\"?",
+      "options": [
+        "cansados",
+        "alegres",
+        "bonitos",
+        "buenos"
+      ],
+      "answer": "bonitos",
+      "explanation": "\"bonito\" -> plural: \"bonitos\""
+    },
+    {
+      "id": "ch2_56",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"bueno\" mean?",
+      "options": [
+        "happy (contented)",
+        "delicious",
+        "good",
+        "pretty"
+      ],
+      "answer": "good",
+      "explanation": "\"bueno\" = good"
+    },
+    {
+      "id": "ch2_57",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"good\"?",
+      "options": [
+        "bueno",
+        "lindo",
+        "hermoso",
+        "cansado"
+      ],
+      "answer": "bueno",
+      "explanation": "\"good\" in Spanish is \"bueno\""
+    },
+    {
+      "id": "ch2_58",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"bueno\"?",
+      "options": [
+        "buena",
+        "cansada",
+        "alegre",
+        "bonita"
+      ],
+      "answer": "buena",
+      "explanation": "\"bueno\" (masc.) changes to \"buena\" (fem.)"
+    },
+    {
+      "id": "ch2_59",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"bueno\"?",
+      "options": [
+        "bonitos",
+        "alegres",
+        "cansados",
+        "buenos"
+      ],
+      "answer": "buenos",
+      "explanation": "\"bueno\" -> plural: \"buenos\""
+    },
+    {
+      "id": "ch2_60",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"cansado\" mean?",
+      "options": [
+        "sick",
+        "tired",
+        "handsome",
+        "happy"
+      ],
+      "answer": "tired",
+      "explanation": "\"cansado\" = tired"
+    },
+    {
+      "id": "ch2_61",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"tired\"?",
+      "options": [
+        "enfermo",
+        "sabroso",
+        "bonito",
+        "cansado"
+      ],
+      "answer": "cansado",
+      "explanation": "\"tired\" in Spanish is \"cansado\""
+    },
+    {
+      "id": "ch2_62",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"cansado\"?",
+      "options": [
+        "cansada",
+        "bonita",
+        "alegre",
+        "buena"
+      ],
+      "answer": "cansada",
+      "explanation": "\"cansado\" (masc.) changes to \"cansada\" (fem.)"
+    },
+    {
+      "id": "ch2_63",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"cansado\"?",
+      "options": [
+        "bonitos",
+        "buenos",
+        "cansados",
+        "alegres"
+      ],
+      "answer": "cansados",
+      "explanation": "\"cansado\" -> plural: \"cansados\""
+    },
+    {
+      "id": "ch2_64",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"contento\" mean?",
+      "options": [
+        "happy (contented)",
+        "sick",
+        "tired",
+        "pretty"
+      ],
+      "answer": "happy (contented)",
+      "explanation": "\"contento\" = happy (contented)"
+    },
+    {
+      "id": "ch2_65",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"happy (contented)\"?",
+      "options": [
+        "bueno",
+        "hermoso",
+        "delicioso",
+        "contento"
+      ],
+      "answer": "contento",
+      "explanation": "\"happy (contented)\" in Spanish is \"contento\""
+    },
+    {
+      "id": "ch2_66",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"contento\"?",
+      "options": [
+        "alegre",
+        "buena",
+        "contenta",
+        "bonita"
+      ],
+      "answer": "contenta",
+      "explanation": "\"contento\" (masc.) changes to \"contenta\" (fem.)"
+    },
+    {
+      "id": "ch2_67",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"contento\"?",
+      "options": [
+        "alegres",
+        "bonitos",
+        "buenos",
+        "contentos"
+      ],
+      "answer": "contentos",
+      "explanation": "\"contento\" -> plural: \"contentos\""
+    },
+    {
+      "id": "ch2_68",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"delicioso\" mean?",
+      "options": [
+        "happy (merry)",
+        "good",
+        "sick",
+        "delicious"
+      ],
+      "answer": "delicious",
+      "explanation": "\"delicioso\" = delicious"
+    },
+    {
+      "id": "ch2_69",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"delicious\"?",
+      "options": [
+        "delicioso",
+        "enfermo",
+        "sabroso",
+        "contento"
+      ],
+      "answer": "delicioso",
+      "explanation": "\"delicious\" in Spanish is \"delicioso\""
+    },
+    {
+      "id": "ch2_70",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"delicioso\"?",
+      "options": [
+        "deliciosa",
+        "buena",
+        "bonita",
+        "alegre"
+      ],
+      "answer": "deliciosa",
+      "explanation": "\"delicioso\" (masc.) changes to \"deliciosa\" (fem.)"
+    },
+    {
+      "id": "ch2_71",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"delicioso\"?",
+      "options": [
+        "deliciosos",
+        "bonitos",
+        "buenos",
+        "alegres"
+      ],
+      "answer": "deliciosos",
+      "explanation": "\"delicioso\" -> plural: \"deliciosos\""
+    },
+    {
+      "id": "ch2_72",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"enfermo\" mean?",
+      "options": [
+        "angry",
+        "sick",
+        "beautiful",
+        "delicious"
+      ],
+      "answer": "sick",
+      "explanation": "\"enfermo\" = sick"
+    },
+    {
+      "id": "ch2_73",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"sick\"?",
+      "options": [
+        "feliz",
+        "enfermo",
+        "contento",
+        "guapo"
+      ],
+      "answer": "enfermo",
+      "explanation": "\"sick\" in Spanish is \"enfermo\""
+    },
+    {
+      "id": "ch2_74",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"enfermo\"?",
+      "options": [
+        "buena",
+        "enferma",
+        "bonita",
+        "alegre"
+      ],
+      "answer": "enferma",
+      "explanation": "\"enfermo\" (masc.) changes to \"enferma\" (fem.)"
+    },
+    {
+      "id": "ch2_75",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"enfermo\"?",
+      "options": [
+        "bonitos",
+        "alegres",
+        "enfermos",
+        "buenos"
+      ],
+      "answer": "enfermos",
+      "explanation": "\"enfermo\" -> plural: \"enfermos\""
+    },
+    {
+      "id": "ch2_76",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"enojado\" mean?",
+      "options": [
+        "angry",
+        "happy (merry)",
+        "delicious",
+        "delicious"
+      ],
+      "answer": "angry",
+      "explanation": "\"enojado\" = angry"
+    },
+    {
+      "id": "ch2_77",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"angry\"?",
+      "options": [
+        "bonito",
+        "enojado",
+        "enfermo",
+        "guapo"
+      ],
+      "answer": "enojado",
+      "explanation": "\"angry\" in Spanish is \"enojado\""
+    },
+    {
+      "id": "ch2_78",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"enojado\"?",
+      "options": [
+        "bonita",
+        "enojada",
+        "buena",
+        "alegre"
+      ],
+      "answer": "enojada",
+      "explanation": "\"enojado\" (masc.) changes to \"enojada\" (fem.)"
+    },
+    {
+      "id": "ch2_79",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"enojado\"?",
+      "options": [
+        "enojados",
+        "bonitos",
+        "alegres",
+        "buenos"
+      ],
+      "answer": "enojados",
+      "explanation": "\"enojado\" -> plural: \"enojados\""
+    },
+    {
+      "id": "ch2_80",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"feliz\" mean?",
+      "options": [
+        "beautiful",
+        "tired",
+        "delicious",
+        "happy"
+      ],
+      "answer": "happy",
+      "explanation": "\"feliz\" = happy"
+    },
+    {
+      "id": "ch2_81",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"happy\"?",
+      "options": [
+        "contento",
+        "delicioso",
+        "feliz",
+        "guapo"
+      ],
+      "answer": "feliz",
+      "explanation": "\"happy\" in Spanish is \"feliz\""
+    },
+    {
+      "id": "ch2_82",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"feliz\"?",
+      "options": [
+        "buenos",
+        "alegres",
+        "bonitos",
+        "felices"
+      ],
+      "answer": "felices",
+      "explanation": "\"feliz\" -> plural: \"felices\" (feliz -> felices: z changes to c before -es)"
+    },
+    {
+      "id": "ch2_83",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"guapo\" mean?",
+      "options": [
+        "angry",
+        "good",
+        "delicious",
+        "handsome"
+      ],
+      "answer": "handsome",
+      "explanation": "\"guapo\" = handsome"
+    },
+    {
+      "id": "ch2_84",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"handsome\"?",
+      "options": [
+        "enojado",
+        "hermoso",
+        "cansado",
+        "guapo"
+      ],
+      "answer": "guapo",
+      "explanation": "\"handsome\" in Spanish is \"guapo\""
+    },
+    {
+      "id": "ch2_85",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"guapo\"?",
+      "options": [
+        "bonita",
+        "guapa",
+        "buena",
+        "alegre"
+      ],
+      "answer": "guapa",
+      "explanation": "\"guapo\" (masc.) changes to \"guapa\" (fem.)"
+    },
+    {
+      "id": "ch2_86",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"guapo\"?",
+      "options": [
+        "guapos",
+        "bonitos",
+        "alegres",
+        "buenos"
+      ],
+      "answer": "guapos",
+      "explanation": "\"guapo\" -> plural: \"guapos\""
+    },
+    {
+      "id": "ch2_87",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"hermoso\" mean?",
+      "options": [
+        "pretty",
+        "beautiful",
+        "pretty",
+        "happy"
+      ],
+      "answer": "beautiful",
+      "explanation": "\"hermoso\" = beautiful"
+    },
+    {
+      "id": "ch2_88",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"beautiful\"?",
+      "options": [
+        "alegre",
+        "feliz",
+        "bonito",
+        "hermoso"
+      ],
+      "answer": "hermoso",
+      "explanation": "\"beautiful\" in Spanish is \"hermoso\""
+    },
+    {
+      "id": "ch2_89",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"hermoso\"?",
+      "options": [
+        "buena",
+        "hermosa",
+        "bonita",
+        "alegre"
+      ],
+      "answer": "hermosa",
+      "explanation": "\"hermoso\" (masc.) changes to \"hermosa\" (fem.)"
+    },
+    {
+      "id": "ch2_90",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"hermoso\"?",
+      "options": [
+        "bonitos",
+        "hermosos",
+        "alegres",
+        "buenos"
+      ],
+      "answer": "hermosos",
+      "explanation": "\"hermoso\" -> plural: \"hermosos\""
+    },
+    {
+      "id": "ch2_91",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"lindo\" mean?",
+      "options": [
+        "pretty",
+        "happy (merry)",
+        "handsome",
+        "happy"
+      ],
+      "answer": "pretty",
+      "explanation": "\"lindo\" = pretty"
+    },
+    {
+      "id": "ch2_92",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"pretty\"?",
+      "options": [
+        "cansado",
+        "sabroso",
+        "lindo",
+        "hermoso"
+      ],
+      "answer": "lindo",
+      "explanation": "\"pretty\" in Spanish is \"lindo\""
+    },
+    {
+      "id": "ch2_93",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"lindo\"?",
+      "options": [
+        "buena",
+        "alegre",
+        "bonita",
+        "linda"
+      ],
+      "answer": "linda",
+      "explanation": "\"lindo\" (masc.) changes to \"linda\" (fem.)"
+    },
+    {
+      "id": "ch2_94",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"lindo\"?",
+      "options": [
+        "bonitos",
+        "lindos",
+        "alegres",
+        "buenos"
+      ],
+      "answer": "lindos",
+      "explanation": "\"lindo\" -> plural: \"lindos\""
+    },
+    {
+      "id": "ch2_95",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What does the Spanish adjective \"sabroso\" mean?",
+      "options": [
+        "tired",
+        "angry",
+        "sick",
+        "delicious"
+      ],
+      "answer": "delicious",
+      "explanation": "\"sabroso\" = delicious"
+    },
+    {
+      "id": "ch2_96",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "adjective_vocabulary",
+      "topic": "adjectives",
+      "question": "What is the Spanish word for \"delicious\"?",
+      "options": [
+        "feliz",
+        "bonito",
+        "sabroso",
+        "contento"
+      ],
+      "answer": "sabroso",
+      "explanation": "\"delicious\" in Spanish is \"sabroso\""
+    },
+    {
+      "id": "ch2_97",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the feminine form of \"sabroso\"?",
+      "options": [
+        "bonita",
+        "alegre",
+        "sabrosa",
+        "buena"
+      ],
+      "answer": "sabrosa",
+      "explanation": "\"sabroso\" (masc.) changes to \"sabrosa\" (fem.)"
+    },
+    {
+      "id": "ch2_98",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "What is the plural form of \"sabroso\"?",
+      "options": [
+        "sabrosos",
+        "alegres",
+        "bonitos",
+        "buenos"
+      ],
+      "answer": "sabrosos",
+      "explanation": "\"sabroso\" -> plural: \"sabrosos\""
+    },
+    {
+      "id": "ch2_99",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"El hombre está ___.\"",
+      "options": [
+        "cansada",
+        "cansado",
+        "enferma",
+        "bonito"
+      ],
+      "answer": "cansado",
+      "explanation": "El hombre está cansado. (tired (m))"
+    },
+    {
+      "id": "ch2_100",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"La mujer está ___.\"",
+      "options": [
+        "enferma",
+        "cansada",
+        "cansado",
+        "cansado"
+      ],
+      "answer": "cansada",
+      "explanation": "La mujer está cansada. (tired (f))"
+    },
+    {
+      "id": "ch2_101",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"La muchacha está ___.\"",
+      "options": [
+        "contento",
+        "contenta",
+        "sabrosos",
+        "contentos"
+      ],
+      "answer": "contenta",
+      "explanation": "La muchacha está contenta. (happy (f))"
+    },
+    {
+      "id": "ch2_102",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"El muchacho está ___.\"",
+      "options": [
+        "contenta",
+        "sabroso",
+        "hermosos",
+        "contento"
+      ],
+      "answer": "contento",
+      "explanation": "El muchacho está contento. (happy (m))"
+    },
+    {
+      "id": "ch2_103",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"La doctora está ___.\"",
+      "options": [
+        "enferma",
+        "bonita",
+        "enfermo",
+        "contenta"
+      ],
+      "answer": "enferma",
+      "explanation": "La doctora está enferma. (sick (f))"
+    },
+    {
+      "id": "ch2_104",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"El doctor está ___.\"",
+      "options": [
+        "enfermo",
+        "enferma",
+        "sabrosos",
+        "sabrosa"
+      ],
+      "answer": "enfermo",
+      "explanation": "El doctor está enfermo. (sick (m))"
+    },
+    {
+      "id": "ch2_105",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"La chica está ___.\"",
+      "options": [
+        "alegres",
+        "enferma",
+        "enojada",
+        "enojado"
+      ],
+      "answer": "enojada",
+      "explanation": "La chica está enojada. (angry (f))"
+    },
+    {
+      "id": "ch2_106",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"El chico está ___.\"",
+      "options": [
+        "enojado",
+        "enojada",
+        "lindo",
+        "enojados"
+      ],
+      "answer": "enojado",
+      "explanation": "El chico está enojado. (angry (m))"
+    },
+    {
+      "id": "ch2_107",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"Ella está ___.\"",
+      "options": [
+        "feliz",
+        "felices",
+        "contento",
+        "linda"
+      ],
+      "answer": "feliz",
+      "explanation": "Ella está feliz. (happy)"
+    },
+    {
+      "id": "ch2_108",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"Ella está ___ hoy.\"",
+      "options": [
+        "sabrosos",
+        "hermosa",
+        "bueno",
+        "hermoso"
+      ],
+      "answer": "hermosa",
+      "explanation": "Ella está hermosa hoy. (beautiful (f))"
+    },
+    {
+      "id": "ch2_109",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"Él está ___.\"",
+      "options": [
+        "guapo",
+        "guapa",
+        "hermoso",
+        "buena"
+      ],
+      "answer": "guapo",
+      "explanation": "Él está guapo. (handsome (m))"
+    },
+    {
+      "id": "ch2_110",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"La comida está ___.\"",
+      "options": [
+        "buena",
+        "enojados",
+        "contentos",
+        "bueno"
+      ],
+      "answer": "buena",
+      "explanation": "La comida está buena. (good (f))"
+    },
+    {
+      "id": "ch2_111",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"El pescado está ___.\"",
+      "options": [
+        "enojado",
+        "buenos",
+        "deliciosa",
+        "delicioso"
+      ],
+      "answer": "delicioso",
+      "explanation": "El pescado está delicioso. (delicious (m))"
+    },
+    {
+      "id": "ch2_112",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"La sopa está ___.\"",
+      "options": [
+        "lindos",
+        "sabrosa",
+        "sabroso",
+        "bonitos"
+      ],
+      "answer": "sabrosa",
+      "explanation": "La sopa está sabrosa. (delicious (f))"
+    },
+    {
+      "id": "ch2_113",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"Los hombres están ___.\"",
+      "options": [
+        "delicioso",
+        "enojados",
+        "cansados",
+        "cansado"
+      ],
+      "answer": "cansados",
+      "explanation": "Los hombres están cansados. (tired (m.pl))"
+    },
+    {
+      "id": "ch2_114",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"Estamos ___.\"",
+      "options": [
+        "alegre",
+        "enojados",
+        "felices",
+        "alegres"
+      ],
+      "answer": "alegres",
+      "explanation": "Estamos alegres. (happy (pl))"
+    },
+    {
+      "id": "ch2_115",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"Los doctores están ___.\"",
+      "options": [
+        "enfermos",
+        "enferma",
+        "guapa",
+        "linda"
+      ],
+      "answer": "enfermos",
+      "explanation": "Los doctores están enfermos. (sick (m.pl))"
+    },
+    {
+      "id": "ch2_116",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "adjective_agreement",
+      "topic": "adjectives",
+      "question": "Choose the correct form of the adjective: \"Las mujeres están ___.\"",
+      "options": [
+        "guapo",
+        "enojados",
+        "contento",
+        "contentas"
+      ],
+      "answer": "contentas",
+      "explanation": "Las mujeres están contentas. (happy (f.pl))"
+    },
+    {
+      "id": "ch2_117",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "Estar is used to express four basic concepts. Which of the following is NOT one of them?",
+      "options": [
+        "location",
+        "health",
+        "personal opinion",
+        "origin or nationality"
+      ],
+      "answer": "origin or nationality",
+      "explanation": "Estar expresses: location, health, changing mood/condition, and personal opinion. Origin and nationality use \"ser\"."
+    },
+    {
+      "id": "ch2_118",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"Yo estoy en la clase.\" — this uses estar to express…",
+      "options": [
+        "personal opinion",
+        "health",
+        "location",
+        "changing mood or condition"
+      ],
+      "answer": "location",
+      "explanation": "\"Yo estoy en la clase.\" (I am in the class.) uses estar for location."
+    },
+    {
+      "id": "ch2_119",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"El restaurante está en la ciudad.\" — this uses estar to express…",
+      "options": [
+        "changing mood or condition",
+        "personal opinion",
+        "health",
+        "location"
+      ],
+      "answer": "location",
+      "explanation": "\"El restaurante está en la ciudad.\" (The restaurant is in the city.) uses estar for location."
+    },
+    {
+      "id": "ch2_120",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"Ellas están en el baño.\" — this uses estar to express…",
+      "options": [
+        "location",
+        "health",
+        "changing mood or condition",
+        "personal opinion"
+      ],
+      "answer": "location",
+      "explanation": "\"Ellas están en el baño.\" (They are in the bathroom.) uses estar for location."
+    },
+    {
+      "id": "ch2_121",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"Ella está enferma.\" — this uses estar to express…",
+      "options": [
+        "changing mood or condition",
+        "personal opinion",
+        "location",
+        "health"
+      ],
+      "answer": "health",
+      "explanation": "\"Ella está enferma.\" (She is sick.) uses estar for health."
+    },
+    {
+      "id": "ch2_122",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"Yo estoy bien, gracias.\" — this uses estar to express…",
+      "options": [
+        "health",
+        "changing mood or condition",
+        "personal opinion",
+        "location"
+      ],
+      "answer": "health",
+      "explanation": "\"Yo estoy bien, gracias.\" (I am fine, thanks.) uses estar for health."
+    },
+    {
+      "id": "ch2_123",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"Los doctores están enfermos.\" — this uses estar to express…",
+      "options": [
+        "personal opinion",
+        "changing mood or condition",
+        "location",
+        "health"
+      ],
+      "answer": "health",
+      "explanation": "\"Los doctores están enfermos.\" (The doctors are sick.) uses estar for health."
+    },
+    {
+      "id": "ch2_124",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"La muchacha está contenta.\" — this uses estar to express…",
+      "options": [
+        "personal opinion",
+        "location",
+        "changing mood or condition",
+        "health"
+      ],
+      "answer": "changing mood or condition",
+      "explanation": "\"La muchacha está contenta.\" (The girl is happy.) uses estar for changing mood or condition."
+    },
+    {
+      "id": "ch2_125",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"Los hombres están cansados.\" — this uses estar to express…",
+      "options": [
+        "personal opinion",
+        "health",
+        "changing mood or condition",
+        "location"
+      ],
+      "answer": "changing mood or condition",
+      "explanation": "\"Los hombres están cansados.\" (The men are tired.) uses estar for changing mood or condition."
+    },
+    {
+      "id": "ch2_126",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"Estamos alegres.\" — this uses estar to express…",
+      "options": [
+        "changing mood or condition",
+        "health",
+        "personal opinion",
+        "location"
+      ],
+      "answer": "changing mood or condition",
+      "explanation": "\"Estamos alegres.\" (We are happy.) uses estar for changing mood or condition."
+    },
+    {
+      "id": "ch2_127",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"La comida está buena.\" — this uses estar to express…",
+      "options": [
+        "changing mood or condition",
+        "health",
+        "personal opinion",
+        "location"
+      ],
+      "answer": "personal opinion",
+      "explanation": "\"La comida está buena.\" (The meal is good (tastes good).) uses estar for personal opinion."
+    },
+    {
+      "id": "ch2_128",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"El pescado está delicioso.\" — this uses estar to express…",
+      "options": [
+        "health",
+        "personal opinion",
+        "changing mood or condition",
+        "location"
+      ],
+      "answer": "personal opinion",
+      "explanation": "\"El pescado está delicioso.\" (The fish is delicious.) uses estar for personal opinion."
+    },
+    {
+      "id": "ch2_129",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"Ella está hermosa hoy.\" — this uses estar to express…",
+      "options": [
+        "changing mood or condition",
+        "personal opinion",
+        "health",
+        "location"
+      ],
+      "answer": "personal opinion",
+      "explanation": "\"Ella está hermosa hoy.\" (She is pretty today (looks pretty).) uses estar for personal opinion."
+    },
+    {
+      "id": "ch2_130",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "Which verb is used to express temporary states, location, and changing conditions?",
+      "options": [
+        "tener",
+        "estar",
+        "ir",
+        "ser"
+      ],
+      "answer": "estar",
+      "explanation": "\"Estar\" is used for location, health, mood, and personal opinion. \"Ser\" is used for permanent traits."
+    },
+    {
+      "id": "ch2_131",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"She is in the class.\" Which verb would you use in Spanish?",
+      "options": [
+        "ser",
+        "estar",
+        "tener",
+        "hacer"
+      ],
+      "answer": "estar",
+      "explanation": "Location uses \"estar\": \"Ella esta en la clase.\""
+    },
+    {
+      "id": "ch2_132",
+      "tier": "intermediate",
+      "type": "multiple_choice",
+      "category": "estar_concept",
+      "topic": "estar_uses",
+      "question": "\"He is a doctor.\" Which verb would you use in Spanish?",
+      "options": [
+        "ser",
+        "estar",
+        "ir",
+        "tener"
+      ],
+      "answer": "ser",
+      "explanation": "Professions and permanent identity use \"ser\": \"El es medico.\""
+    },
+    {
+      "id": "ch2_133",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "question_words",
+      "question": "What does \"¿Cómo?\" mean?",
+      "options": [
+        "when?",
+        "how?",
+        "over there",
+        "who?"
+      ],
+      "answer": "how?",
+      "explanation": "\"¿Cómo?\" = how?"
+    },
+    {
+      "id": "ch2_134",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "question_words",
+      "question": "What is the Spanish word for \"how?\"?",
+      "options": [
+        "allí / allá",
+        "cuando?",
+        "¿Quién?",
+        "¿Cómo?"
+      ],
+      "answer": "¿Cómo?",
+      "explanation": "\"how?\" in Spanish is \"¿Cómo?\""
+    },
+    {
+      "id": "ch2_135",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "question_words",
+      "question": "What does \"¿Dónde?\" mean?",
+      "options": [
+        "here",
+        "where?",
+        "over there",
+        "who?"
+      ],
+      "answer": "where?",
+      "explanation": "\"¿Dónde?\" = where?"
+    },
+    {
+      "id": "ch2_136",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "question_words",
+      "question": "What is the Spanish word for \"where?\"?",
+      "options": [
+        "cuando?",
+        "¿Cómo?",
+        "alla",
+        "¿Dónde?"
+      ],
+      "answer": "¿Dónde?",
+      "explanation": "\"where?\" in Spanish is \"¿Dónde?\""
+    },
+    {
+      "id": "ch2_137",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "question_words",
+      "question": "What does \"¿Quién?\" mean?",
+      "options": [
+        "who?",
+        "over there",
+        "when?",
+        "why?"
+      ],
+      "answer": "who?",
+      "explanation": "\"¿Quién?\" = who?"
+    },
+    {
+      "id": "ch2_138",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "question_words",
+      "question": "What is the Spanish word for \"who?\"?",
+      "options": [
+        "¿Dónde?",
+        "porque?",
+        "cuando?",
+        "¿Quién?"
+      ],
+      "answer": "¿Quién?",
+      "explanation": "\"who?\" in Spanish is \"¿Quién?\""
+    },
+    {
+      "id": "ch2_139",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "location_words",
+      "question": "What does \"aquí / acá\" mean?",
+      "options": [
+        "here",
+        "how?",
+        "there",
+        "when?"
+      ],
+      "answer": "here",
+      "explanation": "\"aquí / acá\" = here"
+    },
+    {
+      "id": "ch2_140",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "location_words",
+      "question": "What is the Spanish word for \"here\"?",
+      "options": [
+        "aquí / acá",
+        "porque?",
+        "¿Quién?",
+        "¿Cómo?"
+      ],
+      "answer": "aquí / acá",
+      "explanation": "\"here\" in Spanish is \"aquí / acá\""
+    },
+    {
+      "id": "ch2_141",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "location_words",
+      "question": "What does \"allí / allá\" mean?",
+      "options": [
+        "who?",
+        "here",
+        "there",
+        "over there"
+      ],
+      "answer": "there",
+      "explanation": "\"allí / allá\" = there"
+    },
+    {
+      "id": "ch2_142",
+      "tier": "beginner",
+      "type": "multiple_choice",
+      "category": "noun_vocabulary",
+      "topic": "location_words",
+      "question": "What is the Spanish word for \"there\"?",
+      "options": [
+        "porque?",
+        "¿Cómo?",
+        "allí / allá",
+        "aquí / acá"
+      ],
+      "answer": "allí / allá",
+      "explanation": "\"there\" in Spanish is \"allí / allá\""
+    },
+    {
+      "id": "ch2_143",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"Yo estoy bien, gracias.\"",
+      "answer": "I am fine, thanks.",
+      "explanation": "\"Yo estoy bien, gracias.\" = \"I am fine, thanks.\""
+    },
+    {
+      "id": "ch2_144",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"Ella está enferma.\"",
+      "answer": "She is sick.",
+      "explanation": "\"Ella está enferma.\" = \"She is sick.\""
+    },
+    {
+      "id": "ch2_145",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"Los doctores están enfermos.\"",
+      "answer": "The doctors are sick.",
+      "explanation": "\"Los doctores están enfermos.\" = \"The doctors are sick.\""
+    },
+    {
+      "id": "ch2_146",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"¿Cómo están Uds.?\"",
+      "answer": "How are you all?",
+      "explanation": "\"¿Cómo están Uds.?\" = \"How are you all?\""
+    },
+    {
+      "id": "ch2_147",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"Estamos bien.\"",
+      "answer": "We are well.",
+      "explanation": "\"Estamos bien.\" = \"We are well.\""
+    },
+    {
+      "id": "ch2_148",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"La muchacha está contenta.\"",
+      "answer": "The girl is happy.",
+      "explanation": "\"La muchacha está contenta.\" = \"The girl is happy.\""
+    },
+    {
+      "id": "ch2_149",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"Los hombres están cansados.\"",
+      "answer": "The men are tired.",
+      "explanation": "\"Los hombres están cansados.\" = \"The men are tired.\""
+    },
+    {
+      "id": "ch2_150",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"Estamos alegres.\"",
+      "answer": "We are happy.",
+      "explanation": "\"Estamos alegres.\" = \"We are happy.\""
+    },
+    {
+      "id": "ch2_151",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"¿Estás enojado?\"",
+      "answer": "Are you angry?",
+      "explanation": "\"¿Estás enojado?\" = \"Are you angry?\""
+    },
+    {
+      "id": "ch2_152",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"La comida está buena.\"",
+      "answer": "The meal is good.",
+      "explanation": "\"La comida está buena.\" = \"The meal is good.\""
+    },
+    {
+      "id": "ch2_153",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"El pescado está delicioso.\"",
+      "answer": "The fish is delicious.",
+      "explanation": "\"El pescado está delicioso.\" = \"The fish is delicious.\""
+    },
+    {
+      "id": "ch2_154",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"La sopa está sabrosa.\"",
+      "answer": "The soup is delicious.",
+      "explanation": "\"La sopa está sabrosa.\" = \"The soup is delicious.\""
+    },
+    {
+      "id": "ch2_155",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"Ella está hermosa hoy.\"",
+      "answer": "She is pretty today.",
+      "explanation": "\"Ella está hermosa hoy.\" = \"She is pretty today.\""
+    },
+    {
+      "id": "ch2_156",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"Él está guapo.\"",
+      "answer": "He is handsome.",
+      "explanation": "\"Él está guapo.\" = \"He is handsome.\""
+    },
+    {
+      "id": "ch2_157",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"Nosotros estamos en el carro.\"",
+      "answer": "We are in the car.",
+      "explanation": "\"Nosotros estamos en el carro.\" = \"We are in the car.\""
+    },
+    {
+      "id": "ch2_158",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"El restaurante está en la ciudad.\"",
+      "answer": "The restaurant is in the city.",
+      "explanation": "\"El restaurante está en la ciudad.\" = \"The restaurant is in the city.\""
+    },
+    {
+      "id": "ch2_159",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"Ellas están en el baño.\"",
+      "answer": "They are in the bathroom.",
+      "explanation": "\"Ellas están en el baño.\" = \"They are in the bathroom.\""
+    },
+    {
+      "id": "ch2_160",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to English: \"¿Estás tú en el hospital?\"",
+      "answer": "Are you in the hospital?",
+      "explanation": "\"¿Estás tú en el hospital?\" = \"Are you in the hospital?\""
+    },
+    {
+      "id": "ch2_161",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to English: \"Estoy feliz.\"",
+      "answer": "I am happy.",
+      "explanation": "\"Estoy feliz.\" = \"I am happy.\""
+    },
+    {
+      "id": "ch2_162",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to Spanish: \"I am fine, thanks.\"",
+      "answer": "Yo estoy bien, gracias.",
+      "explanation": "\"I am fine, thanks.\" = \"Yo estoy bien, gracias.\""
+    },
+    {
+      "id": "ch2_163",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to Spanish: \"She is sick.\"",
+      "answer": "Ella está enferma.",
+      "explanation": "\"She is sick.\" = \"Ella está enferma.\""
+    },
+    {
+      "id": "ch2_164",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to Spanish: \"We are in the car.\"",
+      "answer": "Nosotros estamos en el carro.",
+      "explanation": "\"We are in the car.\" = \"Nosotros estamos en el carro.\""
+    },
+    {
+      "id": "ch2_165",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to Spanish: \"The girl is happy.\"",
+      "answer": "La muchacha está contenta.",
+      "explanation": "\"The girl is happy.\" = \"La muchacha está contenta.\""
+    },
+    {
+      "id": "ch2_166",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to Spanish: \"The men are tired.\"",
+      "answer": "Los hombres están cansados.",
+      "explanation": "\"The men are tired.\" = \"Los hombres están cansados.\""
+    },
+    {
+      "id": "ch2_167",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to Spanish: \"Are you angry?\"",
+      "answer": "¿Estás enojado?",
+      "explanation": "\"Are you angry?\" = \"¿Estás enojado?\""
+    },
+    {
+      "id": "ch2_168",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to Spanish: \"The meal is good.\"",
+      "answer": "La comida está buena.",
+      "explanation": "\"The meal is good.\" = \"La comida está buena.\""
+    },
+    {
+      "id": "ch2_169",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to Spanish: \"He is handsome.\"",
+      "answer": "Él está guapo.",
+      "explanation": "\"He is handsome.\" = \"Él está guapo.\""
+    },
+    {
+      "id": "ch2_170",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "adjectives",
+      "question": "Translate to Spanish: \"I am happy.\"",
+      "answer": "Estoy feliz.",
+      "explanation": "\"I am happy.\" = \"Estoy feliz.\""
+    },
+    {
+      "id": "ch2_171",
+      "tier": "intermediate",
+      "type": "fill_blank",
+      "category": "translation",
+      "topic": "estar_verb",
+      "question": "Translate to Spanish: \"How are you all?\"",
+      "answer": "¿Cómo están Uds.?",
+      "explanation": "\"How are you all?\" = \"¿Cómo están Uds.?\""
+    }
+  ]
 }
